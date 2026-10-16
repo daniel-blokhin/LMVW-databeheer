@@ -1,0 +1,35 @@
+version: 1
+input:
+  plans: ../data/private/Planlijst demo beheer LMVW.xlsx
+  sheet: Planlijst
+  geometries: ../data/private/LMVW demo plannen.gpkg
+  geometry_layer: LMVW demo
+  geometry_key: Koppelcode
+output_dir: ../data/runs
+mapping: columns.yaml
+quality: quality.yaml
+snapshot_utc: null
+sources:
+  mode: snapshots
+  bag: true
+  brk: true
+  dso: false
+  rp: false
+  dso_environment: PRODUCTION
+  fetch_publication_text: true
+  only_residential_vbo: true
+  snapshot_dir: ../data/private
+geo:
+  buffer_m: 50
+  tile_size_m: 500
+  min_overlap_m2: 0.01
+  max_tiles: 500
+  max_scope_km2: 100
+  include_rejected_plans: false
+http:
+  page_size: 1000
+  max_pages: 100
+  max_features: 250000
+  max_response_bytes: 50000000
+  attempts: 4
+  pause_seconds: 0.05

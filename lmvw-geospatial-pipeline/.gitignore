@@ -1,0 +1,41 @@
+# Secrets, local configuration and workstation settings
+.env
+.env.*
+!.env.example
+*.local.yaml
+*.local.yml
+*.pem
+*.key
+*.pfx
+.vscode/
+.idea/
+
+# Never publish real inputs, caches, intermediate files or run outputs
+data/private/
+data/raw/
+data/runs/
+data/processed/
+data/cache/
+outputs/
+reports/
+*.zip
+*.gpkg
+*.xlsx
+*.xls
+*.ipynb
+.ipynb_checkpoints/
+
+# Python/build/test artefacts
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.log
+.DS_Store
+Thumbs.db

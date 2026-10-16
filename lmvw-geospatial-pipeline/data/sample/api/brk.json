@@ -1,0 +1,179 @@
+{
+  "synthetic": true,
+  "retrieved_at": "2026-10-16T09:00:00Z",
+  "content_crs": "http://www.opengis.net/def/crs/EPSG/0/28992",
+  "data": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "id": "00000000-0000-4000-8000-000000000201",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "SYN-PARCEL-1",
+          "kadastrale_gemeente_code": "SYN00",
+          "kadastrale_gemeente_waarde": "Voorbeeldgemeente",
+          "sectie": "A",
+          "perceelnummer": 1,
+          "kadastrale_grootte_waarde": 14000.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                150080.0,
+                449980.0
+              ],
+              [
+                150080.0,
+                450120.0
+              ],
+              [
+                149980.0,
+                450120.0
+              ],
+              [
+                149980.0,
+                449980.0
+              ],
+              [
+                150080.0,
+                449980.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "00000000-0000-4000-8000-000000000202",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "SYN-PARCEL-2",
+          "kadastrale_gemeente_code": "SYN00",
+          "kadastrale_gemeente_waarde": "Voorbeeldgemeente",
+          "sectie": "A",
+          "perceelnummer": 2,
+          "kadastrale_grootte_waarde": 7000.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                150150.0,
+                450000.0
+              ],
+              [
+                150150.0,
+                450100.0
+              ],
+              [
+                150080.0,
+                450100.0
+              ],
+              [
+                150080.0,
+                450000.0
+              ],
+              [
+                150150.0,
+                450000.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "00000000-0000-4000-8000-000000000203",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "SYN-PARCEL-3",
+          "kadastrale_gemeente_code": "SYN00",
+          "kadastrale_gemeente_waarde": "Voorbeeldgemeente",
+          "sectie": "A",
+          "perceelnummer": 3,
+          "kadastrale_grootte_waarde": 1000.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                150150.0,
+                450080.0
+              ],
+              [
+                150150.0,
+                450100.0
+              ],
+              [
+                150100.0,
+                450100.0
+              ],
+              [
+                150100.0,
+                450080.0
+              ],
+              [
+                150150.0,
+                450080.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "00000000-0000-4000-8000-000000000204",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "SYN-PARCEL-4",
+          "kadastrale_gemeente_code": "SYN00",
+          "kadastrale_gemeente_waarde": "Voorbeeldgemeente",
+          "sectie": "A",
+          "perceelnummer": 4,
+          "kadastrale_grootte_waarde": 2500.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                150450.0,
+                450000.0
+              ],
+              [
+                150450.0,
+                450050.0
+              ],
+              [
+                150400.0,
+                450050.0
+              ],
+              [
+                150400.0,
+                450000.0
+              ],
+              [
+                150450.0,
+                450000.0
+              ]
+            ]
+          ]
+        }
+      }
+    ],
+    "links": []
+  }
+}

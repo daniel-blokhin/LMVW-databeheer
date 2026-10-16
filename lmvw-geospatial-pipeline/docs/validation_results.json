@@ -1,0 +1,84 @@
+{
+  "recorded_date": "2026-10-16",
+  "pytest_passed": 110,
+  "coverage": {
+    "statements": 1802,
+    "covered": 1612,
+    "missed": 190,
+    "line_percent": 89.456,
+    "branch_coverage": false
+  },
+  "synthetic_run": {
+    "counts": {
+      "source_records": 8,
+      "accepted_records": 4,
+      "rejected_records": 4,
+      "input_issues": 8,
+      "input_errors": 5,
+      "input_warnings": 3,
+      "eligible_records": 4,
+      "enrichment_issues": 2,
+      "matched_relations": 35
+    },
+    "table_counts": {
+      "pipeline_run": 1,
+      "source_status": 4,
+      "plans": 8,
+      "plan_phasing": 96,
+      "plan_breakdown": 168,
+      "quarantine": 4,
+      "dq_issues": 10,
+      "bag_panden": 5,
+      "bag_verblijfsobjecten": 4,
+      "bag_vbo_pand": 5,
+      "brk_percelen": 4,
+      "dso_documents": 5,
+      "dso_document_text": 1,
+      "plan_bag_vbo": 8,
+      "plan_bag_pand": 11,
+      "plan_brk_perceel": 7,
+      "plan_dso": 9
+    }
+  },
+  "private_snapshot_run": {
+    "counts": {
+      "source_records": 153,
+      "accepted_records": 148,
+      "rejected_records": 5,
+      "input_issues": 15,
+      "input_errors": 12,
+      "input_warnings": 3,
+      "eligible_records": 148,
+      "enrichment_issues": 0,
+      "matched_relations": 20102
+    },
+    "table_counts": {
+      "pipeline_run": 1,
+      "source_status": 4,
+      "plans": 153,
+      "plan_phasing": 1836,
+      "plan_breakdown": 3213,
+      "quarantine": 5,
+      "dq_issues": 15,
+      "bag_panden": 9216,
+      "bag_verblijfsobjecten": 32127,
+      "bag_vbo_pand": 32154,
+      "brk_percelen": 6550,
+      "dso_documents": 0,
+      "dso_document_text": 0,
+      "plan_bag_vbo": 16174,
+      "plan_bag_pand": 2416,
+      "plan_brk_perceel": 1512,
+      "plan_dso": 0
+    },
+    "dso_and_rp": "DISABLED; no original DSO response snapshots available"
+  },
+  "archive_allowlist_import": {
+    "files": 6,
+    "hashes_match_reviewed_inputs": true
+  },
+  "executed_live_provider_requests": false,
+  "executed_sql_server_load": false,
+  "hosted_ci_executed": false,
+  "dependency_vulnerability_audit_executed": false
+}

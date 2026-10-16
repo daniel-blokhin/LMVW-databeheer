@@ -1,0 +1,174 @@
+{
+  "counts": {
+    "source_records": 8,
+    "accepted_records": 4,
+    "rejected_records": 4,
+    "input_issues": 8,
+    "input_errors": 5,
+    "input_warnings": 3,
+    "eligible_records": 4,
+    "enrichment_issues": 2,
+    "matched_relations": 35
+  },
+  "rules": {
+    "DQ-CAT-001": {
+      "evaluated": 8,
+      "passed": 8
+    },
+    "DQ-CAT-002": {
+      "evaluated": 8,
+      "passed": 8
+    },
+    "DQ-COM-001": {
+      "evaluated": 40,
+      "passed": 40
+    },
+    "DQ-COM-002": {
+      "evaluated": 296,
+      "passed": 295,
+      "failed": 1
+    },
+    "DQ-COM-003": {
+      "evaluated": 16,
+      "passed": 15,
+      "failed": 1
+    },
+    "DQ-CONF-001": {
+      "evaluated": 8,
+      "passed": 7,
+      "failed": 1
+    },
+    "DQ-DUP-001": {
+      "evaluated": 8,
+      "failed": 2,
+      "passed": 6
+    },
+    "DQ-DUP-002": {
+      "evaluated": 8,
+      "passed": 8
+    },
+    "DQ-GEO-001": {
+      "evaluated": 8,
+      "passed": 7,
+      "failed": 1
+    },
+    "DQ-NET-001": {
+      "evaluated": 7,
+      "passed": 7,
+      "not_evaluable": 1
+    },
+    "DQ-RANGE-001": {
+      "evaluated": 287,
+      "passed": 287,
+      "not_evaluable": 1
+    },
+    "DQ-RANGE-002": {
+      "evaluated": 7,
+      "passed": 7,
+      "not_evaluable": 1
+    },
+    "DQ-RANGE-003": {
+      "evaluated": 7,
+      "passed": 7,
+      "not_evaluable": 1
+    },
+    "DQ-SUM-001": {
+      "evaluated": 7,
+      "passed": 6,
+      "failed": 1,
+      "not_evaluable": 1
+    },
+    "DQ-SUM-002": {
+      "evaluated": 7,
+      "passed": 7,
+      "not_evaluable": 1
+    },
+    "DQ-SUM-003": {
+      "evaluated": 7,
+      "passed": 7,
+      "not_evaluable": 1
+    },
+    "DQ-TYPE-001": {
+      "evaluated": 296,
+      "passed": 295,
+      "failed": 1
+    }
+  },
+  "source_statuses": [
+    {
+      "source_name": "BAG",
+      "status": "FIXTURES",
+      "environment": "SYNTHETIC",
+      "record_count": 14,
+      "message": ""
+    },
+    {
+      "source_name": "BRK",
+      "status": "FIXTURES",
+      "environment": "SYNTHETIC",
+      "record_count": 4,
+      "message": ""
+    },
+    {
+      "source_name": "DSO",
+      "status": "FIXTURES",
+      "environment": "SYNTHETIC",
+      "record_count": 4,
+      "message": ""
+    },
+    {
+      "source_name": "RP",
+      "status": "FIXTURES",
+      "environment": "SYNTHETIC",
+      "record_count": 1,
+      "message": ""
+    }
+  ],
+  "enrichment_issues": [
+    {
+      "issue_id": "706c0315c2434d97f848820c55d3c5abfe5a330a732dd5537aed3aee621a5c18",
+      "record_id": "80670aa11b06137a4ae170ebfc3073adf1195a9f1e5b5d9b430a2f6a5b2301e8",
+      "source_name": "DSO",
+      "source_object_id": "4267fe4a05f5b82a846b6ff1084dc0e0b2d9e5cd99683d808405ddcc6871bdc3",
+      "source_row_number": 3,
+      "rule_id": "DQ-LINK-001",
+      "category": "SpatialEvidence",
+      "severity": "WARNING",
+      "field_name": "relation_status",
+      "source_value": "API_CANDIDATE_OUTSIDE",
+      "message": "API candidate has no locally verified positive-area match; substantive confirmation remains false."
+    },
+    {
+      "issue_id": "9ebf0b58b5749bc3aed495323c164fba8c85c67951f9190d8c756b8bfa35147d",
+      "record_id": "80670aa11b06137a4ae170ebfc3073adf1195a9f1e5b5d9b430a2f6a5b2301e8",
+      "source_name": "DSO",
+      "source_object_id": "dc4de853a54d9989bac1fec07561d84f87ad4ed100f023159416ee227be184ce",
+      "source_row_number": 3,
+      "rule_id": "DQ-LINK-001",
+      "category": "SpatialEvidence",
+      "severity": "WARNING",
+      "field_name": "relation_status",
+      "source_value": "API_CANDIDATE_UNVERIFIED",
+      "message": "API candidate has no locally verified positive-area match; substantive confirmation remains false."
+    }
+  ],
+  "table_counts": {
+    "pipeline_run": 1,
+    "source_status": 4,
+    "plans": 8,
+    "plan_phasing": 96,
+    "plan_breakdown": 168,
+    "quarantine": 4,
+    "dq_issues": 10,
+    "bag_panden": 5,
+    "bag_verblijfsobjecten": 4,
+    "bag_vbo_pand": 5,
+    "brk_percelen": 4,
+    "dso_documents": 5,
+    "dso_document_text": 1,
+    "plan_bag_vbo": 8,
+    "plan_bag_pand": 11,
+    "plan_brk_perceel": 7,
+    "plan_dso": 9
+  }
+}

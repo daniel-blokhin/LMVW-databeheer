@@ -1,0 +1,221 @@
+{
+  "synthetic": true,
+  "retrieved_at": "2026-10-16T09:00:00Z",
+  "content_crs": "http://www.opengis.net/def/crs/EPSG/0/28992",
+  "data": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "id": "00000000-0000-4000-8000-000000000001",
+        "properties": {
+          "identificatie": "0000100000000001",
+          "status": "Pand in gebruik",
+          "bouwjaar": 2001,
+          "aantal_verblijfsobjecten": 1,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-1"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                150030.0,
+                450010.0
+              ],
+              [
+                150030.0,
+                450030.0
+              ],
+              [
+                150010.0,
+                450030.0
+              ],
+              [
+                150010.0,
+                450010.0
+              ],
+              [
+                150030.0,
+                450010.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "00000000-0000-4000-8000-000000000002",
+        "properties": {
+          "identificatie": "0000100000000002",
+          "status": "Pand in gebruik",
+          "bouwjaar": 2002,
+          "aantal_verblijfsobjecten": 1,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-2"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                150920.0,
+                450000.0
+              ],
+              [
+                150920.0,
+                450020.0
+              ],
+              [
+                150900.0,
+                450020.0
+              ],
+              [
+                150900.0,
+                450000.0
+              ],
+              [
+                150920.0,
+                450000.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "00000000-0000-4000-8000-000000000003",
+        "properties": {
+          "identificatie": "0000100000000003",
+          "status": "Pand in gebruik",
+          "bouwjaar": 2003,
+          "aantal_verblijfsobjecten": 1,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-3"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                150110.0,
+                450050.0
+              ],
+              [
+                150110.0,
+                450070.0
+              ],
+              [
+                150090.0,
+                450070.0
+              ],
+              [
+                150090.0,
+                450050.0
+              ],
+              [
+                150110.0,
+                450050.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "00000000-0000-4000-8000-000000000004",
+        "properties": {
+          "identificatie": "0000100000000004",
+          "status": "Pand in gebruik",
+          "bouwjaar": 2004,
+          "aantal_verblijfsobjecten": 1,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-4"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                150115.0,
+                450010.0
+              ],
+              [
+                150115.0,
+                450030.0
+              ],
+              [
+                150100.0,
+                450030.0
+              ],
+              [
+                150100.0,
+                450010.0
+              ],
+              [
+                150115.0,
+                450010.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "00000000-0000-4000-8000-000000000005",
+        "properties": {
+          "identificatie": "0000100000000005",
+          "status": "Pand in gebruik",
+          "bouwjaar": 2005,
+          "aantal_verblijfsobjecten": 1,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-5"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                150430.0,
+                450010.0
+              ],
+              [
+                150430.0,
+                450030.0
+              ],
+              [
+                150410.0,
+                450030.0
+              ],
+              [
+                150410.0,
+                450010.0
+              ],
+              [
+                150430.0,
+                450010.0
+              ]
+            ]
+          ]
+        }
+      }
+    ],
+    "links": []
+  }
+}

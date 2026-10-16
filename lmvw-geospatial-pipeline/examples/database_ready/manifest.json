@@ -1,0 +1,194 @@
+{
+  "bundle_version": 1,
+  "package_version": "0.1.0",
+  "contract_sha256": "f3993d588c9ebcc0714fda5b11ec70da168106155407698c729f09225d61b733",
+  "classification": "INTERNAL_DATA_NOT_PUBLICATION_APPROVAL",
+  "metadata": {
+    "run_id": "9cc1093c-c85e-441f-91b6-e28e5d30537b",
+    "mode": "fixtures",
+    "counts": {
+      "source_records": 8,
+      "accepted_records": 4,
+      "rejected_records": 4,
+      "input_issues": 8,
+      "input_errors": 5,
+      "input_warnings": 3,
+      "eligible_records": 4,
+      "enrichment_issues": 2,
+      "matched_relations": 35
+    },
+    "input": {
+      "plans_sha256": "282453b17db91e654659736fa2340d06bd02d8cae25eb0b088d2ff6b7b3f6cf9",
+      "geometry_sha256": null,
+      "sheet": "Planlijst",
+      "source_record_count": 8,
+      "source_columns": [
+        "Gemeente",
+        "Vertrouwelijk",
+        "Plannaam",
+        "Koppelcode",
+        "Sloop / Onttrekkingen",
+        "Bruto Plancapaciteit",
+        "Netto Plancapaciteit",
+        "(Dominant) Plantype",
+        "Planologische Status",
+        "Tijdelijke woningen",
+        "2026",
+        "2027",
+        "2028",
+        "2029",
+        "2030",
+        "2031",
+        "2032",
+        "2033",
+        "2034",
+        "2035",
+        "2036 t/m 2040",
+        "2041 t/m 2045",
+        "Woningtype eengezins",
+        "Woningtype meergezins",
+        "Woningtype onbekend",
+        "Nultredenwoningen (niet geclusterd, niet zorggeschikt)",
+        "Nultredenwoningen in geclusterde woonvorm, niet zorggeschikt",
+        "Nultredenwoning in geclusterde woonvorm, wel zorggeschikt",
+        "Andere woonvormen geschikt voor ouderen",
+        "Corporaties laagsegment huur",
+        "Marktpartijen zonder instandhoudingsplicht laagsegment huur",
+        "Marktpartijen met 25 jr instandhoudingsplicht laagsegment huur",
+        "Opdrachtgever nog onbekend laagsegment huur",
+        "Corporaties middensegment huur",
+        "Marktpartijen zonder instandhoudingsplicht middensegment huur",
+        "Marktpartijen met 10 jr instandhoudingsplicht middensegment huur",
+        "Opdrachtgever nog onbekend middensegment huur",
+        "Hoogsegment huur",
+        "Huur onbekend",
+        "Betaalbare koop",
+        "Dure Koop",
+        "Koop onbekend",
+        "Onbekend eigendom en prijsklasse",
+        "Polygon_WKT",
+        "CRS"
+      ],
+      "geometry_feature_count": 0
+    },
+    "source_input_hashes": {
+      "dso.json": "89e345e2bd3d472950a4f956036a24a7aa9366037377ebefe3dbc3fdd0a14e39",
+      "brk.json": "3380f169bdf91718c8e46e1d2375cc00b018ede0c753b8a49e2cdeb6302f9d51",
+      "bag_panden.json": "839897f8a6fa756c5ee3ee731a655303edcc5cc0ee3e25d60b1d96f14ed768fa",
+      "bag_vbo.json": "dd820aea15cab43c847bf4b443c9645624ee24df5ebf7925ce111aeb83f4dba5"
+    },
+    "mapping_sha256": "3f1a1c5aeabbc321b3a9d254b29b38532d6914505be9b8e580008f77d2ba4de4",
+    "quality_sha256": "8eb237b65e8685308beb091168a1c6dc88d31a3e2fd4ccddf489873a84d6f29e",
+    "versions": {
+      "python": "3.13.5",
+      "lmvw-geospatial-pipeline": "0.1.0",
+      "requests": "2.32.5",
+      "PyYAML": "6.0.3",
+      "openpyxl": "3.1.5",
+      "shapely": "2.1.2",
+      "pyproj": "3.7.2",
+      "geopandas": "1.1.2",
+      "pyogrio": "0.12.1",
+      "pandas": "2.2.3"
+    },
+    "implementation_sha256": "a0436b94df0cd9ecc364198a861e2cf1f056f38552b0b064e0b5bc7610d632cd",
+    "enrichment_includes_rejected": false,
+    "scope": "DATABASE_READY_STAGING_NOT_PUBLICATION",
+    "synthetic_sources": true
+  },
+  "files": {
+    "pipeline_run.csv": {
+      "rows": 1,
+      "bytes": 2846,
+      "sha256": "bfb58445c739c42fa7f2d6188642701bea0d643449c6cf83cdd7d33ab1c7a95a"
+    },
+    "source_status.csv": {
+      "rows": 4,
+      "bytes": 311,
+      "sha256": "22ce4e11f501f300ab3be892871a13222bc55ca422c431013581a7487cb46642"
+    },
+    "plans.csv": {
+      "rows": 8,
+      "bytes": 19204,
+      "sha256": "2f7f3a367d97ca8b1b781f19047762458eda25aa811f09d4a7b0dc9761e9a979"
+    },
+    "plan_phasing.csv": {
+      "rows": 96,
+      "bytes": 11868,
+      "sha256": "03ea388d2ec3d40022462e1f9f1d310bd7d47621c1394f99c4a68ef3a717c779"
+    },
+    "plan_breakdown.csv": {
+      "rows": 168,
+      "bytes": 29562,
+      "sha256": "80028fb914fdbed5b939cba8773991794b860b16ab19f136fc02ae7879a24e3c"
+    },
+    "quarantine.csv": {
+      "rows": 4,
+      "bytes": 7310,
+      "sha256": "1cb9bab0ed5ba272e064948b3817af2cc8178bbc07852f14e6fdbe8f94b0ffe0"
+    },
+    "dq_issues.csv": {
+      "rows": 10,
+      "bytes": 3326,
+      "sha256": "533757e74a16699747c69e303eb549e3fb0b527ab067389f7b47cdaba04b9adf"
+    },
+    "bag_panden.csv": {
+      "rows": 5,
+      "bytes": 2678,
+      "sha256": "702629185cd9fbc566b0367117344f3ed2ba06e902a187c8bfe3936c3b397f37"
+    },
+    "bag_verblijfsobjecten.csv": {
+      "rows": 4,
+      "bytes": 1511,
+      "sha256": "0f0a3f97af6abb1c27d3249a69ffb659cb379a548621c4fc6af3d1b2186fd790"
+    },
+    "bag_vbo_pand.csv": {
+      "rows": 5,
+      "bytes": 645,
+      "sha256": "5a04b659a0d5a9916b6783b74798b432e1c4201852e594fc82165384c2d7a265"
+    },
+    "brk_percelen.csv": {
+      "rows": 4,
+      "bytes": 2277,
+      "sha256": "0801e6ce752f14d04873df2ba510421d29463bf3d664af4243c3b69ab68ecffd"
+    },
+    "dso_documents.csv": {
+      "rows": 5,
+      "bytes": 3259,
+      "sha256": "247b90d24576ccdd513c5cab80ac585d4957b3947af803e307d4899a9af39848"
+    },
+    "dso_document_text.csv": {
+      "rows": 1,
+      "bytes": 428,
+      "sha256": "f0c14e7231a4c7fd40714749cd3c51b1a4e8b5ee40c7b2a8646be1638bff414e"
+    },
+    "plan_bag_vbo.csv": {
+      "rows": 8,
+      "bytes": 1352,
+      "sha256": "32d1f58b3b2dd3289e66c21d3c66cef60b1af6daaa50be0a56abba7a70bf0ceb"
+    },
+    "plan_bag_pand.csv": {
+      "rows": 11,
+      "bytes": 2013,
+      "sha256": "0ccb5fc5f5bbe12e07210b03ba343d240b26b95ecef033f0c331344f10c01b96"
+    },
+    "plan_brk_perceel.csv": {
+      "rows": 7,
+      "bytes": 1379,
+      "sha256": "b3b919d487b112faa78d0a1ffdcfb02db5b9f04af9673b0dfa03739ac0d24bb0"
+    },
+    "plan_dso.csv": {
+      "rows": 9,
+      "bytes": 2901,
+      "sha256": "16ad537aed32ffeb78a98d78ce9df54026aa4874e691e3550f149ab49c9e2e63"
+    },
+    "schema.json": {
+      "bytes": 34297,
+      "sha256": "0ee23fea0d92588d45492af2d8077fb0c11b0875d9f123c126cf027c56160f8e"
+    },
+    "schema.sql": {
+      "bytes": 17337,
+      "sha256": "0c6ddced79478b8a2a444c9b829891098ad808b499cdd5cded961b2115564a7b"
+    }
+  }
+}
