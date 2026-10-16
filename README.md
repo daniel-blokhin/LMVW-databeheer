@@ -1,161 +1,126 @@
-# LMVW Geospatial Data Pipeline
+# LMVW | Housing Data Engineering Pipeline
 
-**From housing-plan deliveries and public APIs to validated, spatially linked database tables.**
+**Python · REST APIs · Pandas · GeoPandas · Shapely · Data Quality · SQL Server**
 
-A Python data-engineering portfolio project built around a Dutch housing-monitoring case. It demonstrates API integration, data transformation, explicit quality rules, coordinate-system handling, spatial joins and reproducible database-ready exports. The processing is a standalone package: **no IO Factory, notebooks, database connection or dashboard is required**.
+A portfolio reconstruction of data engineering work for a Dutch housing-monitoring tender demonstration. The aim is to show how I worked with **API data ingestion, data preparation, Python-based data-quality checks, geospatial joins and database-ready exports**. The pipeline deliberately ends before dashboards and visualisations.
 
-The current boundary is a verified export bundle. Interactive maps, dashboards, actual database loading and predictive modelling are later work, not features claimed by this release.
+> **Scope:** this is a reproducible technical case study, **not** an official government service or production deployment. All data committed to Git are **synthetic**. The original demo included IO Factory; the quality engine here is an independent Python implementation.
 
-## Run the example
+## The problem
 
-Python 3.11 or newer is required. This revision was tested locally on Python 3.13; the CI matrix targets 3.11, 3.12 and 3.13. Create a virtual environment from the repository root:
+Provincial housing plans arrive with attributes (planned capacity, property types and construction phases) and geographical boundaries. National source systems contain complementary data: buildings and residential units in **BAG**, cadastral parcels in **BRK**, and planning documents in **DSO**. Before these datasets can be analysed, the housing-plan delivery must be checked, cleaned *without hiding source errors*, and spatially linked to the external objects.
+
+## What I demonstrate
+
+1. **Extract:** read CSV/Excel housing plans, plus BAG/BRK OGC Features and DSO REST API data (or run with synthetic JSON responses without keys).
+2. **Transform:** map Dutch source columns to consistent field names, process date/count fields, and transform geometries between EPSG:28992 and WGS84.
+3. **Validate:** execute standalone Python rules for completeness, validity, sums, duplicates, plan status and geometry. Keep rejected source records separately rather than silently correcting them.
+4. **Spatially join:** intersect plans with BAG units/buildings and BRK parcels; preserve authoritative BAG unit-to-building relations. DSO geographic API candidates are **not** considered substantively confirmed.
+5. **Export:** write normalized **database-ready CSV tables** and matching SQL Server DDL. This project does not insert the tables into a running SQL Server.
+
+```text
+        Housing plans (CSV / Excel / polygons)
+                          |
+                  ingestion.py
+                          v
+          quality.py  --> DQ issues / quarantine
+                          |
+                  valid plan geometries
+                          |
+    BAG API -------+------+------ BRK API
+                   |      |
+                   + DSO API
+                          |
+                  geospatial.py
+                          |
+                  export.py
+                          v
+             CSV tables + SQL schema
+        (dashboard / visualisations: future work)
+```
+
+## Quick start: offline, no API key required
+
+Requires **Python 3.11+**. Run the commands from the repository root:
 
 ```bash
 python -m venv .venv
-# Linux/macOS
-source .venv/bin/activate
-# Windows PowerShell, instead of the line above:
-# .\.venv\Scripts\Activate.ps1
-python -m pip install -e ".[dev]"
+# Activate .venv for your operating system.
+python -m pip install -r requirements.txt
+python -m pipeline.run run --config config.yaml
+```
+
+The output appears in `data/runs/<run-id>/database_ready/`. For just the data-quality step:
+
+```bash
+python -m pipeline.quality --config config.yaml
+# Returns exit code 2 when the sample contains rejected records (intentional).
+```
+
+Run the tests:
+
+```bash
+python -m pip install pytest
 python -m pytest -q
-python -m lmvw_pipeline run --config configs/demo.yaml
 ```
 
-The default run is **offline and entirely synthetic**. It exercises the processing and export stages without API keys or paid services. Installation still needs access to the Python package index unless dependencies are already available. The tests additionally exercise the actual HTTP/adapters through controlled simulated responses; they do not make live requests.
+The `examples/database_ready/` directory also contains a pre-generated **synthetic output example**. Its CSV tables can be inspected directly; `python -m pipeline.run verify examples/database_ready` verifies them against the installed export schema.
 
-The command prints its run directory and produces:
+## Folder guide
 
-```text
-data/runs/<run_id>/
-  run_context.json              # stage status, input/code/rule hashes, environment versions
-  validation/
-    summary.json                # evaluated, passed, failed and unevaluable checks
-    issues.json                 # record-level findings
-    quarantine.json             # rejected records and their unchanged raw values
-    plans.json                  # canonical input-validation result
-  raw/                          # private JSON response cache, only for live calls
-  quality_summary.json          # quality, source status and relation counts
-  database_ready/
-    *.csv                       # 17 typed staging/source/relation tables
-    schema.sql                  # SQL Server first-install DDL with PKs and FKs
-    schema.json                 # machine-readable data contract and load order
-    manifest.json               # row counts, hashes and provenance
-```
+| Location | Why it is here |
+|---|---|
+| `pipeline/run.py` | The one end-to-end entrypoint: data → DQ → API → spatial joins → export |
+| `pipeline/ingestion.py` | Read and normalize incoming housing plans (CSV, Excel, optional GPKG) |
+| `pipeline/quality.py` | Standalone Python quality checks and quarantine logic |
+| `pipeline/bag.py`, `brk.py`, `dso.py` | The three source-specific data converters |
+| `pipeline/http_client.py` | HTTP/API calling, OGC pagination and network safety checks |
+| `pipeline/sources.py` | Collect API responses and create consistently structured source records |
+| `pipeline/geospatial.py` | Polygon validation, CRS transformations and spatial relationships |
+| `pipeline/export.py` | CSV export, table keys, SQL types and export verification |
+| `pipeline/settings.py` | Shared small helpers, configuration and runtime-only credentials |
+| `config.yaml` | The **single** place for sample paths, column mapping and DQ settings |
+| `data/sample/` | Synthetic example inputs and source API response shapes |
+| `examples/database_ready/` | Small synthetic example of the final database-ready output |
+| `sql/schema.sql` | SQL Server tables to receive the exported CSVs |
+| `tests/` | Focused automated tests for DQ, geo joins, exports and API key safety |
 
-Generated runs are ignored by Git. A small, already generated synthetic bundle is included in [`examples/database_ready`](examples/database_ready). Verify it immediately:
+The two support modules (`settings.py` and `sources.py`) keep shared parsing and source orchestration out of domain-specific BAG/BRK/DSO code. No frameworks, plugin architecture or multi-environment deployment system are required.
+
+## Main outputs
+
+- `plans.csv`: the original plan records with normalized fields and processing status.
+- `dq_issues.csv` and `quarantine.csv`: transparent, traceable data-quality feedback.
+- `bag_panden.csv`, `bag_verblijfsobjecten.csv`, `brk_percelen.csv`, `dso_documents.csv`: source-object tables.
+- `plan_bag_pand.csv`, `plan_bag_vbo.csv`, `plan_brk_perceel.csv`, `plan_dso.csv`: geographical relation tables.
+- Other supporting CSV tables contain construction phases, housing composition, BAG object hierarchy and run status.
+- `schema.sql` and `schema.json`: matching SQL Server DDL and field definitions. `manifest.json` records output checksums for reproducible sample verification.
+
+The example produces **8 plans (4 eligible, 4 quarantined)** and **34 BAG/BRK/DSO plan-source links**. It exports 17 relational CSV tables.
+
+The example data contains deliberately invalid records. Errors cause quarantine; missing values are **not** replaced with zero. Not every DSO result is a confirmed relationship. The example uses **BAG, BRK and DSO only**; the old project's extra Ruimtelijkeplannen adapter and replay machinery are intentionally out of scope.
+
+## Live APIs (optional)
+
+Use your **own authorised access**. BAG and BRK are accessed through their PDOK OGC APIs; DSO uses the relevant PRE or production environment. API hosts are restricted, HTTPS and TLS verification are enforced, redirects are refused and API requests have timeouts, limits and bounded retries.
+
+The DSO key is **never committed or passed via a CLI argument**. Use an environment variable matching `DSO_API_KEY_PRODUCTION` (default environment) or `DSO_API_KEY_PRE`. Alternatively, set the matching `*_FILE` variable to an access-controlled file. **Do not paste credentials into `config.yaml`, `.env.example`, notebooks, logs, or the README.** If the old key was ever exposed, revoke and replace it before use.
+
+Place your real delivery in `data/private/` (Git-ignored), then run, for example:
 
 ```bash
-python -m lmvw_pipeline verify-bundle examples/database_ready
+python -m pipeline.run run --mode live \
+  --plans data/private/your_delivery.xlsx \
+  --geometries data/private/plans.gpkg \
+  --geometry-layer plans
 ```
 
-### What the sample proves
+The `config.yaml` `sources.dso_environment` defaults to `PRE` for the synthetic case. For live production, change this setting to `PRODUCTION`, then supply the **production** credential. Do not assume the example geometries or IDs match any live locality. A live run depends on external network availability, current API contracts and access permissions; it has **not** been verified against those services in this portfolio release.
 
-Eight input records remain eight distinct plan records. Four pass the quality gate, four are quarantined. The sample intentionally contains a wrong category total, an unknown confidentiality label, an invalid polygon and a non-numeric capacity. Two valid records share one area key without being merged. A negative **net** capacity is valid when demolition exceeds additions.
+## Limits and future work
 
-The spatial example includes a point exactly on a plan boundary, overlapping parcels, a building outside the query area linked through an official BAG VBO/pand relation, a shared DSO regulation and DSO candidates without verified overlap. Repeated publication clauses are preserved. These are designed test cases, not real housing statistics.
+- **In scope:** demo-sized datasets, Python DQ, BAG/BRK/DSO ingestion, spatial links and SQL Server-ready CSVs.
+- **Not demonstrated:** a live production API run, production credentials, actual SQL Server loading, role-based data publication or production security certification.
+- **Next step:** import the prepared tables into SQL Server, add analytical queries and create visualisations based on these tables, with separate handling for confidential plans.
 
-## The pipeline
-
-```text
-Excel/CSV plans + GeoPackage or declared-CRS WKT
-                 |
-       Intake + stable delivery/record identifiers
-                 |
-       Python quality gate -----------------> Quarantine + issues
-                 |
-         Accepted plan geometries
-                 |
-  BAG / BRK OGC APIs + DSO Presenteren/Geometry + optional RP
-                 |
-   Typed source objects + official BAG parent relations
-                 |
-  RD New spatial matching + explicit evidence classification
-                 |
-       CSV contracts + SQL schema + manifest
-                 |
-       Future database and visualisation layer
-```
-
-The run preserves raw business values and lineage while exposing canonical fields. Invalid business values are not quietly repaired; missing values are not converted to zero. A failed API request, ambiguous parent lookup, conflicting source duplicate or incomplete pagination blocks a successful bundle rather than fabricating an empty source.
-
-## Source modes
-
-| Mode | Purpose | Network and credentials |
-|---|---|---|
-| `fixtures` | Public, synthetic demonstration | No network or keys |
-| `live` | Query the real configured source services | Network; DSO/RP credentials when enabled |
-| `replay` | Reprocess a completed live run's recorded responses | No network or keys; missing/tampered cache is an error |
-| `snapshots` | Migrate the original private BAG/BRK source CSVs | No network or keys; DSO/RP disabled because no response snapshots were supplied |
-
-The supplied adapters implement BAG pand/VBO extraction and authoritative parent resolution; BRK cadastral-map parcels; DSO regulations and environmental permits; DSO geometry retrieval; regulation document text; and optional Ruimtelijkeplannen documents. An API candidate is **not** a confirmed planning milestone, legal conclusion or proof of realised dwellings. BRK map geometry does not provide ownership information.
-
-Live requests use explicitly bounded scopes, pagination, timeouts, retries and source-specific HTTPS destinations. Current endpoints and design references are documented in [`docs/sources.md`](docs/sources.md). Live provider responses and SQL Server execution have **not** been verified from the build environment; see the evidence boundaries in [`docs/validation_evidence.md`](docs/validation_evidence.md).
-
-## Standalone data quality
-
-```bash
-python -m lmvw_pipeline validate --config configs/demo.yaml
-```
-
-This command stops after Python validation. It does not resolve API keys or call external sources. It exits with code `2` when records are rejected; the diagnostic files are still written. A full `run` normally exits `0` after a complete staging export even when some input records are quarantined. Add `--fail-on-dq` to use the same exit-`2` policy in automation. An operational failure exits `1` and does not produce a successful export.
-
-Rules cover schema mapping, required fields, Excel formula caches, numeric types, missing counts, confidentiality, categories, duplicates, capacity arithmetic, category totals, phasing, geometry and source-association evidence. Their meaning and limitations are in [`docs/data_quality.md`](docs/data_quality.md). This is a newly implemented, versioned Python rule set, **not a certified reproduction of an unavailable IO Factory flow**.
-
-## Use your original files
-
-Do not copy the original ZIP into the repository. The migration helper extracts only the relevant private inputs and latest-scope source CSVs; it never executes notebooks or copies their keys:
-
-```bash
-python scripts/import_legacy_data.py --archive "/path/to/LMVW Databeheer tender 1.zip"
-python -m lmvw_pipeline run --config configs/snapshots.example.yaml
-```
-
-For live requests, first read [`SECURITY.md`](SECURITY.md), rotate any exposed credentials and inspect the source scope. Copy `configs/live.example.yaml` to `configs/my.local.yaml`, configure your local input paths and enable only required sources. Then use an injected runtime environment/secret file, or the hidden-input helper:
-
-```bash
-python scripts/run_live.py --config configs/my.local.yaml
-```
-
-No API key belongs in YAML, source code, a notebook, a CLI argument or Git. `.env.example` is documentation and is **not automatically loaded**. PRE and production are explicit and separate. The optional RP adapter uses a distinct credential variable. See [`docs/migration.md`](docs/migration.md) for the full workflow, including replay.
-
-## Repository layout
-
-```text
-src/lmvw_pipeline/
-  adapters/        # BAG, BRK, DSO/RP, OGC paging and source-mode selection
-  validation/      # standalone quality engine
-  intake.py        # source delivery parsing and identity
-  geometry.py      # CRS validation and bounded query scopes
-  matching.py      # spatial and official-reference joins
-  http.py          # source-scoped transport, redacted failures and replay
-  secrets.py       # runtime-only secret loading
-  contracts.py     # table definitions and generated SQL DDL
-  exporting.py     # typed CSV round-trip and referential checks
-  pipeline.py      # orchestration, stages and provenance
-  cli.py           # run, validate, verify-bundle, schema
-configs/           # separate mappings, rules and source modes
-tests/             # isolated unit, transport/security and integration tests
-sql/               # schema and optional internal analytical views
-scripts/           # sample generation, private migration and repository checks
-docs/              # architecture, contracts, decisions, security and roadmap
-examples/          # verified synthetic output only
-.github/           # offline CI and dependency-update configuration
-```
-
-## Important design decisions
-
-**Record identity is not an area key.** `record_id` hashes delivery identity, worksheet and source row. A changed file or row order means a new delivery/record version. This is reliable within a delivery, not a longitudinal business-plan identity solution. `run_id` separates processing executions. Native BAG IDs remain 16-character strings; BRK keys retain namespace plus local ID.
-
-**Spatial association is evidence, not causation.** VBO points on boundaries are included; polygon links require positive overlap above the configured threshold. BAG parent relations can justify a building outside the plan. DSO search candidates, spatial verification and substantive confirmation remain separate fields. Substantive confirmation defaults to `false`.
-
-**Staging is not publication.** Database-ready files contain private plan records, raw payloads and DQ details. They are not filtered public exports and do not implement user authorisation. An unknown confidentiality label is rejected. The optional SQL views are internal analysis examples, not a security boundary.
-
-**One contract, not loose CSV conventions.** Export files use ordered columns, UTF-8, comma delimiters, standard CSV quoting and `\N` for NULL. Empty text is different from NULL. All PKs, FKs, SQL types, lengths and row counts are checked before and after export. Full publication text is kept out of lightweight plan/document joins. See [`docs/data_model.md`](docs/data_model.md).
-
-## Scope, evidence and next work
-
-The code was exercised with synthetic fixtures, mocked live HTTP followed by offline replay, and the supplied private plan/geometry/BAG/BRK files. Private input records and caches are not distributed. The committed CI workflow is ready to run after pushing to GitHub; its Linux/Windows matrix is not a claim that hosted CI has already run.
-
-There is no deployed SQL Server loader, web application, dashboard, authentication service, historical entity resolution, CBS ingestion, WOBI integration, trained ML model or complete national-scale execution benchmark in this version. These are deliberate boundaries, not hidden placeholders. [`docs/next_steps.md`](docs/next_steps.md) explains how to add the database and visual layer without changing the core pipeline.
-
-Before publication, review code ownership and reuse rights with the relevant rights holders. No open-source licence has been assigned automatically; see [`NOTICE.md`](NOTICE.md). Initial publication should remain private until that review is complete.
+**Important:** records labelled confidential are retained in internal staging. This project provides **no public-data endpoint or confidentiality authorisation layer**. Never publish its exports from real deliveries as open data. Read [`NOTICE.md`](NOTICE.md) before reusing or publishing code from the original work project.

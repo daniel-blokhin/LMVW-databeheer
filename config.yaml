@@ -1,0 +1,97 @@
+# LMVW demo configuration (synthetic, offline by default).
+version: 1
+input:
+  plans: data/sample/plans.csv
+  sheet: Planlijst
+  delimiter: ;
+output_dir: data/runs
+mapping:
+  version: 1
+  fields:
+    municipality: Gemeente
+    confidential: Vertrouwelijk
+    plan_name: Plannaam
+    koppelcode: Koppelcode
+    demolition: Sloop / Onttrekkingen
+    gross_capacity: Bruto Plancapaciteit
+    net_capacity_reported: Netto Plancapaciteit
+    plan_type: (Dominant) Plantype
+    plan_status: Planologische Status
+    temporary_homes: Tijdelijke woningen
+  groups:
+    housing_type:
+      single_family: Woningtype eengezins
+      multi_family: Woningtype meergezins
+      unknown: Woningtype onbekend
+    senior_housing:
+      step_free_not_clustered: Nultredenwoningen (niet geclusterd, niet zorggeschikt)
+      step_free_clustered_not_care: Nultredenwoningen in geclusterde woonvorm, niet
+        zorggeschikt
+      step_free_clustered_care: Nultredenwoning in geclusterde woonvorm, wel zorggeschikt
+      other_senior: Andere woonvormen geschikt voor ouderen
+    tenure_price:
+      corporation_low_rent: Corporaties laagsegment huur
+      market_low_rent_unrestricted: Marktpartijen zonder instandhoudingsplicht laagsegment
+        huur
+      market_low_rent_25_years: Marktpartijen met 25 jr instandhoudingsplicht laagsegment
+        huur
+      unknown_owner_low_rent: Opdrachtgever nog onbekend laagsegment huur
+      corporation_middle_rent: Corporaties middensegment huur
+      market_middle_rent_unrestricted: Marktpartijen zonder instandhoudingsplicht
+        middensegment huur
+      market_middle_rent_10_years: Marktpartijen met 10 jr instandhoudingsplicht middensegment
+        huur
+      unknown_owner_middle_rent: Opdrachtgever nog onbekend middensegment huur
+      high_rent: Hoogsegment huur
+      unknown_rent: Huur onbekend
+      affordable_purchase: Betaalbare koop
+      expensive_purchase: Dure Koop
+      unknown_purchase: Koop onbekend
+      unknown_tenure_price: Onbekend eigendom en prijsklasse
+quality:
+  version: 1.0.0
+  hard_status_codes:
+  - 1A
+  - 1B
+  - 2A
+  - 2B
+  soft_status_codes:
+  - 1C
+  - 2C
+  - '3'
+  - 4A
+  - 4B
+  allowed_plan_types:
+  - Pand transformatie
+  - Transformatiegebied
+  - Herstructurering
+  - Verdichting
+  - Uitbreiding uitleg
+  - Uitbreiding overig
+  severity_overrides:
+    DQ-DUP-001: WARNING
+    DQ-COM-002: WARNING
+snapshot_utc: '2026-10-16T09:00:00Z'
+sources:
+  mode: fixtures
+  fixtures_dir: data/sample/api
+  bag: true
+  brk: true
+  dso: true
+  dso_environment: PRE
+  fetch_publication_text: true
+  only_residential_vbo: true
+geo:
+  buffer_m: 50
+  tile_size_m: 500
+  min_overlap_m2: 0.01
+  max_tiles: 500
+  max_scope_km2: 100
+  include_rejected_plans: false
+http:
+  page_size: 1000
+  max_pages: 100
+  max_features: 250000
+  max_response_bytes: 50000000
+  attempts: 4
+  pause_seconds: 0.05
