@@ -16,7 +16,7 @@ dependencies = [
   "pyproj>=3.6,<4",
   "geopandas>=1.0,<2",
   "pyogrio>=0.10,<1",
-  "pandas>=2.2,<3",
+  "pandas>=2.2,<4",
 ]
 
 [project.optional-dependencies]
