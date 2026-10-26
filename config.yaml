@@ -1,7 +1,7 @@
-# LMVW demo configuration (synthetic, offline by default).
+# Shared configuration for the sample end-to-end engineering + analytics pipeline.
 version: 1
 input:
-  plans: data/sample/plans.csv
+  plans: examples/input/plans.csv
   sheet: Planlijst
   delimiter: ;
 output_dir: data/runs
@@ -74,7 +74,7 @@ quality:
 snapshot_utc: '2026-10-16T09:00:00Z'
 sources:
   mode: fixtures
-  fixtures_dir: data/sample/api
+  fixtures_dir: examples/input/api
   bag: true
   brk: true
   dso: true

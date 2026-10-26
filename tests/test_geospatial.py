@@ -44,8 +44,8 @@ def test_spatial_relations_are_reproducible_offline(tmp_path):
     geoms = {p["record_id"]: quality.geometries[p["record_id"]] for p in plans}
     sources = fetch_sources(config, plans, geoms, tmp_path, "2026-10-16T09:00:00Z")
     relations, issues = match_sources(plans, geoms, sources, 0.01)
-    assert len(relations["plan_bag_vbo"]) == 8
-    assert len(relations["plan_bag_pand"]) == 11
-    assert len(relations["plan_brk_perceel"]) == 7
-    assert len(relations["plan_dso"]) == 8
+    assert len(relations["plan_bag_vbo"]) == 128
+    assert len(relations["plan_bag_pand"]) == 64
+    assert len(relations["plan_brk_perceel"]) == 64
+    assert len(relations["plan_dso"]) == 62
     assert all(r["substantively_confirmed"] is False for r in relations["plan_dso"])

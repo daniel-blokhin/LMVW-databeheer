@@ -1,0 +1,3034 @@
+{
+  "synthetic": true,
+  "retrieved_at": "2026-10-16T09:00:00Z",
+  "content_crs": "http://www.opengis.net/def/crs/EPSG/0/28992",
+  "data": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "id": "bdb2555f-20cb-5d21-8e78-7d55674319ae",
+        "properties": {
+          "identificatie": "0000100000000001",
+          "status": "Bouw gestart",
+          "bouwjaar": 2000,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-1"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                150045.0,
+                450020.0
+              ],
+              [
+                150045.0,
+                450060.0
+              ],
+              [
+                150015.0,
+                450060.0
+              ],
+              [
+                150015.0,
+                450020.0
+              ],
+              [
+                150045.0,
+                450020.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "93ebd2d6-fe45-531d-98d0-808d45db0a42",
+        "properties": {
+          "identificatie": "0000100000000002",
+          "status": "Bouw gestart",
+          "bouwjaar": 2000,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-2"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                150175.0,
+                450020.0
+              ],
+              [
+                150175.0,
+                450060.0
+              ],
+              [
+                150145.0,
+                450060.0
+              ],
+              [
+                150145.0,
+                450020.0
+              ],
+              [
+                150175.0,
+                450020.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "07d3bbe5-d836-592f-ae98-6d5d4d88d024",
+        "properties": {
+          "identificatie": "0000100000000003",
+          "status": "Pand in gebruik",
+          "bouwjaar": 2001,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-3"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                150045.0,
+                450020.0
+              ],
+              [
+                150045.0,
+                450060.0
+              ],
+              [
+                150015.0,
+                450060.0
+              ],
+              [
+                150015.0,
+                450020.0
+              ],
+              [
+                150045.0,
+                450020.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "5407f74a-0fc2-5641-b377-eabb76a8e89c",
+        "properties": {
+          "identificatie": "0000100000000004",
+          "status": "Pand in gebruik",
+          "bouwjaar": 2001,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-4"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                150100.0,
+                450020.0
+              ],
+              [
+                150100.0,
+                450060.0
+              ],
+              [
+                150070.0,
+                450060.0
+              ],
+              [
+                150070.0,
+                450020.0
+              ],
+              [
+                150100.0,
+                450020.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "308cbc3c-4236-5353-adca-88cef8654355",
+        "properties": {
+          "identificatie": "0000100000000005",
+          "status": "Bouw gestart",
+          "bouwjaar": 2002,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-5"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                150445.0,
+                450020.0
+              ],
+              [
+                150445.0,
+                450060.0
+              ],
+              [
+                150415.0,
+                450060.0
+              ],
+              [
+                150415.0,
+                450020.0
+              ],
+              [
+                150445.0,
+                450020.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "7e994683-58db-5b1a-8839-361d1041b492",
+        "properties": {
+          "identificatie": "0000100000000006",
+          "status": "Bouw gestart",
+          "bouwjaar": 2002,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-6"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                150500.0,
+                450020.0
+              ],
+              [
+                150500.0,
+                450060.0
+              ],
+              [
+                150470.0,
+                450060.0
+              ],
+              [
+                150470.0,
+                450020.0
+              ],
+              [
+                150500.0,
+                450020.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "ba9dab47-7cea-5162-b100-42e71be33c62",
+        "properties": {
+          "identificatie": "0000100000000007",
+          "status": "Pand in gebruik",
+          "bouwjaar": 2003,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-7"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                150645.0,
+                450020.0
+              ],
+              [
+                150645.0,
+                450060.0
+              ],
+              [
+                150615.0,
+                450060.0
+              ],
+              [
+                150615.0,
+                450020.0
+              ],
+              [
+                150645.0,
+                450020.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "03e62281-e5d3-57ed-8bc8-553fc6951a42",
+        "properties": {
+          "identificatie": "0000100000000008",
+          "status": "Pand in gebruik",
+          "bouwjaar": 2003,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-8"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                150700.0,
+                450020.0
+              ],
+              [
+                150700.0,
+                450060.0
+              ],
+              [
+                150670.0,
+                450060.0
+              ],
+              [
+                150670.0,
+                450020.0
+              ],
+              [
+                150700.0,
+                450020.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "6b994559-6e50-511a-bc82-59ae39bd7b15",
+        "properties": {
+          "identificatie": "0000100000000009",
+          "status": "Bouw gestart",
+          "bouwjaar": 2004,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-9"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                150045.0,
+                450200.0
+              ],
+              [
+                150045.0,
+                450240.0
+              ],
+              [
+                150015.0,
+                450240.0
+              ],
+              [
+                150015.0,
+                450200.0
+              ],
+              [
+                150045.0,
+                450200.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "b3813ed6-36b2-5bbe-b03e-98cd2eceb7d0",
+        "properties": {
+          "identificatie": "0000100000000010",
+          "status": "Bouw gestart",
+          "bouwjaar": 2004,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-10"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                150100.0,
+                450200.0
+              ],
+              [
+                150100.0,
+                450240.0
+              ],
+              [
+                150070.0,
+                450240.0
+              ],
+              [
+                150070.0,
+                450200.0
+              ],
+              [
+                150100.0,
+                450200.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "668e69bd-c96a-580a-8047-e4f6dc7478d5",
+        "properties": {
+          "identificatie": "0000100000000011",
+          "status": "Pand in gebruik",
+          "bouwjaar": 2005,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-11"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                150245.0,
+                450200.0
+              ],
+              [
+                150245.0,
+                450240.0
+              ],
+              [
+                150215.0,
+                450240.0
+              ],
+              [
+                150215.0,
+                450200.0
+              ],
+              [
+                150245.0,
+                450200.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "49b71fd5-7a36-5c7d-9204-6e0c7d497054",
+        "properties": {
+          "identificatie": "0000100000000012",
+          "status": "Pand in gebruik",
+          "bouwjaar": 2005,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-12"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                150300.0,
+                450200.0
+              ],
+              [
+                150300.0,
+                450240.0
+              ],
+              [
+                150270.0,
+                450240.0
+              ],
+              [
+                150270.0,
+                450200.0
+              ],
+              [
+                150300.0,
+                450200.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "2e9efca7-a888-5bdd-9403-944076893596",
+        "properties": {
+          "identificatie": "0000100000000013",
+          "status": "Bouw gestart",
+          "bouwjaar": 2006,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-13"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                150445.0,
+                450200.0
+              ],
+              [
+                150445.0,
+                450240.0
+              ],
+              [
+                150415.0,
+                450240.0
+              ],
+              [
+                150415.0,
+                450200.0
+              ],
+              [
+                150445.0,
+                450200.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "faee47c1-e9e2-5c22-9da9-30189faee61a",
+        "properties": {
+          "identificatie": "0000100000000014",
+          "status": "Bouw gestart",
+          "bouwjaar": 2006,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-14"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                150500.0,
+                450200.0
+              ],
+              [
+                150500.0,
+                450240.0
+              ],
+              [
+                150470.0,
+                450240.0
+              ],
+              [
+                150470.0,
+                450200.0
+              ],
+              [
+                150500.0,
+                450200.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "8a03059d-4285-5783-b715-4462926154e3",
+        "properties": {
+          "identificatie": "0000100000000015",
+          "status": "Pand in gebruik",
+          "bouwjaar": 2007,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-15"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                150645.0,
+                450200.0
+              ],
+              [
+                150645.0,
+                450240.0
+              ],
+              [
+                150615.0,
+                450240.0
+              ],
+              [
+                150615.0,
+                450200.0
+              ],
+              [
+                150645.0,
+                450200.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "a45467aa-a1bc-5d1a-a862-576c6f32ca6d",
+        "properties": {
+          "identificatie": "0000100000000016",
+          "status": "Pand in gebruik",
+          "bouwjaar": 2007,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-16"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                150700.0,
+                450200.0
+              ],
+              [
+                150700.0,
+                450240.0
+              ],
+              [
+                150670.0,
+                450240.0
+              ],
+              [
+                150670.0,
+                450200.0
+              ],
+              [
+                150700.0,
+                450200.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "6b874a8b-8f95-59ed-9279-1995409ca95c",
+        "properties": {
+          "identificatie": "0000100000000017",
+          "status": "Bouw gestart",
+          "bouwjaar": 2008,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-17"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                150045.0,
+                450380.0
+              ],
+              [
+                150045.0,
+                450420.0
+              ],
+              [
+                150015.0,
+                450420.0
+              ],
+              [
+                150015.0,
+                450380.0
+              ],
+              [
+                150045.0,
+                450380.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "840c7f22-f594-554a-8647-328cd8621246",
+        "properties": {
+          "identificatie": "0000100000000018",
+          "status": "Bouw gestart",
+          "bouwjaar": 2008,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-18"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                150100.0,
+                450380.0
+              ],
+              [
+                150100.0,
+                450420.0
+              ],
+              [
+                150070.0,
+                450420.0
+              ],
+              [
+                150070.0,
+                450380.0
+              ],
+              [
+                150100.0,
+                450380.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "a3ea07bd-2dd3-5ccd-9cff-2de6fec3da8a",
+        "properties": {
+          "identificatie": "0000100000000019",
+          "status": "Pand in gebruik",
+          "bouwjaar": 2009,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-19"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                150245.0,
+                450380.0
+              ],
+              [
+                150245.0,
+                450420.0
+              ],
+              [
+                150215.0,
+                450420.0
+              ],
+              [
+                150215.0,
+                450380.0
+              ],
+              [
+                150245.0,
+                450380.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "c1f7cfa0-cdaf-54d4-9d2e-4f73997ec75a",
+        "properties": {
+          "identificatie": "0000100000000020",
+          "status": "Pand in gebruik",
+          "bouwjaar": 2009,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-20"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                150300.0,
+                450380.0
+              ],
+              [
+                150300.0,
+                450420.0
+              ],
+              [
+                150270.0,
+                450420.0
+              ],
+              [
+                150270.0,
+                450380.0
+              ],
+              [
+                150300.0,
+                450380.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "64456eca-6bcc-5d31-86f1-307c30e3a822",
+        "properties": {
+          "identificatie": "0000100000000021",
+          "status": "Bouw gestart",
+          "bouwjaar": 2010,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-21"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                150445.0,
+                450380.0
+              ],
+              [
+                150445.0,
+                450420.0
+              ],
+              [
+                150415.0,
+                450420.0
+              ],
+              [
+                150415.0,
+                450380.0
+              ],
+              [
+                150445.0,
+                450380.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "4a986fac-cf65-5998-9186-13cd8cbf1eb1",
+        "properties": {
+          "identificatie": "0000100000000022",
+          "status": "Bouw gestart",
+          "bouwjaar": 2010,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-22"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                150500.0,
+                450380.0
+              ],
+              [
+                150500.0,
+                450420.0
+              ],
+              [
+                150470.0,
+                450420.0
+              ],
+              [
+                150470.0,
+                450380.0
+              ],
+              [
+                150500.0,
+                450380.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "6e0d15b5-05d2-5f4c-8ef0-32c049f0df44",
+        "properties": {
+          "identificatie": "0000100000000023",
+          "status": "Pand in gebruik",
+          "bouwjaar": 2011,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-23"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                150645.0,
+                450380.0
+              ],
+              [
+                150645.0,
+                450420.0
+              ],
+              [
+                150615.0,
+                450420.0
+              ],
+              [
+                150615.0,
+                450380.0
+              ],
+              [
+                150645.0,
+                450380.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "d50d6e49-d6c1-5471-86c6-4a7cc969e050",
+        "properties": {
+          "identificatie": "0000100000000024",
+          "status": "Pand in gebruik",
+          "bouwjaar": 2011,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-24"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                150700.0,
+                450380.0
+              ],
+              [
+                150700.0,
+                450420.0
+              ],
+              [
+                150670.0,
+                450420.0
+              ],
+              [
+                150670.0,
+                450380.0
+              ],
+              [
+                150700.0,
+                450380.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "52a2c772-1246-564b-9017-f123173aaaf3",
+        "properties": {
+          "identificatie": "0000100000000025",
+          "status": "Bouw gestart",
+          "bouwjaar": 2000,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-25"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                151445.0,
+                450920.0
+              ],
+              [
+                151445.0,
+                450960.0
+              ],
+              [
+                151415.0,
+                450960.0
+              ],
+              [
+                151415.0,
+                450920.0
+              ],
+              [
+                151445.0,
+                450920.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "8b26d2e4-f0c8-5c7e-8c23-558cb08aad2d",
+        "properties": {
+          "identificatie": "0000100000000026",
+          "status": "Bouw gestart",
+          "bouwjaar": 2000,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-26"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                151500.0,
+                450920.0
+              ],
+              [
+                151500.0,
+                450960.0
+              ],
+              [
+                151470.0,
+                450960.0
+              ],
+              [
+                151470.0,
+                450920.0
+              ],
+              [
+                151500.0,
+                450920.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "a30d5f44-635d-56fe-a4dd-f939c476bebf",
+        "properties": {
+          "identificatie": "0000100000000027",
+          "status": "Pand in gebruik",
+          "bouwjaar": 2001,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-27"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                151645.0,
+                450920.0
+              ],
+              [
+                151645.0,
+                450960.0
+              ],
+              [
+                151615.0,
+                450960.0
+              ],
+              [
+                151615.0,
+                450920.0
+              ],
+              [
+                151645.0,
+                450920.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "e0cf91a4-cc21-561b-ab02-efd4b20797f7",
+        "properties": {
+          "identificatie": "0000100000000028",
+          "status": "Pand in gebruik",
+          "bouwjaar": 2001,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-28"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                151700.0,
+                450920.0
+              ],
+              [
+                151700.0,
+                450960.0
+              ],
+              [
+                151670.0,
+                450960.0
+              ],
+              [
+                151670.0,
+                450920.0
+              ],
+              [
+                151700.0,
+                450920.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "77bac024-d9a5-5ff7-8873-605bd79b7e74",
+        "properties": {
+          "identificatie": "0000100000000029",
+          "status": "Bouw gestart",
+          "bouwjaar": 2002,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-29"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                151845.0,
+                450920.0
+              ],
+              [
+                151845.0,
+                450960.0
+              ],
+              [
+                151815.0,
+                450960.0
+              ],
+              [
+                151815.0,
+                450920.0
+              ],
+              [
+                151845.0,
+                450920.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "c86d1f1f-ac6e-5935-ab2b-d6a80b6455af",
+        "properties": {
+          "identificatie": "0000100000000030",
+          "status": "Bouw gestart",
+          "bouwjaar": 2002,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-30"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                151900.0,
+                450920.0
+              ],
+              [
+                151900.0,
+                450960.0
+              ],
+              [
+                151870.0,
+                450960.0
+              ],
+              [
+                151870.0,
+                450920.0
+              ],
+              [
+                151900.0,
+                450920.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "4b1ae199-bc20-54c9-9187-828fa401146a",
+        "properties": {
+          "identificatie": "0000100000000031",
+          "status": "Pand in gebruik",
+          "bouwjaar": 2003,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-31"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                152045.0,
+                450920.0
+              ],
+              [
+                152045.0,
+                450960.0
+              ],
+              [
+                152015.0,
+                450960.0
+              ],
+              [
+                152015.0,
+                450920.0
+              ],
+              [
+                152045.0,
+                450920.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "8a5b4910-2ca7-5a5d-8313-f6ed3d7d2fc1",
+        "properties": {
+          "identificatie": "0000100000000032",
+          "status": "Pand in gebruik",
+          "bouwjaar": 2003,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-32"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                152100.0,
+                450920.0
+              ],
+              [
+                152100.0,
+                450960.0
+              ],
+              [
+                152070.0,
+                450960.0
+              ],
+              [
+                152070.0,
+                450920.0
+              ],
+              [
+                152100.0,
+                450920.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "5f871155-049a-5200-be5d-d4eda443737f",
+        "properties": {
+          "identificatie": "0000100000000033",
+          "status": "Bouw gestart",
+          "bouwjaar": 2004,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-33"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                151445.0,
+                451100.0
+              ],
+              [
+                151445.0,
+                451140.0
+              ],
+              [
+                151415.0,
+                451140.0
+              ],
+              [
+                151415.0,
+                451100.0
+              ],
+              [
+                151445.0,
+                451100.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "6524e85c-3c1c-563e-a666-66d5c1a23168",
+        "properties": {
+          "identificatie": "0000100000000034",
+          "status": "Bouw gestart",
+          "bouwjaar": 2004,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-34"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                151500.0,
+                451100.0
+              ],
+              [
+                151500.0,
+                451140.0
+              ],
+              [
+                151470.0,
+                451140.0
+              ],
+              [
+                151470.0,
+                451100.0
+              ],
+              [
+                151500.0,
+                451100.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "47e26187-ed68-5d0c-8fc4-d6f7130a402f",
+        "properties": {
+          "identificatie": "0000100000000035",
+          "status": "Pand in gebruik",
+          "bouwjaar": 2005,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-35"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                151645.0,
+                451100.0
+              ],
+              [
+                151645.0,
+                451140.0
+              ],
+              [
+                151615.0,
+                451140.0
+              ],
+              [
+                151615.0,
+                451100.0
+              ],
+              [
+                151645.0,
+                451100.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "131bc580-611c-5ead-9c7f-9418df30357c",
+        "properties": {
+          "identificatie": "0000100000000036",
+          "status": "Pand in gebruik",
+          "bouwjaar": 2005,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-36"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                151700.0,
+                451100.0
+              ],
+              [
+                151700.0,
+                451140.0
+              ],
+              [
+                151670.0,
+                451140.0
+              ],
+              [
+                151670.0,
+                451100.0
+              ],
+              [
+                151700.0,
+                451100.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "607c1ba7-6f3e-56cf-860a-2ad4fa2b5c66",
+        "properties": {
+          "identificatie": "0000100000000037",
+          "status": "Bouw gestart",
+          "bouwjaar": 2006,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-37"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                151845.0,
+                451100.0
+              ],
+              [
+                151845.0,
+                451140.0
+              ],
+              [
+                151815.0,
+                451140.0
+              ],
+              [
+                151815.0,
+                451100.0
+              ],
+              [
+                151845.0,
+                451100.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "c496aa20-92c6-517d-bc84-c845c3110401",
+        "properties": {
+          "identificatie": "0000100000000038",
+          "status": "Bouw gestart",
+          "bouwjaar": 2006,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-38"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                151900.0,
+                451100.0
+              ],
+              [
+                151900.0,
+                451140.0
+              ],
+              [
+                151870.0,
+                451140.0
+              ],
+              [
+                151870.0,
+                451100.0
+              ],
+              [
+                151900.0,
+                451100.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "d9bcfbe6-1feb-5252-a246-08620e4e6766",
+        "properties": {
+          "identificatie": "0000100000000039",
+          "status": "Pand in gebruik",
+          "bouwjaar": 2007,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-39"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                152045.0,
+                451100.0
+              ],
+              [
+                152045.0,
+                451140.0
+              ],
+              [
+                152015.0,
+                451140.0
+              ],
+              [
+                152015.0,
+                451100.0
+              ],
+              [
+                152045.0,
+                451100.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "3748887a-ab0c-5ac5-afe1-14e58075e227",
+        "properties": {
+          "identificatie": "0000100000000040",
+          "status": "Pand in gebruik",
+          "bouwjaar": 2007,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-40"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                152100.0,
+                451100.0
+              ],
+              [
+                152100.0,
+                451140.0
+              ],
+              [
+                152070.0,
+                451140.0
+              ],
+              [
+                152070.0,
+                451100.0
+              ],
+              [
+                152100.0,
+                451100.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "77adffa4-b91d-55ff-a0c3-edbb38a8ffff",
+        "properties": {
+          "identificatie": "0000100000000041",
+          "status": "Bouw gestart",
+          "bouwjaar": 2008,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-41"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                151445.0,
+                451280.0
+              ],
+              [
+                151445.0,
+                451320.0
+              ],
+              [
+                151415.0,
+                451320.0
+              ],
+              [
+                151415.0,
+                451280.0
+              ],
+              [
+                151445.0,
+                451280.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "561ccfca-6435-526e-a324-e36ab7e39891",
+        "properties": {
+          "identificatie": "0000100000000042",
+          "status": "Bouw gestart",
+          "bouwjaar": 2008,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-42"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                151500.0,
+                451280.0
+              ],
+              [
+                151500.0,
+                451320.0
+              ],
+              [
+                151470.0,
+                451320.0
+              ],
+              [
+                151470.0,
+                451280.0
+              ],
+              [
+                151500.0,
+                451280.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "eaee3497-ba68-5af1-bc78-495224a14737",
+        "properties": {
+          "identificatie": "0000100000000043",
+          "status": "Pand in gebruik",
+          "bouwjaar": 2009,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-43"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                151645.0,
+                451280.0
+              ],
+              [
+                151645.0,
+                451320.0
+              ],
+              [
+                151615.0,
+                451320.0
+              ],
+              [
+                151615.0,
+                451280.0
+              ],
+              [
+                151645.0,
+                451280.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "bf36e774-555a-5e3d-a717-a2b8d045e4e3",
+        "properties": {
+          "identificatie": "0000100000000044",
+          "status": "Pand in gebruik",
+          "bouwjaar": 2009,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-44"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                151700.0,
+                451280.0
+              ],
+              [
+                151700.0,
+                451320.0
+              ],
+              [
+                151670.0,
+                451320.0
+              ],
+              [
+                151670.0,
+                451280.0
+              ],
+              [
+                151700.0,
+                451280.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "ec0a2549-e620-59aa-b22c-ab5d9c4f0145",
+        "properties": {
+          "identificatie": "0000100000000045",
+          "status": "Bouw gestart",
+          "bouwjaar": 2010,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-45"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                151845.0,
+                451280.0
+              ],
+              [
+                151845.0,
+                451320.0
+              ],
+              [
+                151815.0,
+                451320.0
+              ],
+              [
+                151815.0,
+                451280.0
+              ],
+              [
+                151845.0,
+                451280.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "9ed686a3-f312-54e6-81e6-12d87764061a",
+        "properties": {
+          "identificatie": "0000100000000046",
+          "status": "Bouw gestart",
+          "bouwjaar": 2010,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-46"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                151900.0,
+                451280.0
+              ],
+              [
+                151900.0,
+                451320.0
+              ],
+              [
+                151870.0,
+                451320.0
+              ],
+              [
+                151870.0,
+                451280.0
+              ],
+              [
+                151900.0,
+                451280.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "85dbbee3-8928-5a97-9e84-631c1bfda346",
+        "properties": {
+          "identificatie": "0000100000000047",
+          "status": "Pand in gebruik",
+          "bouwjaar": 2011,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-47"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                152045.0,
+                451280.0
+              ],
+              [
+                152045.0,
+                451320.0
+              ],
+              [
+                152015.0,
+                451320.0
+              ],
+              [
+                152015.0,
+                451280.0
+              ],
+              [
+                152045.0,
+                451280.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "0096766e-0472-5af1-b3ad-5ecfffed8916",
+        "properties": {
+          "identificatie": "0000100000000048",
+          "status": "Pand in gebruik",
+          "bouwjaar": 2011,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-48"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                152100.0,
+                451280.0
+              ],
+              [
+                152100.0,
+                451320.0
+              ],
+              [
+                152070.0,
+                451320.0
+              ],
+              [
+                152070.0,
+                451280.0
+              ],
+              [
+                152100.0,
+                451280.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "6018352b-5702-5d8d-91b3-8f127e1c653d",
+        "properties": {
+          "identificatie": "0000100000000049",
+          "status": "Bouw gestart",
+          "bouwjaar": 2000,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-49"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                152845.0,
+                451820.0
+              ],
+              [
+                152845.0,
+                451860.0
+              ],
+              [
+                152815.0,
+                451860.0
+              ],
+              [
+                152815.0,
+                451820.0
+              ],
+              [
+                152845.0,
+                451820.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "f7a5039e-e330-50c2-a5fb-6ad8fe758152",
+        "properties": {
+          "identificatie": "0000100000000050",
+          "status": "Bouw gestart",
+          "bouwjaar": 2000,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-50"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                152900.0,
+                451820.0
+              ],
+              [
+                152900.0,
+                451860.0
+              ],
+              [
+                152870.0,
+                451860.0
+              ],
+              [
+                152870.0,
+                451820.0
+              ],
+              [
+                152900.0,
+                451820.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "94bc8cb3-7967-5306-ac35-75f1d107122b",
+        "properties": {
+          "identificatie": "0000100000000051",
+          "status": "Pand in gebruik",
+          "bouwjaar": 2001,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-51"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                153045.0,
+                451820.0
+              ],
+              [
+                153045.0,
+                451860.0
+              ],
+              [
+                153015.0,
+                451860.0
+              ],
+              [
+                153015.0,
+                451820.0
+              ],
+              [
+                153045.0,
+                451820.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "82a888f2-00ed-50f9-a085-ac6433f4057c",
+        "properties": {
+          "identificatie": "0000100000000052",
+          "status": "Pand in gebruik",
+          "bouwjaar": 2001,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-52"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                153100.0,
+                451820.0
+              ],
+              [
+                153100.0,
+                451860.0
+              ],
+              [
+                153070.0,
+                451860.0
+              ],
+              [
+                153070.0,
+                451820.0
+              ],
+              [
+                153100.0,
+                451820.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "9f4d4685-a7cf-5dac-9f45-685a7f154f7b",
+        "properties": {
+          "identificatie": "0000100000000053",
+          "status": "Bouw gestart",
+          "bouwjaar": 2002,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-53"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                153245.0,
+                451820.0
+              ],
+              [
+                153245.0,
+                451860.0
+              ],
+              [
+                153215.0,
+                451860.0
+              ],
+              [
+                153215.0,
+                451820.0
+              ],
+              [
+                153245.0,
+                451820.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "e77365e8-2fd1-50c5-8b63-e2b72d4ed3b9",
+        "properties": {
+          "identificatie": "0000100000000054",
+          "status": "Bouw gestart",
+          "bouwjaar": 2002,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-54"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                153300.0,
+                451820.0
+              ],
+              [
+                153300.0,
+                451860.0
+              ],
+              [
+                153270.0,
+                451860.0
+              ],
+              [
+                153270.0,
+                451820.0
+              ],
+              [
+                153300.0,
+                451820.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "f27c5ba9-8d6e-52cb-bda0-70062302cd08",
+        "properties": {
+          "identificatie": "0000100000000055",
+          "status": "Pand in gebruik",
+          "bouwjaar": 2003,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-55"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                153445.0,
+                451820.0
+              ],
+              [
+                153445.0,
+                451860.0
+              ],
+              [
+                153415.0,
+                451860.0
+              ],
+              [
+                153415.0,
+                451820.0
+              ],
+              [
+                153445.0,
+                451820.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "fae1d93a-b16b-5fd7-9513-07ded9b44684",
+        "properties": {
+          "identificatie": "0000100000000056",
+          "status": "Pand in gebruik",
+          "bouwjaar": 2003,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-56"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                153500.0,
+                451820.0
+              ],
+              [
+                153500.0,
+                451860.0
+              ],
+              [
+                153470.0,
+                451860.0
+              ],
+              [
+                153470.0,
+                451820.0
+              ],
+              [
+                153500.0,
+                451820.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "87cd2bb9-5f05-5af6-b756-78afcfdca905",
+        "properties": {
+          "identificatie": "0000100000000057",
+          "status": "Bouw gestart",
+          "bouwjaar": 2004,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-57"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                152845.0,
+                452000.0
+              ],
+              [
+                152845.0,
+                452040.0
+              ],
+              [
+                152815.0,
+                452040.0
+              ],
+              [
+                152815.0,
+                452000.0
+              ],
+              [
+                152845.0,
+                452000.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "eb15afbe-4423-5e61-9db7-a91e36cd23c8",
+        "properties": {
+          "identificatie": "0000100000000058",
+          "status": "Bouw gestart",
+          "bouwjaar": 2004,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-58"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                152900.0,
+                452000.0
+              ],
+              [
+                152900.0,
+                452040.0
+              ],
+              [
+                152870.0,
+                452040.0
+              ],
+              [
+                152870.0,
+                452000.0
+              ],
+              [
+                152900.0,
+                452000.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "d7f238d9-802d-5a21-913b-8f1e5dc72f3d",
+        "properties": {
+          "identificatie": "0000100000000059",
+          "status": "Pand in gebruik",
+          "bouwjaar": 2005,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-59"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                153045.0,
+                452000.0
+              ],
+              [
+                153045.0,
+                452040.0
+              ],
+              [
+                153015.0,
+                452040.0
+              ],
+              [
+                153015.0,
+                452000.0
+              ],
+              [
+                153045.0,
+                452000.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "8fda7d32-c54b-50aa-ba63-9cd21b3315e1",
+        "properties": {
+          "identificatie": "0000100000000060",
+          "status": "Pand in gebruik",
+          "bouwjaar": 2005,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-60"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                153100.0,
+                452000.0
+              ],
+              [
+                153100.0,
+                452040.0
+              ],
+              [
+                153070.0,
+                452040.0
+              ],
+              [
+                153070.0,
+                452000.0
+              ],
+              [
+                153100.0,
+                452000.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "c1088de0-d407-5087-8b52-2e1310a4e011",
+        "properties": {
+          "identificatie": "0000100000000061",
+          "status": "Bouw gestart",
+          "bouwjaar": 2006,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-61"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                153245.0,
+                452000.0
+              ],
+              [
+                153245.0,
+                452040.0
+              ],
+              [
+                153215.0,
+                452040.0
+              ],
+              [
+                153215.0,
+                452000.0
+              ],
+              [
+                153245.0,
+                452000.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "be98ff88-9ce5-508d-b8ef-1ac109770d52",
+        "properties": {
+          "identificatie": "0000100000000062",
+          "status": "Bouw gestart",
+          "bouwjaar": 2006,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-62"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                153300.0,
+                452000.0
+              ],
+              [
+                153300.0,
+                452040.0
+              ],
+              [
+                153270.0,
+                452040.0
+              ],
+              [
+                153270.0,
+                452000.0
+              ],
+              [
+                153300.0,
+                452000.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "0f11d64b-3604-5511-83d4-53d2fdc66ad5",
+        "properties": {
+          "identificatie": "0000100000000063",
+          "status": "Pand in gebruik",
+          "bouwjaar": 2007,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-63"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                153445.0,
+                452000.0
+              ],
+              [
+                153445.0,
+                452040.0
+              ],
+              [
+                153415.0,
+                452040.0
+              ],
+              [
+                153415.0,
+                452000.0
+              ],
+              [
+                153445.0,
+                452000.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "ea8986ea-c49f-5fee-9712-5de3369e8e43",
+        "properties": {
+          "identificatie": "0000100000000064",
+          "status": "Pand in gebruik",
+          "bouwjaar": 2007,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-64"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                153500.0,
+                452000.0
+              ],
+              [
+                153500.0,
+                452040.0
+              ],
+              [
+                153470.0,
+                452040.0
+              ],
+              [
+                153470.0,
+                452000.0
+              ],
+              [
+                153500.0,
+                452000.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "8b4b654e-62a9-516c-861b-cb2d3c4b5bdc",
+        "properties": {
+          "identificatie": "0000100000000065",
+          "status": "Bouw gestart",
+          "bouwjaar": 2008,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-65"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                152845.0,
+                452180.0
+              ],
+              [
+                152845.0,
+                452220.0
+              ],
+              [
+                152815.0,
+                452220.0
+              ],
+              [
+                152815.0,
+                452180.0
+              ],
+              [
+                152845.0,
+                452180.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "e3e4bc1f-77c6-5f6b-904f-b47a7021f9f6",
+        "properties": {
+          "identificatie": "0000100000000066",
+          "status": "Bouw gestart",
+          "bouwjaar": 2008,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-66"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                152900.0,
+                452180.0
+              ],
+              [
+                152900.0,
+                452220.0
+              ],
+              [
+                152870.0,
+                452220.0
+              ],
+              [
+                152870.0,
+                452180.0
+              ],
+              [
+                152900.0,
+                452180.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "d45734da-6ac6-5f45-a4ff-d5cbebcf79ef",
+        "properties": {
+          "identificatie": "0000100000000067",
+          "status": "Pand in gebruik",
+          "bouwjaar": 2009,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-67"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                153045.0,
+                452180.0
+              ],
+              [
+                153045.0,
+                452220.0
+              ],
+              [
+                153015.0,
+                452220.0
+              ],
+              [
+                153015.0,
+                452180.0
+              ],
+              [
+                153045.0,
+                452180.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "320b5f9f-dd8e-5518-864c-e4f136cb7cbd",
+        "properties": {
+          "identificatie": "0000100000000068",
+          "status": "Pand in gebruik",
+          "bouwjaar": 2009,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-68"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                153100.0,
+                452180.0
+              ],
+              [
+                153100.0,
+                452220.0
+              ],
+              [
+                153070.0,
+                452220.0
+              ],
+              [
+                153070.0,
+                452180.0
+              ],
+              [
+                153100.0,
+                452180.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "e8a0cc3c-667f-51b0-a3f2-52fb06302e1b",
+        "properties": {
+          "identificatie": "0000100000000069",
+          "status": "Bouw gestart",
+          "bouwjaar": 2010,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-69"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                153245.0,
+                452180.0
+              ],
+              [
+                153245.0,
+                452220.0
+              ],
+              [
+                153215.0,
+                452220.0
+              ],
+              [
+                153215.0,
+                452180.0
+              ],
+              [
+                153245.0,
+                452180.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "efec3bd3-5c49-58d0-94ae-b104587a5f85",
+        "properties": {
+          "identificatie": "0000100000000070",
+          "status": "Bouw gestart",
+          "bouwjaar": 2010,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-70"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                153300.0,
+                452180.0
+              ],
+              [
+                153300.0,
+                452220.0
+              ],
+              [
+                153270.0,
+                452220.0
+              ],
+              [
+                153270.0,
+                452180.0
+              ],
+              [
+                153300.0,
+                452180.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "50ee2008-4c9d-5a4a-98b4-3d6ccb7e0316",
+        "properties": {
+          "identificatie": "0000100000000071",
+          "status": "Pand in gebruik",
+          "bouwjaar": 2011,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-71"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                153445.0,
+                452180.0
+              ],
+              [
+                153445.0,
+                452220.0
+              ],
+              [
+                153415.0,
+                452220.0
+              ],
+              [
+                153415.0,
+                452180.0
+              ],
+              [
+                153445.0,
+                452180.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "f4255e59-65ab-5198-ad6f-ab8ea1fad139",
+        "properties": {
+          "identificatie": "0000100000000072",
+          "status": "Pand in gebruik",
+          "bouwjaar": 2011,
+          "aantal_verblijfsobjecten": 2,
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-P-72"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                153500.0,
+                452180.0
+              ],
+              [
+                153500.0,
+                452220.0
+              ],
+              [
+                153470.0,
+                452220.0
+              ],
+              [
+                153470.0,
+                452180.0
+              ],
+              [
+                153500.0,
+                452180.0
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -21,14 +21,14 @@ def test_integer_parser_preserves_null_not_zero():
 
 def test_no_plan_disappears_during_validation():
     result = quality_result()
-    assert len(result.plans) == 8
-    assert len(set(row["record_id"] for row in result.plans)) == 8
-    assert result.rejected_count == 4
-    assert len(result.quarantine) == 4
+    assert len(result.plans) == 36
+    assert len(set(row["record_id"] for row in result.plans)) == 36
+    assert result.rejected_count == 6
+    assert len(result.quarantine) == 6
 
 
 def test_duplicate_koppelcodes_do_not_merge_records():
-    records = [r for r in quality_result().plans if r["koppelcode"] == "SYN_A"]
+    records = [r for r in quality_result().plans if r["koppelcode"] == "DEMO_000"]
     assert len(records) == 2
     assert records[0]["record_id"] != records[1]["record_id"]
 

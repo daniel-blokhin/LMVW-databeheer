@@ -17,7 +17,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 import pandas as pd
 import streamlit as st
 
-from analytics.data import (DEMO, DataError, eligible, filter_plans, findings, issue_rules,
+from analytics.data import (DEMO, latest_run_bundle, DataError, eligible, filter_plans, findings, issue_rules,
                             kpis, load_bundle, number, scoped_issues, source_metrics,
                             source_objects, RELATIONS)
 from analytics.charts import dashboard_charts, quality_charts, vector_map
@@ -32,10 +32,13 @@ st.markdown("""<style>
 st.sidebar.title("LMVW / Analytics")
 st.sidebar.caption("Deel 2 - onafhankelijke portfolio-reconstructie")
 local = os.environ.get("LMVW_BUNDLE_DIR")
-options = {"Synthetische demo (36 plannen)": DEMO}
+options = {"Voorbeeld (36 synthetische plannen)": DEMO}
+latest = latest_run_bundle()
+if latest:
+    options["Laatste pipeline-run"] = latest
 if local:
     options["Eigen lokale export"] = Path(local)
-choice = st.sidebar.selectbox("Dataset", list(options), index=1 if local else 0)
+choice = st.sidebar.selectbox("Dataset", list(options), index=len(options) - 1 if local else (1 if latest else 0))
 path = options[choice]
 try:
     # Do not put private records into a cross-session cache.
@@ -46,7 +49,7 @@ except (DataError, OSError) as exc:
     st.stop()
 
 st.sidebar.caption("Bron: " + str(bundle.path))
-if choice == "Eigen lokale export":
+if choice != "Voorbeeld (36 synthetische plannen)":
     st.sidebar.warning("Alleen lokaal en bevoegd gebruiken. Dit is geen publiek dashboard en geen autorisatiemechanisme.")
     if not st.sidebar.checkbox("Ik ben bevoegd om deze gegevens lokaal te analyseren."):
         st.info("Bevestig lokaal gebruik van je eigen export in de zijbalk.")

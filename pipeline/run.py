@@ -151,6 +151,8 @@ def main(argv: list[str] | None = None) -> int:
         sub.add_argument("--geometry-layer", help="GeoPackage layer")
         if name == "run":
             sub.add_argument("--mode", choices=("fixtures", "live"))
+            sub.add_argument("--report", action="store_true",
+                             help="After export, generate an HTML analytics report in the same run folder")
     verify = command.add_parser("verify")
     verify.add_argument("folder", type=Path, help="Path to a generated database_ready folder")
     args = parser.parse_args(argv)
@@ -162,6 +164,14 @@ def main(argv: list[str] | None = None) -> int:
                               mode=getattr(args, "mode", None), plans=args.plans,
                               geometries=args.geometries, geometry_layer=args.geometry_layer,
                               output_dir=args.output_dir)
+        if getattr(args, "report", False) and result.bundle is not None:
+            # One command, same exact database-ready export: no copied analytics dataset.
+            from analytics.data import load_bundle
+            from analytics.report import make_html
+            bundle = load_bundle(result.bundle)
+            report_file = result.run_dir / "report.html"
+            report_file.write_text(make_html(bundle, bundle["plans"]), encoding="utf-8")
+            print("Analytics report:", report_file, flush=True)
         print(json.dumps({"status": result.status, "counts": result.counts}, ensure_ascii=False))
         return 2 if args.command == "validate" and result.counts["rejected_plans"] else 0
     except PipelineError as exc:

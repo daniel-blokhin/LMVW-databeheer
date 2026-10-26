@@ -1,0 +1,3034 @@
+{
+  "synthetic": true,
+  "retrieved_at": "2026-10-16T09:00:00Z",
+  "content_crs": "http://www.opengis.net/def/crs/EPSG/0/28992",
+  "data": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "id": "f1856acd-933f-5c8f-9629-fc72f91e8043",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-1",
+          "kadastrale_gemeente_code": "D000",
+          "kadastrale_gemeente_waarde": "Demo Waterdam",
+          "sectie": "A",
+          "perceelnummer": 1,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                150065.0,
+                449990.0
+              ],
+              [
+                150065.0,
+                450115.0
+              ],
+              [
+                149990.0,
+                450115.0
+              ],
+              [
+                149990.0,
+                449990.0
+              ],
+              [
+                150065.0,
+                449990.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "72f71003-272d-5ce6-a164-8c955311f354",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-2",
+          "kadastrale_gemeente_code": "D000",
+          "kadastrale_gemeente_waarde": "Demo Waterdam",
+          "sectie": "A",
+          "perceelnummer": 2,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                150140.0,
+                449990.0
+              ],
+              [
+                150140.0,
+                450115.0
+              ],
+              [
+                150065.0,
+                450115.0
+              ],
+              [
+                150065.0,
+                449990.0
+              ],
+              [
+                150140.0,
+                449990.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "1fc851c9-2837-5844-b65f-08c3e18d139f",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-3",
+          "kadastrale_gemeente_code": "D000",
+          "kadastrale_gemeente_waarde": "Demo Waterdam",
+          "sectie": "A",
+          "perceelnummer": 3,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                150065.0,
+                449990.0
+              ],
+              [
+                150065.0,
+                450115.0
+              ],
+              [
+                149990.0,
+                450115.0
+              ],
+              [
+                149990.0,
+                449990.0
+              ],
+              [
+                150065.0,
+                449990.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "ef17d727-9b0e-54ac-b6ba-84f21330cba2",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-4",
+          "kadastrale_gemeente_code": "D000",
+          "kadastrale_gemeente_waarde": "Demo Waterdam",
+          "sectie": "A",
+          "perceelnummer": 4,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                150140.0,
+                449990.0
+              ],
+              [
+                150140.0,
+                450115.0
+              ],
+              [
+                150065.0,
+                450115.0
+              ],
+              [
+                150065.0,
+                449990.0
+              ],
+              [
+                150140.0,
+                449990.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "81dc29ae-64f3-5a9c-a434-1bffcd929c52",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-5",
+          "kadastrale_gemeente_code": "D000",
+          "kadastrale_gemeente_waarde": "Demo Waterdam",
+          "sectie": "A",
+          "perceelnummer": 5,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                150465.0,
+                449990.0
+              ],
+              [
+                150465.0,
+                450115.0
+              ],
+              [
+                150390.0,
+                450115.0
+              ],
+              [
+                150390.0,
+                449990.0
+              ],
+              [
+                150465.0,
+                449990.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "1e72d8c5-638b-5868-aadf-7ad004ec3b1a",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-6",
+          "kadastrale_gemeente_code": "D000",
+          "kadastrale_gemeente_waarde": "Demo Waterdam",
+          "sectie": "A",
+          "perceelnummer": 6,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                150540.0,
+                449990.0
+              ],
+              [
+                150540.0,
+                450115.0
+              ],
+              [
+                150465.0,
+                450115.0
+              ],
+              [
+                150465.0,
+                449990.0
+              ],
+              [
+                150540.0,
+                449990.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "3a51d8d1-bf3c-5e5b-a858-58bed9d13d04",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-7",
+          "kadastrale_gemeente_code": "D000",
+          "kadastrale_gemeente_waarde": "Demo Waterdam",
+          "sectie": "A",
+          "perceelnummer": 7,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                150665.0,
+                449990.0
+              ],
+              [
+                150665.0,
+                450115.0
+              ],
+              [
+                150590.0,
+                450115.0
+              ],
+              [
+                150590.0,
+                449990.0
+              ],
+              [
+                150665.0,
+                449990.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "eca30130-77dc-500e-9b70-45a360721864",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-8",
+          "kadastrale_gemeente_code": "D000",
+          "kadastrale_gemeente_waarde": "Demo Waterdam",
+          "sectie": "A",
+          "perceelnummer": 8,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                150740.0,
+                449990.0
+              ],
+              [
+                150740.0,
+                450115.0
+              ],
+              [
+                150665.0,
+                450115.0
+              ],
+              [
+                150665.0,
+                449990.0
+              ],
+              [
+                150740.0,
+                449990.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "0fc553c5-848d-5c8d-b699-129d5cea6cd6",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-9",
+          "kadastrale_gemeente_code": "D000",
+          "kadastrale_gemeente_waarde": "Demo Waterdam",
+          "sectie": "A",
+          "perceelnummer": 9,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                150065.0,
+                450170.0
+              ],
+              [
+                150065.0,
+                450295.0
+              ],
+              [
+                149990.0,
+                450295.0
+              ],
+              [
+                149990.0,
+                450170.0
+              ],
+              [
+                150065.0,
+                450170.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "5a6698d3-bffc-5c80-8cae-1a6974d7e196",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-10",
+          "kadastrale_gemeente_code": "D000",
+          "kadastrale_gemeente_waarde": "Demo Waterdam",
+          "sectie": "A",
+          "perceelnummer": 10,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                150140.0,
+                450170.0
+              ],
+              [
+                150140.0,
+                450295.0
+              ],
+              [
+                150065.0,
+                450295.0
+              ],
+              [
+                150065.0,
+                450170.0
+              ],
+              [
+                150140.0,
+                450170.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "20571a72-d9c9-5cd4-8caa-3e66e7778191",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-11",
+          "kadastrale_gemeente_code": "D000",
+          "kadastrale_gemeente_waarde": "Demo Waterdam",
+          "sectie": "A",
+          "perceelnummer": 11,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                150265.0,
+                450170.0
+              ],
+              [
+                150265.0,
+                450295.0
+              ],
+              [
+                150190.0,
+                450295.0
+              ],
+              [
+                150190.0,
+                450170.0
+              ],
+              [
+                150265.0,
+                450170.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "13a82d1b-da1f-5999-bda1-7e953d64696b",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-12",
+          "kadastrale_gemeente_code": "D000",
+          "kadastrale_gemeente_waarde": "Demo Waterdam",
+          "sectie": "A",
+          "perceelnummer": 12,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                150340.0,
+                450170.0
+              ],
+              [
+                150340.0,
+                450295.0
+              ],
+              [
+                150265.0,
+                450295.0
+              ],
+              [
+                150265.0,
+                450170.0
+              ],
+              [
+                150340.0,
+                450170.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "843256fb-9abf-514f-b3c5-c889b4f55804",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-13",
+          "kadastrale_gemeente_code": "D000",
+          "kadastrale_gemeente_waarde": "Demo Waterdam",
+          "sectie": "A",
+          "perceelnummer": 13,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                150465.0,
+                450170.0
+              ],
+              [
+                150465.0,
+                450295.0
+              ],
+              [
+                150390.0,
+                450295.0
+              ],
+              [
+                150390.0,
+                450170.0
+              ],
+              [
+                150465.0,
+                450170.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "7c11a08d-edf0-5c74-8322-c51ac15df3b5",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-14",
+          "kadastrale_gemeente_code": "D000",
+          "kadastrale_gemeente_waarde": "Demo Waterdam",
+          "sectie": "A",
+          "perceelnummer": 14,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                150540.0,
+                450170.0
+              ],
+              [
+                150540.0,
+                450295.0
+              ],
+              [
+                150465.0,
+                450295.0
+              ],
+              [
+                150465.0,
+                450170.0
+              ],
+              [
+                150540.0,
+                450170.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "7e43ed7d-f0f5-5d5f-8c83-c59e2748843c",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-15",
+          "kadastrale_gemeente_code": "D000",
+          "kadastrale_gemeente_waarde": "Demo Waterdam",
+          "sectie": "A",
+          "perceelnummer": 15,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                150665.0,
+                450170.0
+              ],
+              [
+                150665.0,
+                450295.0
+              ],
+              [
+                150590.0,
+                450295.0
+              ],
+              [
+                150590.0,
+                450170.0
+              ],
+              [
+                150665.0,
+                450170.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "b5a9d4b3-f727-520c-bc57-d1e959f955dc",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-16",
+          "kadastrale_gemeente_code": "D000",
+          "kadastrale_gemeente_waarde": "Demo Waterdam",
+          "sectie": "A",
+          "perceelnummer": 16,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                150740.0,
+                450170.0
+              ],
+              [
+                150740.0,
+                450295.0
+              ],
+              [
+                150665.0,
+                450295.0
+              ],
+              [
+                150665.0,
+                450170.0
+              ],
+              [
+                150740.0,
+                450170.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "25d09948-ccf4-5dc9-a837-c729c11029b5",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-17",
+          "kadastrale_gemeente_code": "D000",
+          "kadastrale_gemeente_waarde": "Demo Waterdam",
+          "sectie": "A",
+          "perceelnummer": 17,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                150065.0,
+                450350.0
+              ],
+              [
+                150065.0,
+                450475.0
+              ],
+              [
+                149990.0,
+                450475.0
+              ],
+              [
+                149990.0,
+                450350.0
+              ],
+              [
+                150065.0,
+                450350.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "a3762206-5b7b-5bbc-9f9e-687f4e6aecd0",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-18",
+          "kadastrale_gemeente_code": "D000",
+          "kadastrale_gemeente_waarde": "Demo Waterdam",
+          "sectie": "A",
+          "perceelnummer": 18,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                150140.0,
+                450350.0
+              ],
+              [
+                150140.0,
+                450475.0
+              ],
+              [
+                150065.0,
+                450475.0
+              ],
+              [
+                150065.0,
+                450350.0
+              ],
+              [
+                150140.0,
+                450350.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "909f728b-d87c-519c-a633-1850ff577793",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-19",
+          "kadastrale_gemeente_code": "D000",
+          "kadastrale_gemeente_waarde": "Demo Waterdam",
+          "sectie": "A",
+          "perceelnummer": 19,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                150265.0,
+                450350.0
+              ],
+              [
+                150265.0,
+                450475.0
+              ],
+              [
+                150190.0,
+                450475.0
+              ],
+              [
+                150190.0,
+                450350.0
+              ],
+              [
+                150265.0,
+                450350.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "c0bd4f26-21e0-5c74-b7b4-9f4b0c4964be",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-20",
+          "kadastrale_gemeente_code": "D000",
+          "kadastrale_gemeente_waarde": "Demo Waterdam",
+          "sectie": "A",
+          "perceelnummer": 20,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                150340.0,
+                450350.0
+              ],
+              [
+                150340.0,
+                450475.0
+              ],
+              [
+                150265.0,
+                450475.0
+              ],
+              [
+                150265.0,
+                450350.0
+              ],
+              [
+                150340.0,
+                450350.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "1a264caa-72e7-50e7-8442-061f34a3414e",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-21",
+          "kadastrale_gemeente_code": "D000",
+          "kadastrale_gemeente_waarde": "Demo Waterdam",
+          "sectie": "A",
+          "perceelnummer": 21,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                150465.0,
+                450350.0
+              ],
+              [
+                150465.0,
+                450475.0
+              ],
+              [
+                150390.0,
+                450475.0
+              ],
+              [
+                150390.0,
+                450350.0
+              ],
+              [
+                150465.0,
+                450350.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "eda78582-4764-5d06-9b13-842a32e81d60",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-22",
+          "kadastrale_gemeente_code": "D000",
+          "kadastrale_gemeente_waarde": "Demo Waterdam",
+          "sectie": "A",
+          "perceelnummer": 22,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                150540.0,
+                450350.0
+              ],
+              [
+                150540.0,
+                450475.0
+              ],
+              [
+                150465.0,
+                450475.0
+              ],
+              [
+                150465.0,
+                450350.0
+              ],
+              [
+                150540.0,
+                450350.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "2e383170-9a87-586b-a583-d3f3aa33f7f7",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-23",
+          "kadastrale_gemeente_code": "D000",
+          "kadastrale_gemeente_waarde": "Demo Waterdam",
+          "sectie": "A",
+          "perceelnummer": 23,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                150665.0,
+                450350.0
+              ],
+              [
+                150665.0,
+                450475.0
+              ],
+              [
+                150590.0,
+                450475.0
+              ],
+              [
+                150590.0,
+                450350.0
+              ],
+              [
+                150665.0,
+                450350.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "6d2cec0a-e10d-5b69-afb0-b0aab6361f36",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-24",
+          "kadastrale_gemeente_code": "D000",
+          "kadastrale_gemeente_waarde": "Demo Waterdam",
+          "sectie": "A",
+          "perceelnummer": 24,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                150740.0,
+                450350.0
+              ],
+              [
+                150740.0,
+                450475.0
+              ],
+              [
+                150665.0,
+                450475.0
+              ],
+              [
+                150665.0,
+                450350.0
+              ],
+              [
+                150740.0,
+                450350.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "17dfd24b-9016-542a-acd5-56c314dc0d10",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-25",
+          "kadastrale_gemeente_code": "D001",
+          "kadastrale_gemeente_waarde": "Demo Heuvelstad",
+          "sectie": "A",
+          "perceelnummer": 25,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                151465.0,
+                450890.0
+              ],
+              [
+                151465.0,
+                451015.0
+              ],
+              [
+                151390.0,
+                451015.0
+              ],
+              [
+                151390.0,
+                450890.0
+              ],
+              [
+                151465.0,
+                450890.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "1c918805-38e7-5c35-a07f-d54104e27fea",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-26",
+          "kadastrale_gemeente_code": "D001",
+          "kadastrale_gemeente_waarde": "Demo Heuvelstad",
+          "sectie": "A",
+          "perceelnummer": 26,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                151540.0,
+                450890.0
+              ],
+              [
+                151540.0,
+                451015.0
+              ],
+              [
+                151465.0,
+                451015.0
+              ],
+              [
+                151465.0,
+                450890.0
+              ],
+              [
+                151540.0,
+                450890.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "10c301c7-108b-5243-9985-cf5b5dacd3ef",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-27",
+          "kadastrale_gemeente_code": "D001",
+          "kadastrale_gemeente_waarde": "Demo Heuvelstad",
+          "sectie": "A",
+          "perceelnummer": 27,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                151665.0,
+                450890.0
+              ],
+              [
+                151665.0,
+                451015.0
+              ],
+              [
+                151590.0,
+                451015.0
+              ],
+              [
+                151590.0,
+                450890.0
+              ],
+              [
+                151665.0,
+                450890.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "5d33ae4c-e077-5b6d-994e-90e759d3b5ee",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-28",
+          "kadastrale_gemeente_code": "D001",
+          "kadastrale_gemeente_waarde": "Demo Heuvelstad",
+          "sectie": "A",
+          "perceelnummer": 28,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                151740.0,
+                450890.0
+              ],
+              [
+                151740.0,
+                451015.0
+              ],
+              [
+                151665.0,
+                451015.0
+              ],
+              [
+                151665.0,
+                450890.0
+              ],
+              [
+                151740.0,
+                450890.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "35628e92-0825-5f98-b149-3639e8c2fdaa",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-29",
+          "kadastrale_gemeente_code": "D001",
+          "kadastrale_gemeente_waarde": "Demo Heuvelstad",
+          "sectie": "A",
+          "perceelnummer": 29,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                151865.0,
+                450890.0
+              ],
+              [
+                151865.0,
+                451015.0
+              ],
+              [
+                151790.0,
+                451015.0
+              ],
+              [
+                151790.0,
+                450890.0
+              ],
+              [
+                151865.0,
+                450890.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "19befcb2-e2fd-525c-a731-ff414dc8074a",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-30",
+          "kadastrale_gemeente_code": "D001",
+          "kadastrale_gemeente_waarde": "Demo Heuvelstad",
+          "sectie": "A",
+          "perceelnummer": 30,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                151940.0,
+                450890.0
+              ],
+              [
+                151940.0,
+                451015.0
+              ],
+              [
+                151865.0,
+                451015.0
+              ],
+              [
+                151865.0,
+                450890.0
+              ],
+              [
+                151940.0,
+                450890.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "3fe32e37-ab5f-599a-b134-cff384f5e888",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-31",
+          "kadastrale_gemeente_code": "D001",
+          "kadastrale_gemeente_waarde": "Demo Heuvelstad",
+          "sectie": "A",
+          "perceelnummer": 31,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                152065.0,
+                450890.0
+              ],
+              [
+                152065.0,
+                451015.0
+              ],
+              [
+                151990.0,
+                451015.0
+              ],
+              [
+                151990.0,
+                450890.0
+              ],
+              [
+                152065.0,
+                450890.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "1b563eeb-4cdf-572a-8a71-e2577e008869",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-32",
+          "kadastrale_gemeente_code": "D001",
+          "kadastrale_gemeente_waarde": "Demo Heuvelstad",
+          "sectie": "A",
+          "perceelnummer": 32,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                152140.0,
+                450890.0
+              ],
+              [
+                152140.0,
+                451015.0
+              ],
+              [
+                152065.0,
+                451015.0
+              ],
+              [
+                152065.0,
+                450890.0
+              ],
+              [
+                152140.0,
+                450890.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "07b696a7-36a0-55d7-9d51-c636a5d04d1c",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-33",
+          "kadastrale_gemeente_code": "D001",
+          "kadastrale_gemeente_waarde": "Demo Heuvelstad",
+          "sectie": "A",
+          "perceelnummer": 33,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                151465.0,
+                451070.0
+              ],
+              [
+                151465.0,
+                451195.0
+              ],
+              [
+                151390.0,
+                451195.0
+              ],
+              [
+                151390.0,
+                451070.0
+              ],
+              [
+                151465.0,
+                451070.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "fc18e74a-9f20-558b-a5cb-d0a7bd8b89d6",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-34",
+          "kadastrale_gemeente_code": "D001",
+          "kadastrale_gemeente_waarde": "Demo Heuvelstad",
+          "sectie": "A",
+          "perceelnummer": 34,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                151540.0,
+                451070.0
+              ],
+              [
+                151540.0,
+                451195.0
+              ],
+              [
+                151465.0,
+                451195.0
+              ],
+              [
+                151465.0,
+                451070.0
+              ],
+              [
+                151540.0,
+                451070.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "d011ad40-ab2f-5d2b-a914-1b706914042e",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-35",
+          "kadastrale_gemeente_code": "D001",
+          "kadastrale_gemeente_waarde": "Demo Heuvelstad",
+          "sectie": "A",
+          "perceelnummer": 35,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                151665.0,
+                451070.0
+              ],
+              [
+                151665.0,
+                451195.0
+              ],
+              [
+                151590.0,
+                451195.0
+              ],
+              [
+                151590.0,
+                451070.0
+              ],
+              [
+                151665.0,
+                451070.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "3842c329-157d-57d5-9fc3-07b92506e7df",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-36",
+          "kadastrale_gemeente_code": "D001",
+          "kadastrale_gemeente_waarde": "Demo Heuvelstad",
+          "sectie": "A",
+          "perceelnummer": 36,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                151740.0,
+                451070.0
+              ],
+              [
+                151740.0,
+                451195.0
+              ],
+              [
+                151665.0,
+                451195.0
+              ],
+              [
+                151665.0,
+                451070.0
+              ],
+              [
+                151740.0,
+                451070.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "4b7d5913-431e-5cba-9983-dfa3e3dabe40",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-37",
+          "kadastrale_gemeente_code": "D001",
+          "kadastrale_gemeente_waarde": "Demo Heuvelstad",
+          "sectie": "A",
+          "perceelnummer": 37,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                151865.0,
+                451070.0
+              ],
+              [
+                151865.0,
+                451195.0
+              ],
+              [
+                151790.0,
+                451195.0
+              ],
+              [
+                151790.0,
+                451070.0
+              ],
+              [
+                151865.0,
+                451070.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "ee8c05fe-dbc6-5739-8ecb-e125c2c75d88",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-38",
+          "kadastrale_gemeente_code": "D001",
+          "kadastrale_gemeente_waarde": "Demo Heuvelstad",
+          "sectie": "A",
+          "perceelnummer": 38,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                151940.0,
+                451070.0
+              ],
+              [
+                151940.0,
+                451195.0
+              ],
+              [
+                151865.0,
+                451195.0
+              ],
+              [
+                151865.0,
+                451070.0
+              ],
+              [
+                151940.0,
+                451070.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "adf90abc-00ef-525d-a996-717430214420",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-39",
+          "kadastrale_gemeente_code": "D001",
+          "kadastrale_gemeente_waarde": "Demo Heuvelstad",
+          "sectie": "A",
+          "perceelnummer": 39,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                152065.0,
+                451070.0
+              ],
+              [
+                152065.0,
+                451195.0
+              ],
+              [
+                151990.0,
+                451195.0
+              ],
+              [
+                151990.0,
+                451070.0
+              ],
+              [
+                152065.0,
+                451070.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "a80097e6-2f34-5774-af8b-f78bc5c50962",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-40",
+          "kadastrale_gemeente_code": "D001",
+          "kadastrale_gemeente_waarde": "Demo Heuvelstad",
+          "sectie": "A",
+          "perceelnummer": 40,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                152140.0,
+                451070.0
+              ],
+              [
+                152140.0,
+                451195.0
+              ],
+              [
+                152065.0,
+                451195.0
+              ],
+              [
+                152065.0,
+                451070.0
+              ],
+              [
+                152140.0,
+                451070.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "fee20a12-9f1a-53dd-b3fa-034c564b2f2a",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-41",
+          "kadastrale_gemeente_code": "D001",
+          "kadastrale_gemeente_waarde": "Demo Heuvelstad",
+          "sectie": "A",
+          "perceelnummer": 41,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                151465.0,
+                451250.0
+              ],
+              [
+                151465.0,
+                451375.0
+              ],
+              [
+                151390.0,
+                451375.0
+              ],
+              [
+                151390.0,
+                451250.0
+              ],
+              [
+                151465.0,
+                451250.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "f08af579-86bc-5196-b964-1bb01c68f471",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-42",
+          "kadastrale_gemeente_code": "D001",
+          "kadastrale_gemeente_waarde": "Demo Heuvelstad",
+          "sectie": "A",
+          "perceelnummer": 42,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                151540.0,
+                451250.0
+              ],
+              [
+                151540.0,
+                451375.0
+              ],
+              [
+                151465.0,
+                451375.0
+              ],
+              [
+                151465.0,
+                451250.0
+              ],
+              [
+                151540.0,
+                451250.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "53e40a70-b33f-5517-8990-d4d53b11a73c",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-43",
+          "kadastrale_gemeente_code": "D001",
+          "kadastrale_gemeente_waarde": "Demo Heuvelstad",
+          "sectie": "A",
+          "perceelnummer": 43,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                151665.0,
+                451250.0
+              ],
+              [
+                151665.0,
+                451375.0
+              ],
+              [
+                151590.0,
+                451375.0
+              ],
+              [
+                151590.0,
+                451250.0
+              ],
+              [
+                151665.0,
+                451250.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "0ee80c1f-d865-5bcc-a20f-0b1c968e9038",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-44",
+          "kadastrale_gemeente_code": "D001",
+          "kadastrale_gemeente_waarde": "Demo Heuvelstad",
+          "sectie": "A",
+          "perceelnummer": 44,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                151740.0,
+                451250.0
+              ],
+              [
+                151740.0,
+                451375.0
+              ],
+              [
+                151665.0,
+                451375.0
+              ],
+              [
+                151665.0,
+                451250.0
+              ],
+              [
+                151740.0,
+                451250.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "1dc09052-2686-5446-8384-b40dcdf8136d",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-45",
+          "kadastrale_gemeente_code": "D001",
+          "kadastrale_gemeente_waarde": "Demo Heuvelstad",
+          "sectie": "A",
+          "perceelnummer": 45,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                151865.0,
+                451250.0
+              ],
+              [
+                151865.0,
+                451375.0
+              ],
+              [
+                151790.0,
+                451375.0
+              ],
+              [
+                151790.0,
+                451250.0
+              ],
+              [
+                151865.0,
+                451250.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "a448aa7c-ec72-521a-9876-b7827c250035",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-46",
+          "kadastrale_gemeente_code": "D001",
+          "kadastrale_gemeente_waarde": "Demo Heuvelstad",
+          "sectie": "A",
+          "perceelnummer": 46,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                151940.0,
+                451250.0
+              ],
+              [
+                151940.0,
+                451375.0
+              ],
+              [
+                151865.0,
+                451375.0
+              ],
+              [
+                151865.0,
+                451250.0
+              ],
+              [
+                151940.0,
+                451250.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "0a69ce1e-5740-56ca-9c23-4d5ef0ceeedb",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-47",
+          "kadastrale_gemeente_code": "D001",
+          "kadastrale_gemeente_waarde": "Demo Heuvelstad",
+          "sectie": "A",
+          "perceelnummer": 47,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                152065.0,
+                451250.0
+              ],
+              [
+                152065.0,
+                451375.0
+              ],
+              [
+                151990.0,
+                451375.0
+              ],
+              [
+                151990.0,
+                451250.0
+              ],
+              [
+                152065.0,
+                451250.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "12c78934-816b-5fd7-98e3-6d4b36851471",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-48",
+          "kadastrale_gemeente_code": "D001",
+          "kadastrale_gemeente_waarde": "Demo Heuvelstad",
+          "sectie": "A",
+          "perceelnummer": 48,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                152140.0,
+                451250.0
+              ],
+              [
+                152140.0,
+                451375.0
+              ],
+              [
+                152065.0,
+                451375.0
+              ],
+              [
+                152065.0,
+                451250.0
+              ],
+              [
+                152140.0,
+                451250.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "66ae96f0-c2c3-5bea-b5d4-3fe7e2586adc",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-49",
+          "kadastrale_gemeente_code": "D002",
+          "kadastrale_gemeente_waarde": "Demo Polderveen",
+          "sectie": "A",
+          "perceelnummer": 49,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                152865.0,
+                451790.0
+              ],
+              [
+                152865.0,
+                451915.0
+              ],
+              [
+                152790.0,
+                451915.0
+              ],
+              [
+                152790.0,
+                451790.0
+              ],
+              [
+                152865.0,
+                451790.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "4e98f13b-7567-5491-9e69-2b0cffae81e1",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-50",
+          "kadastrale_gemeente_code": "D002",
+          "kadastrale_gemeente_waarde": "Demo Polderveen",
+          "sectie": "A",
+          "perceelnummer": 50,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                152940.0,
+                451790.0
+              ],
+              [
+                152940.0,
+                451915.0
+              ],
+              [
+                152865.0,
+                451915.0
+              ],
+              [
+                152865.0,
+                451790.0
+              ],
+              [
+                152940.0,
+                451790.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "045bb297-ef7f-55ad-9408-619000dbed21",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-51",
+          "kadastrale_gemeente_code": "D002",
+          "kadastrale_gemeente_waarde": "Demo Polderveen",
+          "sectie": "A",
+          "perceelnummer": 51,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                153065.0,
+                451790.0
+              ],
+              [
+                153065.0,
+                451915.0
+              ],
+              [
+                152990.0,
+                451915.0
+              ],
+              [
+                152990.0,
+                451790.0
+              ],
+              [
+                153065.0,
+                451790.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "3fe666e4-96de-5269-9ff0-a0c221332851",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-52",
+          "kadastrale_gemeente_code": "D002",
+          "kadastrale_gemeente_waarde": "Demo Polderveen",
+          "sectie": "A",
+          "perceelnummer": 52,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                153140.0,
+                451790.0
+              ],
+              [
+                153140.0,
+                451915.0
+              ],
+              [
+                153065.0,
+                451915.0
+              ],
+              [
+                153065.0,
+                451790.0
+              ],
+              [
+                153140.0,
+                451790.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "f499a60c-b3cf-539f-9d83-2cbd6d284a9f",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-53",
+          "kadastrale_gemeente_code": "D002",
+          "kadastrale_gemeente_waarde": "Demo Polderveen",
+          "sectie": "A",
+          "perceelnummer": 53,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                153265.0,
+                451790.0
+              ],
+              [
+                153265.0,
+                451915.0
+              ],
+              [
+                153190.0,
+                451915.0
+              ],
+              [
+                153190.0,
+                451790.0
+              ],
+              [
+                153265.0,
+                451790.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "a1a85810-f36d-536c-a4e9-8bc578f48dca",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-54",
+          "kadastrale_gemeente_code": "D002",
+          "kadastrale_gemeente_waarde": "Demo Polderveen",
+          "sectie": "A",
+          "perceelnummer": 54,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                153340.0,
+                451790.0
+              ],
+              [
+                153340.0,
+                451915.0
+              ],
+              [
+                153265.0,
+                451915.0
+              ],
+              [
+                153265.0,
+                451790.0
+              ],
+              [
+                153340.0,
+                451790.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "97ed7dff-9477-5f31-a77b-a594041d5a5a",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-55",
+          "kadastrale_gemeente_code": "D002",
+          "kadastrale_gemeente_waarde": "Demo Polderveen",
+          "sectie": "A",
+          "perceelnummer": 55,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                153465.0,
+                451790.0
+              ],
+              [
+                153465.0,
+                451915.0
+              ],
+              [
+                153390.0,
+                451915.0
+              ],
+              [
+                153390.0,
+                451790.0
+              ],
+              [
+                153465.0,
+                451790.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "0fc1f568-875c-50d4-a8c4-137d2af16302",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-56",
+          "kadastrale_gemeente_code": "D002",
+          "kadastrale_gemeente_waarde": "Demo Polderveen",
+          "sectie": "A",
+          "perceelnummer": 56,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                153540.0,
+                451790.0
+              ],
+              [
+                153540.0,
+                451915.0
+              ],
+              [
+                153465.0,
+                451915.0
+              ],
+              [
+                153465.0,
+                451790.0
+              ],
+              [
+                153540.0,
+                451790.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "a55c7e51-6bbf-5011-95e9-d62bbae3a932",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-57",
+          "kadastrale_gemeente_code": "D002",
+          "kadastrale_gemeente_waarde": "Demo Polderveen",
+          "sectie": "A",
+          "perceelnummer": 57,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                152865.0,
+                451970.0
+              ],
+              [
+                152865.0,
+                452095.0
+              ],
+              [
+                152790.0,
+                452095.0
+              ],
+              [
+                152790.0,
+                451970.0
+              ],
+              [
+                152865.0,
+                451970.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "2a55b6fc-707c-5aa6-a320-10b16c863d99",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-58",
+          "kadastrale_gemeente_code": "D002",
+          "kadastrale_gemeente_waarde": "Demo Polderveen",
+          "sectie": "A",
+          "perceelnummer": 58,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                152940.0,
+                451970.0
+              ],
+              [
+                152940.0,
+                452095.0
+              ],
+              [
+                152865.0,
+                452095.0
+              ],
+              [
+                152865.0,
+                451970.0
+              ],
+              [
+                152940.0,
+                451970.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "37bf18d3-b840-5743-8621-a5c3e0ef63e7",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-59",
+          "kadastrale_gemeente_code": "D002",
+          "kadastrale_gemeente_waarde": "Demo Polderveen",
+          "sectie": "A",
+          "perceelnummer": 59,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                153065.0,
+                451970.0
+              ],
+              [
+                153065.0,
+                452095.0
+              ],
+              [
+                152990.0,
+                452095.0
+              ],
+              [
+                152990.0,
+                451970.0
+              ],
+              [
+                153065.0,
+                451970.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "a66c5903-ec20-5d48-a9f0-f552a4d80b83",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-60",
+          "kadastrale_gemeente_code": "D002",
+          "kadastrale_gemeente_waarde": "Demo Polderveen",
+          "sectie": "A",
+          "perceelnummer": 60,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                153140.0,
+                451970.0
+              ],
+              [
+                153140.0,
+                452095.0
+              ],
+              [
+                153065.0,
+                452095.0
+              ],
+              [
+                153065.0,
+                451970.0
+              ],
+              [
+                153140.0,
+                451970.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "1cabea99-4e6f-5fff-84eb-cc73cc7d7bcf",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-61",
+          "kadastrale_gemeente_code": "D002",
+          "kadastrale_gemeente_waarde": "Demo Polderveen",
+          "sectie": "A",
+          "perceelnummer": 61,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                153265.0,
+                451970.0
+              ],
+              [
+                153265.0,
+                452095.0
+              ],
+              [
+                153190.0,
+                452095.0
+              ],
+              [
+                153190.0,
+                451970.0
+              ],
+              [
+                153265.0,
+                451970.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "243d4f08-ad74-527f-b03b-9f2248f0aa64",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-62",
+          "kadastrale_gemeente_code": "D002",
+          "kadastrale_gemeente_waarde": "Demo Polderveen",
+          "sectie": "A",
+          "perceelnummer": 62,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                153340.0,
+                451970.0
+              ],
+              [
+                153340.0,
+                452095.0
+              ],
+              [
+                153265.0,
+                452095.0
+              ],
+              [
+                153265.0,
+                451970.0
+              ],
+              [
+                153340.0,
+                451970.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "2569115a-a8f3-51b5-bb5b-621d5db5f7f3",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-63",
+          "kadastrale_gemeente_code": "D002",
+          "kadastrale_gemeente_waarde": "Demo Polderveen",
+          "sectie": "A",
+          "perceelnummer": 63,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                153465.0,
+                451970.0
+              ],
+              [
+                153465.0,
+                452095.0
+              ],
+              [
+                153390.0,
+                452095.0
+              ],
+              [
+                153390.0,
+                451970.0
+              ],
+              [
+                153465.0,
+                451970.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "9b6e9af8-c3e1-56b1-a3fd-75020f3009e1",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-64",
+          "kadastrale_gemeente_code": "D002",
+          "kadastrale_gemeente_waarde": "Demo Polderveen",
+          "sectie": "A",
+          "perceelnummer": 64,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                153540.0,
+                451970.0
+              ],
+              [
+                153540.0,
+                452095.0
+              ],
+              [
+                153465.0,
+                452095.0
+              ],
+              [
+                153465.0,
+                451970.0
+              ],
+              [
+                153540.0,
+                451970.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "71257701-41f3-580a-b808-a951e21e3dba",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-65",
+          "kadastrale_gemeente_code": "D002",
+          "kadastrale_gemeente_waarde": "Demo Polderveen",
+          "sectie": "A",
+          "perceelnummer": 65,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                152865.0,
+                452150.0
+              ],
+              [
+                152865.0,
+                452275.0
+              ],
+              [
+                152790.0,
+                452275.0
+              ],
+              [
+                152790.0,
+                452150.0
+              ],
+              [
+                152865.0,
+                452150.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "a7ae6766-2742-5a64-89bf-e6141f7558bd",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-66",
+          "kadastrale_gemeente_code": "D002",
+          "kadastrale_gemeente_waarde": "Demo Polderveen",
+          "sectie": "A",
+          "perceelnummer": 66,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                152940.0,
+                452150.0
+              ],
+              [
+                152940.0,
+                452275.0
+              ],
+              [
+                152865.0,
+                452275.0
+              ],
+              [
+                152865.0,
+                452150.0
+              ],
+              [
+                152940.0,
+                452150.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "afb302b6-fa73-5ea4-a6b8-f065440b3283",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-67",
+          "kadastrale_gemeente_code": "D002",
+          "kadastrale_gemeente_waarde": "Demo Polderveen",
+          "sectie": "A",
+          "perceelnummer": 67,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                153065.0,
+                452150.0
+              ],
+              [
+                153065.0,
+                452275.0
+              ],
+              [
+                152990.0,
+                452275.0
+              ],
+              [
+                152990.0,
+                452150.0
+              ],
+              [
+                153065.0,
+                452150.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "5189c2db-18d5-56fc-be41-7779dd10dcb1",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-68",
+          "kadastrale_gemeente_code": "D002",
+          "kadastrale_gemeente_waarde": "Demo Polderveen",
+          "sectie": "A",
+          "perceelnummer": 68,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                153140.0,
+                452150.0
+              ],
+              [
+                153140.0,
+                452275.0
+              ],
+              [
+                153065.0,
+                452275.0
+              ],
+              [
+                153065.0,
+                452150.0
+              ],
+              [
+                153140.0,
+                452150.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "3317beaa-3e9e-5dcc-85f5-3f835cd77697",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-69",
+          "kadastrale_gemeente_code": "D002",
+          "kadastrale_gemeente_waarde": "Demo Polderveen",
+          "sectie": "A",
+          "perceelnummer": 69,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                153265.0,
+                452150.0
+              ],
+              [
+                153265.0,
+                452275.0
+              ],
+              [
+                153190.0,
+                452275.0
+              ],
+              [
+                153190.0,
+                452150.0
+              ],
+              [
+                153265.0,
+                452150.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "cc323031-276c-5742-bbaa-006ca7ebdc49",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-70",
+          "kadastrale_gemeente_code": "D002",
+          "kadastrale_gemeente_waarde": "Demo Polderveen",
+          "sectie": "A",
+          "perceelnummer": 70,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                153340.0,
+                452150.0
+              ],
+              [
+                153340.0,
+                452275.0
+              ],
+              [
+                153265.0,
+                452275.0
+              ],
+              [
+                153265.0,
+                452150.0
+              ],
+              [
+                153340.0,
+                452150.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "fc7bea0c-b1ee-5f96-85a7-ab51a438497b",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-71",
+          "kadastrale_gemeente_code": "D002",
+          "kadastrale_gemeente_waarde": "Demo Polderveen",
+          "sectie": "A",
+          "perceelnummer": 71,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                153465.0,
+                452150.0
+              ],
+              [
+                153465.0,
+                452275.0
+              ],
+              [
+                153390.0,
+                452275.0
+              ],
+              [
+                153390.0,
+                452150.0
+              ],
+              [
+                153465.0,
+                452150.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "dc38a98a-ff04-5846-8403-f4555e4bb30d",
+        "properties": {
+          "identificatie_namespace": "SYNTHETIC.BRK",
+          "identificatie_lokaal_id": "DEMO-PERCEEL-72",
+          "kadastrale_gemeente_code": "D002",
+          "kadastrale_gemeente_waarde": "Demo Polderveen",
+          "sectie": "A",
+          "perceelnummer": 72,
+          "kadastrale_grootte_waarde": 9375.0,
+          "soort_grootte_waarde": "Vastgesteld",
+          "status_historie_waarde": "Actueel"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                153540.0,
+                452150.0
+              ],
+              [
+                153540.0,
+                452275.0
+              ],
+              [
+                153465.0,
+                452275.0
+              ],
+              [
+                153465.0,
+                452150.0
+              ],
+              [
+                153540.0,
+                452150.0
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
+}

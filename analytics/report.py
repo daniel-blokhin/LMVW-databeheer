@@ -1,7 +1,7 @@
 """Generate a self-contained HTML analytics report. No web server required.
 
-python -m analytics.report --output analytics/output/report.html
-python -m analytics.report --bundle data/runs/<run>/database_ready --output analytics/output/private.html
+python -m analytics.report --output data/reports/report.html
+python -m analytics.report --bundle data/runs/<run>/database_ready --output data/reports/private.html
 """
 from __future__ import annotations
 
@@ -128,7 +128,7 @@ Gebouwd met Pandas, Shapely en Plotly. Grafieken en vectorgeometrie zijn in dit 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Create an HTML report from one LMVW database-ready export.")
     parser.add_argument("--bundle", type=Path, default=DEMO)
-    parser.add_argument("--output", type=Path, default=Path("analytics/output/report.html"))
+    parser.add_argument("--output", type=Path, default=Path("data/reports/report.html"))
     parser.add_argument("--municipality", action="append")
     parser.add_argument("--hardness", action="append", choices=["HARD", "SOFT", "UNKNOWN"])
     parser.add_argument("--record-id", help="Optional plan record for the detail map")

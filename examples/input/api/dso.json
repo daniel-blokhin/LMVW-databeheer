@@ -1,0 +1,2044 @@
+{
+  "synthetic": true,
+  "retrieved_at": "2026-10-16T09:00:00Z",
+  "areas": {
+    "2fd52551c32b59ecbf806ea7e4a189238d4d9de058f692729a76e9da246df064": {
+      "regelingen": [
+        {
+          "identificatie": "/akn/nl/act/gm0000/2026/demo-regeling",
+          "officieleTitel": "Demo omgevingsplan Demo Waterdam",
+          "type": {
+            "waarde": "Omgevingsplan"
+          },
+          "aangeleverdDoorEen": {
+            "naam": "Demo Waterdam",
+            "code": "gm0000"
+          },
+          "geregistreerdMet": {
+            "beginGeldigheid": "2026-01-01"
+          },
+          "_embedded": {
+            "regelingsgebied": [
+              {
+                "geometrieIdentificatie": "SYN-REGION-0"
+              }
+            ]
+          }
+        }
+      ],
+      "omgevingsvergunningen": [
+        {
+          "identificatie": "/akn/nl/act/gm0000/2026/demo-permit-0",
+          "opschrift": "Synthetisch document bij demoplan 01",
+          "type": "Omgevingsvergunning"
+        },
+        {
+          "identificatie": "/akn/nl/act/gm0000/2026/demo-permit-1",
+          "opschrift": "Synthetisch document bij demoplan 02",
+          "type": "Omgevingsvergunning",
+          "_embedded": {
+            "vergunningsgebied": [
+              {
+                "geometrieIdentificatie": "SYN-PERMIT-1"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "4a988c1c57f665d35c510bdc39592f66bc8c24b766ac6d99882abec8b8b00ae0": {
+      "regelingen": [
+        {
+          "identificatie": "/akn/nl/act/gm0000/2026/demo-regeling",
+          "officieleTitel": "Demo omgevingsplan Demo Waterdam",
+          "type": {
+            "waarde": "Omgevingsplan"
+          },
+          "aangeleverdDoorEen": {
+            "naam": "Demo Waterdam",
+            "code": "gm0000"
+          },
+          "geregistreerdMet": {
+            "beginGeldigheid": "2026-01-01"
+          },
+          "_embedded": {
+            "regelingsgebied": [
+              {
+                "geometrieIdentificatie": "SYN-REGION-0"
+              }
+            ]
+          }
+        }
+      ],
+      "omgevingsvergunningen": [
+        {
+          "identificatie": "/akn/nl/act/gm0000/2026/demo-permit-2",
+          "opschrift": "Synthetisch document bij demoplan 03",
+          "type": "Omgevingsvergunning",
+          "_embedded": {
+            "vergunningsgebied": [
+              {
+                "geometrieIdentificatie": "SYN-PERMIT-2"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "bcf882c388a9820a251342eae2afc9b1177d8c29403918ca47b992bcc51e6ff3": {
+      "regelingen": [
+        {
+          "identificatie": "/akn/nl/act/gm0000/2026/demo-regeling",
+          "officieleTitel": "Demo omgevingsplan Demo Waterdam",
+          "type": {
+            "waarde": "Omgevingsplan"
+          },
+          "aangeleverdDoorEen": {
+            "naam": "Demo Waterdam",
+            "code": "gm0000"
+          },
+          "geregistreerdMet": {
+            "beginGeldigheid": "2026-01-01"
+          },
+          "_embedded": {
+            "regelingsgebied": [
+              {
+                "geometrieIdentificatie": "SYN-REGION-0"
+              }
+            ]
+          }
+        }
+      ],
+      "omgevingsvergunningen": [
+        {
+          "identificatie": "/akn/nl/act/gm0000/2026/demo-permit-3",
+          "opschrift": "Synthetisch document bij demoplan 04",
+          "type": "Omgevingsvergunning"
+        }
+      ]
+    },
+    "5f50db080cf2d1aa500d3bd759cb014d6f1010a79ee820bdf89f529213fe0a72": {
+      "regelingen": [
+        {
+          "identificatie": "/akn/nl/act/gm0000/2026/demo-regeling",
+          "officieleTitel": "Demo omgevingsplan Demo Waterdam",
+          "type": {
+            "waarde": "Omgevingsplan"
+          },
+          "aangeleverdDoorEen": {
+            "naam": "Demo Waterdam",
+            "code": "gm0000"
+          },
+          "geregistreerdMet": {
+            "beginGeldigheid": "2026-01-01"
+          },
+          "_embedded": {
+            "regelingsgebied": [
+              {
+                "geometrieIdentificatie": "SYN-REGION-0"
+              }
+            ]
+          }
+        }
+      ],
+      "omgevingsvergunningen": [
+        {
+          "identificatie": "/akn/nl/act/gm0000/2026/demo-permit-4",
+          "opschrift": "Synthetisch document bij demoplan 05",
+          "type": "Omgevingsvergunning",
+          "_embedded": {
+            "vergunningsgebied": [
+              {
+                "geometrieIdentificatie": "SYN-PERMIT-4"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "298ebb216c541589bd4bac97a9c5666d56d75e4d5cf57b83c2b1fedba3d64e37": {
+      "regelingen": [
+        {
+          "identificatie": "/akn/nl/act/gm0000/2026/demo-regeling",
+          "officieleTitel": "Demo omgevingsplan Demo Waterdam",
+          "type": {
+            "waarde": "Omgevingsplan"
+          },
+          "aangeleverdDoorEen": {
+            "naam": "Demo Waterdam",
+            "code": "gm0000"
+          },
+          "geregistreerdMet": {
+            "beginGeldigheid": "2026-01-01"
+          },
+          "_embedded": {
+            "regelingsgebied": [
+              {
+                "geometrieIdentificatie": "SYN-REGION-0"
+              }
+            ]
+          }
+        }
+      ],
+      "omgevingsvergunningen": [
+        {
+          "identificatie": "/akn/nl/act/gm0000/2026/demo-permit-5",
+          "opschrift": "Synthetisch document bij demoplan 06",
+          "type": "Omgevingsvergunning",
+          "_embedded": {
+            "vergunningsgebied": [
+              {
+                "geometrieIdentificatie": "SYN-PERMIT-5"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "ad88c6b144510464cbd237f8d30c94152a641237c9b242c17f5424b70219d580": {
+      "regelingen": [
+        {
+          "identificatie": "/akn/nl/act/gm0000/2026/demo-regeling",
+          "officieleTitel": "Demo omgevingsplan Demo Waterdam",
+          "type": {
+            "waarde": "Omgevingsplan"
+          },
+          "aangeleverdDoorEen": {
+            "naam": "Demo Waterdam",
+            "code": "gm0000"
+          },
+          "geregistreerdMet": {
+            "beginGeldigheid": "2026-01-01"
+          },
+          "_embedded": {
+            "regelingsgebied": [
+              {
+                "geometrieIdentificatie": "SYN-REGION-0"
+              }
+            ]
+          }
+        }
+      ],
+      "omgevingsvergunningen": [
+        {
+          "identificatie": "/akn/nl/act/gm0000/2026/demo-permit-6",
+          "opschrift": "Synthetisch document bij demoplan 07",
+          "type": "Omgevingsvergunning"
+        }
+      ]
+    },
+    "26a4c2ddf2eeea2d03fefd6e44a2b566ca528577567f0b05e7429b16487a0d09": {
+      "regelingen": [
+        {
+          "identificatie": "/akn/nl/act/gm0000/2026/demo-regeling",
+          "officieleTitel": "Demo omgevingsplan Demo Waterdam",
+          "type": {
+            "waarde": "Omgevingsplan"
+          },
+          "aangeleverdDoorEen": {
+            "naam": "Demo Waterdam",
+            "code": "gm0000"
+          },
+          "geregistreerdMet": {
+            "beginGeldigheid": "2026-01-01"
+          },
+          "_embedded": {
+            "regelingsgebied": [
+              {
+                "geometrieIdentificatie": "SYN-REGION-0"
+              }
+            ]
+          }
+        }
+      ],
+      "omgevingsvergunningen": [
+        {
+          "identificatie": "/akn/nl/act/gm0000/2026/demo-permit-7",
+          "opschrift": "Synthetisch document bij demoplan 08",
+          "type": "Omgevingsvergunning",
+          "_embedded": {
+            "vergunningsgebied": [
+              {
+                "geometrieIdentificatie": "SYN-PERMIT-7"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "15bed16e27e18bd0ae451092fed2f48670bfd121bd1e9d24401b27582d770fad": {
+      "regelingen": [
+        {
+          "identificatie": "/akn/nl/act/gm0000/2026/demo-regeling",
+          "officieleTitel": "Demo omgevingsplan Demo Waterdam",
+          "type": {
+            "waarde": "Omgevingsplan"
+          },
+          "aangeleverdDoorEen": {
+            "naam": "Demo Waterdam",
+            "code": "gm0000"
+          },
+          "geregistreerdMet": {
+            "beginGeldigheid": "2026-01-01"
+          },
+          "_embedded": {
+            "regelingsgebied": [
+              {
+                "geometrieIdentificatie": "SYN-REGION-0"
+              }
+            ]
+          }
+        }
+      ],
+      "omgevingsvergunningen": [
+        {
+          "identificatie": "/akn/nl/act/gm0000/2026/demo-permit-8",
+          "opschrift": "Synthetisch document bij demoplan 09",
+          "type": "Omgevingsvergunning",
+          "_embedded": {
+            "vergunningsgebied": [
+              {
+                "geometrieIdentificatie": "SYN-PERMIT-8"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "790d563c6852250c907f187c668f09fdcbc8b53bacb997325a9ea91820ed71f2": {
+      "regelingen": [
+        {
+          "identificatie": "/akn/nl/act/gm0000/2026/demo-regeling",
+          "officieleTitel": "Demo omgevingsplan Demo Waterdam",
+          "type": {
+            "waarde": "Omgevingsplan"
+          },
+          "aangeleverdDoorEen": {
+            "naam": "Demo Waterdam",
+            "code": "gm0000"
+          },
+          "geregistreerdMet": {
+            "beginGeldigheid": "2026-01-01"
+          },
+          "_embedded": {
+            "regelingsgebied": [
+              {
+                "geometrieIdentificatie": "SYN-REGION-0"
+              }
+            ]
+          }
+        }
+      ],
+      "omgevingsvergunningen": [
+        {
+          "identificatie": "/akn/nl/act/gm0000/2026/demo-permit-9",
+          "opschrift": "Synthetisch document bij demoplan 10",
+          "type": "Omgevingsvergunning"
+        }
+      ]
+    },
+    "2c52a1866f2a1c745a7c17b77adfc84130439e0bca07e77c12bc8beb39a811bf": {
+      "regelingen": [
+        {
+          "identificatie": "/akn/nl/act/gm0000/2026/demo-regeling",
+          "officieleTitel": "Demo omgevingsplan Demo Waterdam",
+          "type": {
+            "waarde": "Omgevingsplan"
+          },
+          "aangeleverdDoorEen": {
+            "naam": "Demo Waterdam",
+            "code": "gm0000"
+          },
+          "geregistreerdMet": {
+            "beginGeldigheid": "2026-01-01"
+          },
+          "_embedded": {
+            "regelingsgebied": [
+              {
+                "geometrieIdentificatie": "SYN-REGION-0"
+              }
+            ]
+          }
+        }
+      ],
+      "omgevingsvergunningen": [
+        {
+          "identificatie": "/akn/nl/act/gm0000/2026/demo-permit-10",
+          "opschrift": "Synthetisch document bij demoplan 11",
+          "type": "Omgevingsvergunning",
+          "_embedded": {
+            "vergunningsgebied": [
+              {
+                "geometrieIdentificatie": "SYN-PERMIT-10"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "e2da8eb90a32b698eef6a3c76561ddb2182c15e922900fc18453b46b195dcee9": {
+      "regelingen": [
+        {
+          "identificatie": "/akn/nl/act/gm0000/2026/demo-regeling",
+          "officieleTitel": "Demo omgevingsplan Demo Waterdam",
+          "type": {
+            "waarde": "Omgevingsplan"
+          },
+          "aangeleverdDoorEen": {
+            "naam": "Demo Waterdam",
+            "code": "gm0000"
+          },
+          "geregistreerdMet": {
+            "beginGeldigheid": "2026-01-01"
+          },
+          "_embedded": {
+            "regelingsgebied": [
+              {
+                "geometrieIdentificatie": "SYN-REGION-0"
+              }
+            ]
+          }
+        }
+      ],
+      "omgevingsvergunningen": [
+        {
+          "identificatie": "/akn/nl/act/gm0000/2026/demo-permit-11",
+          "opschrift": "Synthetisch document bij demoplan 12",
+          "type": "Omgevingsvergunning",
+          "_embedded": {
+            "vergunningsgebied": [
+              {
+                "geometrieIdentificatie": "SYN-PERMIT-11"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "0b3c3260c233d45072e53a653b05bf56cb9b58d2ab183d6053d34b2ebef34e21": {
+      "regelingen": [
+        {
+          "identificatie": "/akn/nl/act/gm0001/2026/demo-regeling",
+          "officieleTitel": "Demo omgevingsplan Demo Heuvelstad",
+          "type": {
+            "waarde": "Omgevingsplan"
+          },
+          "aangeleverdDoorEen": {
+            "naam": "Demo Heuvelstad",
+            "code": "gm0001"
+          },
+          "geregistreerdMet": {
+            "beginGeldigheid": "2026-01-01"
+          },
+          "_embedded": {
+            "regelingsgebied": [
+              {
+                "geometrieIdentificatie": "SYN-REGION-1"
+              }
+            ]
+          }
+        }
+      ],
+      "omgevingsvergunningen": [
+        {
+          "identificatie": "/akn/nl/act/gm0001/2026/demo-permit-12",
+          "opschrift": "Synthetisch document bij demoplan 13",
+          "type": "Omgevingsvergunning"
+        }
+      ]
+    },
+    "add549b12c6f041a8bfd1c8f6c6d434a1aa0debe869f105702402d5dd78c706a": {
+      "regelingen": [
+        {
+          "identificatie": "/akn/nl/act/gm0001/2026/demo-regeling",
+          "officieleTitel": "Demo omgevingsplan Demo Heuvelstad",
+          "type": {
+            "waarde": "Omgevingsplan"
+          },
+          "aangeleverdDoorEen": {
+            "naam": "Demo Heuvelstad",
+            "code": "gm0001"
+          },
+          "geregistreerdMet": {
+            "beginGeldigheid": "2026-01-01"
+          },
+          "_embedded": {
+            "regelingsgebied": [
+              {
+                "geometrieIdentificatie": "SYN-REGION-1"
+              }
+            ]
+          }
+        }
+      ],
+      "omgevingsvergunningen": [
+        {
+          "identificatie": "/akn/nl/act/gm0001/2026/demo-permit-13",
+          "opschrift": "Synthetisch document bij demoplan 14",
+          "type": "Omgevingsvergunning",
+          "_embedded": {
+            "vergunningsgebied": [
+              {
+                "geometrieIdentificatie": "SYN-PERMIT-13"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "e245f904054e5b23e3ed58a1b67662d9029fc6b1d9859bb334d73590a582da31": {
+      "regelingen": [
+        {
+          "identificatie": "/akn/nl/act/gm0001/2026/demo-regeling",
+          "officieleTitel": "Demo omgevingsplan Demo Heuvelstad",
+          "type": {
+            "waarde": "Omgevingsplan"
+          },
+          "aangeleverdDoorEen": {
+            "naam": "Demo Heuvelstad",
+            "code": "gm0001"
+          },
+          "geregistreerdMet": {
+            "beginGeldigheid": "2026-01-01"
+          },
+          "_embedded": {
+            "regelingsgebied": [
+              {
+                "geometrieIdentificatie": "SYN-REGION-1"
+              }
+            ]
+          }
+        }
+      ],
+      "omgevingsvergunningen": [
+        {
+          "identificatie": "/akn/nl/act/gm0001/2026/demo-permit-14",
+          "opschrift": "Synthetisch document bij demoplan 15",
+          "type": "Omgevingsvergunning",
+          "_embedded": {
+            "vergunningsgebied": [
+              {
+                "geometrieIdentificatie": "SYN-PERMIT-14"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "e09bce6a0d88dd870435933c7be14f5b744b47fc5bafe4924abf3e8ecf757f10": {
+      "regelingen": [
+        {
+          "identificatie": "/akn/nl/act/gm0001/2026/demo-regeling",
+          "officieleTitel": "Demo omgevingsplan Demo Heuvelstad",
+          "type": {
+            "waarde": "Omgevingsplan"
+          },
+          "aangeleverdDoorEen": {
+            "naam": "Demo Heuvelstad",
+            "code": "gm0001"
+          },
+          "geregistreerdMet": {
+            "beginGeldigheid": "2026-01-01"
+          },
+          "_embedded": {
+            "regelingsgebied": [
+              {
+                "geometrieIdentificatie": "SYN-REGION-1"
+              }
+            ]
+          }
+        }
+      ],
+      "omgevingsvergunningen": [
+        {
+          "identificatie": "/akn/nl/act/gm0001/2026/demo-permit-15",
+          "opschrift": "Synthetisch document bij demoplan 16",
+          "type": "Omgevingsvergunning"
+        }
+      ]
+    },
+    "10cf8fbcaaed5820c889d47a56ff2a7d1c8ac308690ce9bc20c151c517050d63": {
+      "regelingen": [
+        {
+          "identificatie": "/akn/nl/act/gm0001/2026/demo-regeling",
+          "officieleTitel": "Demo omgevingsplan Demo Heuvelstad",
+          "type": {
+            "waarde": "Omgevingsplan"
+          },
+          "aangeleverdDoorEen": {
+            "naam": "Demo Heuvelstad",
+            "code": "gm0001"
+          },
+          "geregistreerdMet": {
+            "beginGeldigheid": "2026-01-01"
+          },
+          "_embedded": {
+            "regelingsgebied": [
+              {
+                "geometrieIdentificatie": "SYN-REGION-1"
+              }
+            ]
+          }
+        }
+      ],
+      "omgevingsvergunningen": [
+        {
+          "identificatie": "/akn/nl/act/gm0001/2026/demo-permit-16",
+          "opschrift": "Synthetisch document bij demoplan 17",
+          "type": "Omgevingsvergunning",
+          "_embedded": {
+            "vergunningsgebied": [
+              {
+                "geometrieIdentificatie": "SYN-PERMIT-16"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "afd4c2a1cb65e2c367c45ab43faf36ae55d2beb1173c4ca1243c7cdf2cbf4e66": {
+      "regelingen": [
+        {
+          "identificatie": "/akn/nl/act/gm0001/2026/demo-regeling",
+          "officieleTitel": "Demo omgevingsplan Demo Heuvelstad",
+          "type": {
+            "waarde": "Omgevingsplan"
+          },
+          "aangeleverdDoorEen": {
+            "naam": "Demo Heuvelstad",
+            "code": "gm0001"
+          },
+          "geregistreerdMet": {
+            "beginGeldigheid": "2026-01-01"
+          },
+          "_embedded": {
+            "regelingsgebied": [
+              {
+                "geometrieIdentificatie": "SYN-REGION-1"
+              }
+            ]
+          }
+        }
+      ],
+      "omgevingsvergunningen": [
+        {
+          "identificatie": "/akn/nl/act/gm0001/2026/demo-permit-17",
+          "opschrift": "Synthetisch document bij demoplan 18",
+          "type": "Omgevingsvergunning",
+          "_embedded": {
+            "vergunningsgebied": [
+              {
+                "geometrieIdentificatie": "SYN-PERMIT-17"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "d63a66543e51bdc82cb98153f76b81de279c34a7df6b415b44f2ead2ab84fedc": {
+      "regelingen": [
+        {
+          "identificatie": "/akn/nl/act/gm0001/2026/demo-regeling",
+          "officieleTitel": "Demo omgevingsplan Demo Heuvelstad",
+          "type": {
+            "waarde": "Omgevingsplan"
+          },
+          "aangeleverdDoorEen": {
+            "naam": "Demo Heuvelstad",
+            "code": "gm0001"
+          },
+          "geregistreerdMet": {
+            "beginGeldigheid": "2026-01-01"
+          },
+          "_embedded": {
+            "regelingsgebied": [
+              {
+                "geometrieIdentificatie": "SYN-REGION-1"
+              }
+            ]
+          }
+        }
+      ],
+      "omgevingsvergunningen": [
+        {
+          "identificatie": "/akn/nl/act/gm0001/2026/demo-permit-18",
+          "opschrift": "Synthetisch document bij demoplan 19",
+          "type": "Omgevingsvergunning"
+        }
+      ]
+    },
+    "17e54ab5315115dc4b328d49b6d7ae3de039a34825d041a9c5c8f7d46a0eb93b": {
+      "regelingen": [
+        {
+          "identificatie": "/akn/nl/act/gm0001/2026/demo-regeling",
+          "officieleTitel": "Demo omgevingsplan Demo Heuvelstad",
+          "type": {
+            "waarde": "Omgevingsplan"
+          },
+          "aangeleverdDoorEen": {
+            "naam": "Demo Heuvelstad",
+            "code": "gm0001"
+          },
+          "geregistreerdMet": {
+            "beginGeldigheid": "2026-01-01"
+          },
+          "_embedded": {
+            "regelingsgebied": [
+              {
+                "geometrieIdentificatie": "SYN-REGION-1"
+              }
+            ]
+          }
+        }
+      ],
+      "omgevingsvergunningen": [
+        {
+          "identificatie": "/akn/nl/act/gm0001/2026/demo-permit-19",
+          "opschrift": "Synthetisch document bij demoplan 20",
+          "type": "Omgevingsvergunning",
+          "_embedded": {
+            "vergunningsgebied": [
+              {
+                "geometrieIdentificatie": "SYN-PERMIT-19"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "fb7165aefa75d7d97038ac272077e2e9cb32bf7e02e13b3fa13fc0613e2424cd": {
+      "regelingen": [
+        {
+          "identificatie": "/akn/nl/act/gm0001/2026/demo-regeling",
+          "officieleTitel": "Demo omgevingsplan Demo Heuvelstad",
+          "type": {
+            "waarde": "Omgevingsplan"
+          },
+          "aangeleverdDoorEen": {
+            "naam": "Demo Heuvelstad",
+            "code": "gm0001"
+          },
+          "geregistreerdMet": {
+            "beginGeldigheid": "2026-01-01"
+          },
+          "_embedded": {
+            "regelingsgebied": [
+              {
+                "geometrieIdentificatie": "SYN-REGION-1"
+              }
+            ]
+          }
+        }
+      ],
+      "omgevingsvergunningen": [
+        {
+          "identificatie": "/akn/nl/act/gm0001/2026/demo-permit-20",
+          "opschrift": "Synthetisch document bij demoplan 21",
+          "type": "Omgevingsvergunning",
+          "_embedded": {
+            "vergunningsgebied": [
+              {
+                "geometrieIdentificatie": "SYN-PERMIT-20"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "5782afd6d6e2a45c6b395bf954e18edb3a2f18f9ad0bbf05e46463ff328abe9d": {
+      "regelingen": [
+        {
+          "identificatie": "/akn/nl/act/gm0001/2026/demo-regeling",
+          "officieleTitel": "Demo omgevingsplan Demo Heuvelstad",
+          "type": {
+            "waarde": "Omgevingsplan"
+          },
+          "aangeleverdDoorEen": {
+            "naam": "Demo Heuvelstad",
+            "code": "gm0001"
+          },
+          "geregistreerdMet": {
+            "beginGeldigheid": "2026-01-01"
+          },
+          "_embedded": {
+            "regelingsgebied": [
+              {
+                "geometrieIdentificatie": "SYN-REGION-1"
+              }
+            ]
+          }
+        }
+      ],
+      "omgevingsvergunningen": [
+        {
+          "identificatie": "/akn/nl/act/gm0001/2026/demo-permit-21",
+          "opschrift": "Synthetisch document bij demoplan 22",
+          "type": "Omgevingsvergunning"
+        }
+      ]
+    },
+    "026a2df7ca26366ceac719f89c8e9d5182673b9a47a8a5c813e88d09f5df36ee": {
+      "regelingen": [
+        {
+          "identificatie": "/akn/nl/act/gm0001/2026/demo-regeling",
+          "officieleTitel": "Demo omgevingsplan Demo Heuvelstad",
+          "type": {
+            "waarde": "Omgevingsplan"
+          },
+          "aangeleverdDoorEen": {
+            "naam": "Demo Heuvelstad",
+            "code": "gm0001"
+          },
+          "geregistreerdMet": {
+            "beginGeldigheid": "2026-01-01"
+          },
+          "_embedded": {
+            "regelingsgebied": [
+              {
+                "geometrieIdentificatie": "SYN-REGION-1"
+              }
+            ]
+          }
+        }
+      ],
+      "omgevingsvergunningen": [
+        {
+          "identificatie": "/akn/nl/act/gm0001/2026/demo-permit-22",
+          "opschrift": "Synthetisch document bij demoplan 23",
+          "type": "Omgevingsvergunning",
+          "_embedded": {
+            "vergunningsgebied": [
+              {
+                "geometrieIdentificatie": "SYN-PERMIT-22"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "f5aec67cea5bcf7d5a0e009b6ecb92db3f1a7ce7f8e49f82415de3873cfdf6c4": {
+      "regelingen": [
+        {
+          "identificatie": "/akn/nl/act/gm0001/2026/demo-regeling",
+          "officieleTitel": "Demo omgevingsplan Demo Heuvelstad",
+          "type": {
+            "waarde": "Omgevingsplan"
+          },
+          "aangeleverdDoorEen": {
+            "naam": "Demo Heuvelstad",
+            "code": "gm0001"
+          },
+          "geregistreerdMet": {
+            "beginGeldigheid": "2026-01-01"
+          },
+          "_embedded": {
+            "regelingsgebied": [
+              {
+                "geometrieIdentificatie": "SYN-REGION-1"
+              }
+            ]
+          }
+        }
+      ],
+      "omgevingsvergunningen": [
+        {
+          "identificatie": "/akn/nl/act/gm0001/2026/demo-permit-23",
+          "opschrift": "Synthetisch document bij demoplan 24",
+          "type": "Omgevingsvergunning",
+          "_embedded": {
+            "vergunningsgebied": [
+              {
+                "geometrieIdentificatie": "SYN-PERMIT-23"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "d1810f41140f2dad95ca01e7728cb953c5709de50391925702d8ac720787265c": {
+      "regelingen": [
+        {
+          "identificatie": "/akn/nl/act/gm0002/2026/demo-regeling",
+          "officieleTitel": "Demo omgevingsplan Demo Polderveen",
+          "type": {
+            "waarde": "Omgevingsplan"
+          },
+          "aangeleverdDoorEen": {
+            "naam": "Demo Polderveen",
+            "code": "gm0002"
+          },
+          "geregistreerdMet": {
+            "beginGeldigheid": "2026-01-01"
+          },
+          "_embedded": {
+            "regelingsgebied": [
+              {
+                "geometrieIdentificatie": "SYN-REGION-2"
+              }
+            ]
+          }
+        }
+      ],
+      "omgevingsvergunningen": [
+        {
+          "identificatie": "/akn/nl/act/gm0002/2026/demo-permit-24",
+          "opschrift": "Synthetisch document bij demoplan 25",
+          "type": "Omgevingsvergunning"
+        }
+      ]
+    },
+    "caf6a6ab2375c70fdb1c4bef240ad9af4a6630ebdfd5fa4ecc0844c1523223bb": {
+      "regelingen": [
+        {
+          "identificatie": "/akn/nl/act/gm0002/2026/demo-regeling",
+          "officieleTitel": "Demo omgevingsplan Demo Polderveen",
+          "type": {
+            "waarde": "Omgevingsplan"
+          },
+          "aangeleverdDoorEen": {
+            "naam": "Demo Polderveen",
+            "code": "gm0002"
+          },
+          "geregistreerdMet": {
+            "beginGeldigheid": "2026-01-01"
+          },
+          "_embedded": {
+            "regelingsgebied": [
+              {
+                "geometrieIdentificatie": "SYN-REGION-2"
+              }
+            ]
+          }
+        }
+      ],
+      "omgevingsvergunningen": [
+        {
+          "identificatie": "/akn/nl/act/gm0002/2026/demo-permit-25",
+          "opschrift": "Synthetisch document bij demoplan 26",
+          "type": "Omgevingsvergunning",
+          "_embedded": {
+            "vergunningsgebied": [
+              {
+                "geometrieIdentificatie": "SYN-PERMIT-25"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "340b80b775a8acc677f7d2bb8bffcb9ff889279979ccd3c334f031faf52759bb": {
+      "regelingen": [
+        {
+          "identificatie": "/akn/nl/act/gm0002/2026/demo-regeling",
+          "officieleTitel": "Demo omgevingsplan Demo Polderveen",
+          "type": {
+            "waarde": "Omgevingsplan"
+          },
+          "aangeleverdDoorEen": {
+            "naam": "Demo Polderveen",
+            "code": "gm0002"
+          },
+          "geregistreerdMet": {
+            "beginGeldigheid": "2026-01-01"
+          },
+          "_embedded": {
+            "regelingsgebied": [
+              {
+                "geometrieIdentificatie": "SYN-REGION-2"
+              }
+            ]
+          }
+        }
+      ],
+      "omgevingsvergunningen": [
+        {
+          "identificatie": "/akn/nl/act/gm0002/2026/demo-permit-26",
+          "opschrift": "Synthetisch document bij demoplan 27",
+          "type": "Omgevingsvergunning",
+          "_embedded": {
+            "vergunningsgebied": [
+              {
+                "geometrieIdentificatie": "SYN-PERMIT-26"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "41edb35381e26b64f80621f6546a3146f4895c92f2a8845bb610c2451539c092": {
+      "regelingen": [
+        {
+          "identificatie": "/akn/nl/act/gm0002/2026/demo-regeling",
+          "officieleTitel": "Demo omgevingsplan Demo Polderveen",
+          "type": {
+            "waarde": "Omgevingsplan"
+          },
+          "aangeleverdDoorEen": {
+            "naam": "Demo Polderveen",
+            "code": "gm0002"
+          },
+          "geregistreerdMet": {
+            "beginGeldigheid": "2026-01-01"
+          },
+          "_embedded": {
+            "regelingsgebied": [
+              {
+                "geometrieIdentificatie": "SYN-REGION-2"
+              }
+            ]
+          }
+        }
+      ],
+      "omgevingsvergunningen": [
+        {
+          "identificatie": "/akn/nl/act/gm0002/2026/demo-permit-27",
+          "opschrift": "Synthetisch document bij demoplan 28",
+          "type": "Omgevingsvergunning"
+        }
+      ]
+    },
+    "ed354d1a9327844f24ef406b00f4a4d3c27d3b4a68055f59297eb96ed5551508": {
+      "regelingen": [
+        {
+          "identificatie": "/akn/nl/act/gm0002/2026/demo-regeling",
+          "officieleTitel": "Demo omgevingsplan Demo Polderveen",
+          "type": {
+            "waarde": "Omgevingsplan"
+          },
+          "aangeleverdDoorEen": {
+            "naam": "Demo Polderveen",
+            "code": "gm0002"
+          },
+          "geregistreerdMet": {
+            "beginGeldigheid": "2026-01-01"
+          },
+          "_embedded": {
+            "regelingsgebied": [
+              {
+                "geometrieIdentificatie": "SYN-REGION-2"
+              }
+            ]
+          }
+        }
+      ],
+      "omgevingsvergunningen": [
+        {
+          "identificatie": "/akn/nl/act/gm0002/2026/demo-permit-28",
+          "opschrift": "Synthetisch document bij demoplan 29",
+          "type": "Omgevingsvergunning",
+          "_embedded": {
+            "vergunningsgebied": [
+              {
+                "geometrieIdentificatie": "SYN-PERMIT-28"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "1840e3ee54006cc2b29c1a3dfeb54a1c924d65ac2ec44bd42043e99576018a3c": {
+      "regelingen": [
+        {
+          "identificatie": "/akn/nl/act/gm0002/2026/demo-regeling",
+          "officieleTitel": "Demo omgevingsplan Demo Polderveen",
+          "type": {
+            "waarde": "Omgevingsplan"
+          },
+          "aangeleverdDoorEen": {
+            "naam": "Demo Polderveen",
+            "code": "gm0002"
+          },
+          "geregistreerdMet": {
+            "beginGeldigheid": "2026-01-01"
+          },
+          "_embedded": {
+            "regelingsgebied": [
+              {
+                "geometrieIdentificatie": "SYN-REGION-2"
+              }
+            ]
+          }
+        }
+      ],
+      "omgevingsvergunningen": [
+        {
+          "identificatie": "/akn/nl/act/gm0002/2026/demo-permit-29",
+          "opschrift": "Synthetisch document bij demoplan 30",
+          "type": "Omgevingsvergunning",
+          "_embedded": {
+            "vergunningsgebied": [
+              {
+                "geometrieIdentificatie": "SYN-PERMIT-29"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "46c403d60e1b838d1e4c44257b92f4e186b459d462ab29fdae5023122f110bd3": {
+      "regelingen": [
+        {
+          "identificatie": "/akn/nl/act/gm0002/2026/demo-regeling",
+          "officieleTitel": "Demo omgevingsplan Demo Polderveen",
+          "type": {
+            "waarde": "Omgevingsplan"
+          },
+          "aangeleverdDoorEen": {
+            "naam": "Demo Polderveen",
+            "code": "gm0002"
+          },
+          "geregistreerdMet": {
+            "beginGeldigheid": "2026-01-01"
+          },
+          "_embedded": {
+            "regelingsgebied": [
+              {
+                "geometrieIdentificatie": "SYN-REGION-2"
+              }
+            ]
+          }
+        }
+      ],
+      "omgevingsvergunningen": [
+        {
+          "identificatie": "/akn/nl/act/gm0002/2026/demo-permit-30",
+          "opschrift": "Synthetisch document bij demoplan 31",
+          "type": "Omgevingsvergunning"
+        }
+      ]
+    },
+    "e47a18d8793063d851847f947dab2d0b0db78511b3828da9775d1d9ed827a9f9": {
+      "regelingen": [
+        {
+          "identificatie": "/akn/nl/act/gm0002/2026/demo-regeling",
+          "officieleTitel": "Demo omgevingsplan Demo Polderveen",
+          "type": {
+            "waarde": "Omgevingsplan"
+          },
+          "aangeleverdDoorEen": {
+            "naam": "Demo Polderveen",
+            "code": "gm0002"
+          },
+          "geregistreerdMet": {
+            "beginGeldigheid": "2026-01-01"
+          },
+          "_embedded": {
+            "regelingsgebied": [
+              {
+                "geometrieIdentificatie": "SYN-REGION-2"
+              }
+            ]
+          }
+        }
+      ],
+      "omgevingsvergunningen": [
+        {
+          "identificatie": "/akn/nl/act/gm0002/2026/demo-permit-31",
+          "opschrift": "Synthetisch document bij demoplan 32",
+          "type": "Omgevingsvergunning",
+          "_embedded": {
+            "vergunningsgebied": [
+              {
+                "geometrieIdentificatie": "SYN-PERMIT-31"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "c080cf95511500e7806a59db514b2200d96c9f52fb969bc880966e45b6159116": {
+      "regelingen": [
+        {
+          "identificatie": "/akn/nl/act/gm0002/2026/demo-regeling",
+          "officieleTitel": "Demo omgevingsplan Demo Polderveen",
+          "type": {
+            "waarde": "Omgevingsplan"
+          },
+          "aangeleverdDoorEen": {
+            "naam": "Demo Polderveen",
+            "code": "gm0002"
+          },
+          "geregistreerdMet": {
+            "beginGeldigheid": "2026-01-01"
+          },
+          "_embedded": {
+            "regelingsgebied": [
+              {
+                "geometrieIdentificatie": "SYN-REGION-2"
+              }
+            ]
+          }
+        }
+      ],
+      "omgevingsvergunningen": [
+        {
+          "identificatie": "/akn/nl/act/gm0002/2026/demo-permit-32",
+          "opschrift": "Synthetisch document bij demoplan 33",
+          "type": "Omgevingsvergunning",
+          "_embedded": {
+            "vergunningsgebied": [
+              {
+                "geometrieIdentificatie": "SYN-PERMIT-32"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "5ee5f4d21f5d2936d2875407b46bc2c42b48c6ae1afa4e82a51a38e88426249e": {
+      "regelingen": [
+        {
+          "identificatie": "/akn/nl/act/gm0002/2026/demo-regeling",
+          "officieleTitel": "Demo omgevingsplan Demo Polderveen",
+          "type": {
+            "waarde": "Omgevingsplan"
+          },
+          "aangeleverdDoorEen": {
+            "naam": "Demo Polderveen",
+            "code": "gm0002"
+          },
+          "geregistreerdMet": {
+            "beginGeldigheid": "2026-01-01"
+          },
+          "_embedded": {
+            "regelingsgebied": [
+              {
+                "geometrieIdentificatie": "SYN-REGION-2"
+              }
+            ]
+          }
+        }
+      ],
+      "omgevingsvergunningen": [
+        {
+          "identificatie": "/akn/nl/act/gm0002/2026/demo-permit-33",
+          "opschrift": "Synthetisch document bij demoplan 34",
+          "type": "Omgevingsvergunning"
+        }
+      ]
+    },
+    "9884559cbfaaea988be9a66c7609ff5472ecd26b377bb45869c498a5bed7d39d": {
+      "regelingen": [
+        {
+          "identificatie": "/akn/nl/act/gm0002/2026/demo-regeling",
+          "officieleTitel": "Demo omgevingsplan Demo Polderveen",
+          "type": {
+            "waarde": "Omgevingsplan"
+          },
+          "aangeleverdDoorEen": {
+            "naam": "Demo Polderveen",
+            "code": "gm0002"
+          },
+          "geregistreerdMet": {
+            "beginGeldigheid": "2026-01-01"
+          },
+          "_embedded": {
+            "regelingsgebied": [
+              {
+                "geometrieIdentificatie": "SYN-REGION-2"
+              }
+            ]
+          }
+        }
+      ],
+      "omgevingsvergunningen": [
+        {
+          "identificatie": "/akn/nl/act/gm0002/2026/demo-permit-34",
+          "opschrift": "Synthetisch document bij demoplan 35",
+          "type": "Omgevingsvergunning",
+          "_embedded": {
+            "vergunningsgebied": [
+              {
+                "geometrieIdentificatie": "SYN-PERMIT-34"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "edf72dd734e3507ea3660a6c1407bf070d7a85baf598e42a09e5f4d7fbe92114": {
+      "regelingen": [
+        {
+          "identificatie": "/akn/nl/act/gm0002/2026/demo-regeling",
+          "officieleTitel": "Demo omgevingsplan Demo Polderveen",
+          "type": {
+            "waarde": "Omgevingsplan"
+          },
+          "aangeleverdDoorEen": {
+            "naam": "Demo Polderveen",
+            "code": "gm0002"
+          },
+          "geregistreerdMet": {
+            "beginGeldigheid": "2026-01-01"
+          },
+          "_embedded": {
+            "regelingsgebied": [
+              {
+                "geometrieIdentificatie": "SYN-REGION-2"
+              }
+            ]
+          }
+        }
+      ],
+      "omgevingsvergunningen": [
+        {
+          "identificatie": "/akn/nl/act/gm0002/2026/demo-permit-35",
+          "opschrift": "Synthetisch document bij demoplan 36",
+          "type": "Omgevingsvergunning",
+          "_embedded": {
+            "vergunningsgebied": [
+              {
+                "geometrieIdentificatie": "SYN-PERMIT-35"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "geometries": {
+    "SYN-REGION-0": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            150780.0,
+            449970.0
+          ],
+          [
+            150780.0,
+            450550.0
+          ],
+          [
+            149970.0,
+            450550.0
+          ],
+          [
+            149970.0,
+            449970.0
+          ],
+          [
+            150780.0,
+            449970.0
+          ]
+        ]
+      ]
+    },
+    "SYN-PERMIT-1": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            150090.0,
+            450010.0
+          ],
+          [
+            150090.0,
+            450080.0
+          ],
+          [
+            150010.0,
+            450080.0
+          ],
+          [
+            150010.0,
+            450010.0
+          ],
+          [
+            150090.0,
+            450010.0
+          ]
+        ]
+      ]
+    },
+    "SYN-PERMIT-2": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            150490.0,
+            450010.0
+          ],
+          [
+            150490.0,
+            450080.0
+          ],
+          [
+            150410.0,
+            450080.0
+          ],
+          [
+            150410.0,
+            450010.0
+          ],
+          [
+            150490.0,
+            450010.0
+          ]
+        ]
+      ]
+    },
+    "SYN-PERMIT-4": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            150090.0,
+            450190.0
+          ],
+          [
+            150090.0,
+            450260.0
+          ],
+          [
+            150010.0,
+            450260.0
+          ],
+          [
+            150010.0,
+            450190.0
+          ],
+          [
+            150090.0,
+            450190.0
+          ]
+        ]
+      ]
+    },
+    "SYN-PERMIT-5": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            150290.0,
+            450190.0
+          ],
+          [
+            150290.0,
+            450260.0
+          ],
+          [
+            150210.0,
+            450260.0
+          ],
+          [
+            150210.0,
+            450190.0
+          ],
+          [
+            150290.0,
+            450190.0
+          ]
+        ]
+      ]
+    },
+    "SYN-PERMIT-7": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            150820.0,
+            450380.0
+          ],
+          [
+            150820.0,
+            450400.0
+          ],
+          [
+            150800.0,
+            450400.0
+          ],
+          [
+            150800.0,
+            450380.0
+          ],
+          [
+            150820.0,
+            450380.0
+          ]
+        ]
+      ]
+    },
+    "SYN-PERMIT-8": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            150090.0,
+            450370.0
+          ],
+          [
+            150090.0,
+            450440.0
+          ],
+          [
+            150010.0,
+            450440.0
+          ],
+          [
+            150010.0,
+            450370.0
+          ],
+          [
+            150090.0,
+            450370.0
+          ]
+        ]
+      ]
+    },
+    "SYN-PERMIT-10": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            150490.0,
+            450370.0
+          ],
+          [
+            150490.0,
+            450440.0
+          ],
+          [
+            150410.0,
+            450440.0
+          ],
+          [
+            150410.0,
+            450370.0
+          ],
+          [
+            150490.0,
+            450370.0
+          ]
+        ]
+      ]
+    },
+    "SYN-PERMIT-11": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            150690.0,
+            450370.0
+          ],
+          [
+            150690.0,
+            450440.0
+          ],
+          [
+            150610.0,
+            450440.0
+          ],
+          [
+            150610.0,
+            450370.0
+          ],
+          [
+            150690.0,
+            450370.0
+          ]
+        ]
+      ]
+    },
+    "SYN-REGION-1": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            152180.0,
+            450870.0
+          ],
+          [
+            152180.0,
+            451450.0
+          ],
+          [
+            151370.0,
+            451450.0
+          ],
+          [
+            151370.0,
+            450870.0
+          ],
+          [
+            152180.0,
+            450870.0
+          ]
+        ]
+      ]
+    },
+    "SYN-PERMIT-13": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            151690.0,
+            450910.0
+          ],
+          [
+            151690.0,
+            450980.0
+          ],
+          [
+            151610.0,
+            450980.0
+          ],
+          [
+            151610.0,
+            450910.0
+          ],
+          [
+            151690.0,
+            450910.0
+          ]
+        ]
+      ]
+    },
+    "SYN-PERMIT-14": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            152020.0,
+            451100.0
+          ],
+          [
+            152020.0,
+            451120.0
+          ],
+          [
+            152000.0,
+            451120.0
+          ],
+          [
+            152000.0,
+            451100.0
+          ],
+          [
+            152020.0,
+            451100.0
+          ]
+        ]
+      ]
+    },
+    "SYN-PERMIT-16": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            151490.0,
+            451090.0
+          ],
+          [
+            151490.0,
+            451160.0
+          ],
+          [
+            151410.0,
+            451160.0
+          ],
+          [
+            151410.0,
+            451090.0
+          ],
+          [
+            151490.0,
+            451090.0
+          ]
+        ]
+      ]
+    },
+    "SYN-PERMIT-17": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            151690.0,
+            451090.0
+          ],
+          [
+            151690.0,
+            451160.0
+          ],
+          [
+            151610.0,
+            451160.0
+          ],
+          [
+            151610.0,
+            451090.0
+          ],
+          [
+            151690.0,
+            451090.0
+          ]
+        ]
+      ]
+    },
+    "SYN-PERMIT-19": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            152090.0,
+            451090.0
+          ],
+          [
+            152090.0,
+            451160.0
+          ],
+          [
+            152010.0,
+            451160.0
+          ],
+          [
+            152010.0,
+            451090.0
+          ],
+          [
+            152090.0,
+            451090.0
+          ]
+        ]
+      ]
+    },
+    "SYN-PERMIT-20": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            151490.0,
+            451270.0
+          ],
+          [
+            151490.0,
+            451340.0
+          ],
+          [
+            151410.0,
+            451340.0
+          ],
+          [
+            151410.0,
+            451270.0
+          ],
+          [
+            151490.0,
+            451270.0
+          ]
+        ]
+      ]
+    },
+    "SYN-PERMIT-22": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            151890.0,
+            451270.0
+          ],
+          [
+            151890.0,
+            451340.0
+          ],
+          [
+            151810.0,
+            451340.0
+          ],
+          [
+            151810.0,
+            451270.0
+          ],
+          [
+            151890.0,
+            451270.0
+          ]
+        ]
+      ]
+    },
+    "SYN-PERMIT-23": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            152090.0,
+            451270.0
+          ],
+          [
+            152090.0,
+            451340.0
+          ],
+          [
+            152010.0,
+            451340.0
+          ],
+          [
+            152010.0,
+            451270.0
+          ],
+          [
+            152090.0,
+            451270.0
+          ]
+        ]
+      ]
+    },
+    "SYN-REGION-2": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            153580.0,
+            451770.0
+          ],
+          [
+            153580.0,
+            452350.0
+          ],
+          [
+            152770.0,
+            452350.0
+          ],
+          [
+            152770.0,
+            451770.0
+          ],
+          [
+            153580.0,
+            451770.0
+          ]
+        ]
+      ]
+    },
+    "SYN-PERMIT-25": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            153090.0,
+            451810.0
+          ],
+          [
+            153090.0,
+            451880.0
+          ],
+          [
+            153010.0,
+            451880.0
+          ],
+          [
+            153010.0,
+            451810.0
+          ],
+          [
+            153090.0,
+            451810.0
+          ]
+        ]
+      ]
+    },
+    "SYN-PERMIT-26": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            153290.0,
+            451810.0
+          ],
+          [
+            153290.0,
+            451880.0
+          ],
+          [
+            153210.0,
+            451880.0
+          ],
+          [
+            153210.0,
+            451810.0
+          ],
+          [
+            153290.0,
+            451810.0
+          ]
+        ]
+      ]
+    },
+    "SYN-PERMIT-28": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            153020.0,
+            452180.0
+          ],
+          [
+            153020.0,
+            452200.0
+          ],
+          [
+            153000.0,
+            452200.0
+          ],
+          [
+            153000.0,
+            452180.0
+          ],
+          [
+            153020.0,
+            452180.0
+          ]
+        ]
+      ]
+    },
+    "SYN-PERMIT-29": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            153090.0,
+            451990.0
+          ],
+          [
+            153090.0,
+            452060.0
+          ],
+          [
+            153010.0,
+            452060.0
+          ],
+          [
+            153010.0,
+            451990.0
+          ],
+          [
+            153090.0,
+            451990.0
+          ]
+        ]
+      ]
+    },
+    "SYN-PERMIT-31": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            153490.0,
+            451990.0
+          ],
+          [
+            153490.0,
+            452060.0
+          ],
+          [
+            153410.0,
+            452060.0
+          ],
+          [
+            153410.0,
+            451990.0
+          ],
+          [
+            153490.0,
+            451990.0
+          ]
+        ]
+      ]
+    },
+    "SYN-PERMIT-32": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            152890.0,
+            452170.0
+          ],
+          [
+            152890.0,
+            452240.0
+          ],
+          [
+            152810.0,
+            452240.0
+          ],
+          [
+            152810.0,
+            452170.0
+          ],
+          [
+            152890.0,
+            452170.0
+          ]
+        ]
+      ]
+    },
+    "SYN-PERMIT-34": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            153290.0,
+            452170.0
+          ],
+          [
+            153290.0,
+            452240.0
+          ],
+          [
+            153210.0,
+            452240.0
+          ],
+          [
+            153210.0,
+            452170.0
+          ],
+          [
+            153290.0,
+            452170.0
+          ]
+        ]
+      ]
+    },
+    "SYN-PERMIT-35": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            153620.0,
+            452360.0
+          ],
+          [
+            153620.0,
+            452380.0
+          ],
+          [
+            153600.0,
+            452380.0
+          ],
+          [
+            153600.0,
+            452360.0
+          ],
+          [
+            153620.0,
+            452360.0
+          ]
+        ]
+      ]
+    }
+  },
+  "document_structures": {
+    "/akn/nl/act/gm0000/2026/demo-regeling": {
+      "kop": "Synthetische regeling Demo Waterdam",
+      "inhoud": "Fictieve voorbeeldtekst. Geen juridische werking."
+    },
+    "/akn/nl/act/gm0001/2026/demo-regeling": {
+      "kop": "Synthetische regeling Demo Heuvelstad",
+      "inhoud": "Fictieve voorbeeldtekst. Geen juridische werking."
+    },
+    "/akn/nl/act/gm0002/2026/demo-regeling": {
+      "kop": "Synthetische regeling Demo Polderveen",
+      "inhoud": "Fictieve voorbeeldtekst. Geen juridische werking."
+    }
+  }
+}

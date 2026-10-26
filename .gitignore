@@ -7,11 +7,11 @@
 *.pfx
 *.local.yaml
 # Real project data and generated results
-data/private/
-data/runs/
-data/raw/
-data/cache/
-output/
+/data/private/
+/data/runs/
+/data/raw/
+/data/cache/
+/data/reports/
 *.gpkg
 *.xlsx
 *.xls
@@ -27,3 +27,4 @@ __pycache__/
 .vscode/
 .idea/
 .DS_Store
+

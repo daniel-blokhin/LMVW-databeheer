@@ -1,0 +1,3898 @@
+{
+  "synthetic": true,
+  "retrieved_at": "2026-10-16T09:00:00Z",
+  "content_crs": "http://www.opengis.net/def/crs/EPSG/0/28992",
+  "data": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "id": "7af5d4cd-3392-586a-bb4d-7d8f65611515",
+        "properties": {
+          "identificatie": "0000010000000001",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 65,
+          "huisnummer": 1,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-1",
+          "pand": [
+            "0000100000000001"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150023.0,
+            450035.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "1e2f004c-49e0-5a09-bf88-c69eb861f21a",
+        "properties": {
+          "identificatie": "0000010000000002",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 65,
+          "huisnummer": 2,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-2",
+          "pand": [
+            "0000100000000001"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150033.0,
+            450035.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "441f8811-e41b-5a0a-a108-3a7dcf3dc980",
+        "properties": {
+          "identificatie": "0000010000000003",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 65,
+          "huisnummer": 3,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-3",
+          "pand": [
+            "0000100000000002"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150078.0,
+            450035.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "70efb790-8152-5804-8ec3-73dea97862c6",
+        "properties": {
+          "identificatie": "0000010000000004",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 65,
+          "huisnummer": 4,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-4",
+          "pand": [
+            "0000100000000002"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150088.0,
+            450035.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "15cdba77-a24a-554c-84a5-df26daac88cf",
+        "properties": {
+          "identificatie": "0000010000000005",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 66,
+          "huisnummer": 5,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-5",
+          "pand": [
+            "0000100000000003"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150023.0,
+            450035.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "f2283803-11b9-59ee-957e-e4f88572eced",
+        "properties": {
+          "identificatie": "0000010000000006",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 66,
+          "huisnummer": 6,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-6",
+          "pand": [
+            "0000100000000003"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150033.0,
+            450035.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "13fc3bfd-9acd-5de0-820d-c64e025be7d0",
+        "properties": {
+          "identificatie": "0000010000000007",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 66,
+          "huisnummer": 7,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-7",
+          "pand": [
+            "0000100000000004"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150078.0,
+            450035.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "3575a12f-f287-5bfd-933b-52f40b95c518",
+        "properties": {
+          "identificatie": "0000010000000008",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 66,
+          "huisnummer": 8,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-8",
+          "pand": [
+            "0000100000000004"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150088.0,
+            450035.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "6e19b08d-156f-5c94-a65d-d6eb0ff4cc45",
+        "properties": {
+          "identificatie": "0000010000000009",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 67,
+          "huisnummer": 9,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-9",
+          "pand": [
+            "0000100000000005"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150423.0,
+            450035.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "66892aa3-479f-5935-a5cc-ef7d9f406198",
+        "properties": {
+          "identificatie": "0000010000000010",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 67,
+          "huisnummer": 10,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-10",
+          "pand": [
+            "0000100000000005"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150433.0,
+            450035.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "5a07bdd1-f1b6-52fa-81a7-c22602fe558b",
+        "properties": {
+          "identificatie": "0000010000000011",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 67,
+          "huisnummer": 11,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-11",
+          "pand": [
+            "0000100000000006"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150478.0,
+            450035.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "b2604d99-8bb7-5d28-ae29-aa90587a157e",
+        "properties": {
+          "identificatie": "0000010000000012",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 67,
+          "huisnummer": 12,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-12",
+          "pand": [
+            "0000100000000006"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150488.0,
+            450035.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "7c413de8-3847-5449-97c1-f3075bbf60eb",
+        "properties": {
+          "identificatie": "0000010000000013",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 68,
+          "huisnummer": 13,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-13",
+          "pand": [
+            "0000100000000007"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150623.0,
+            450035.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "4aab3f78-a694-5a6b-877c-65f3ed717992",
+        "properties": {
+          "identificatie": "0000010000000014",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 68,
+          "huisnummer": 14,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-14",
+          "pand": [
+            "0000100000000007"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150633.0,
+            450035.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "daa68f18-3728-5647-8163-12382e296317",
+        "properties": {
+          "identificatie": "0000010000000015",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 68,
+          "huisnummer": 15,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-15",
+          "pand": [
+            "0000100000000008"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150678.0,
+            450035.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "20562773-290b-5ce5-91e5-d44aa8cada4a",
+        "properties": {
+          "identificatie": "0000010000000016",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 68,
+          "huisnummer": 16,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-16",
+          "pand": [
+            "0000100000000008"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150688.0,
+            450035.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "086f13c9-6f9e-5251-b388-f97d00b88122",
+        "properties": {
+          "identificatie": "0000010000000017",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 69,
+          "huisnummer": 17,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-17",
+          "pand": [
+            "0000100000000009"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150023.0,
+            450215.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "8e478e15-1c7d-56ff-9728-737cc38f14fb",
+        "properties": {
+          "identificatie": "0000010000000018",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 69,
+          "huisnummer": 18,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-18",
+          "pand": [
+            "0000100000000009"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150033.0,
+            450215.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "b8677583-7b4e-5829-908f-daa0b8299268",
+        "properties": {
+          "identificatie": "0000010000000019",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 69,
+          "huisnummer": 19,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-19",
+          "pand": [
+            "0000100000000010"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150078.0,
+            450215.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "394e56c5-70d0-5916-939e-115f7970f617",
+        "properties": {
+          "identificatie": "0000010000000020",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 69,
+          "huisnummer": 20,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-20",
+          "pand": [
+            "0000100000000010"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150088.0,
+            450215.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "e4ba0a3c-4044-5091-8031-73db72a5f92c",
+        "properties": {
+          "identificatie": "0000010000000021",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 70,
+          "huisnummer": 21,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-21",
+          "pand": [
+            "0000100000000011"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150223.0,
+            450215.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "9b08f086-b84f-5309-9b9f-96dda37b08da",
+        "properties": {
+          "identificatie": "0000010000000022",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 70,
+          "huisnummer": 22,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-22",
+          "pand": [
+            "0000100000000011"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150233.0,
+            450215.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "180cc895-df19-54f9-b532-283c226b64a7",
+        "properties": {
+          "identificatie": "0000010000000023",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 70,
+          "huisnummer": 23,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-23",
+          "pand": [
+            "0000100000000012"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150278.0,
+            450215.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "b913400e-9634-5c3a-a8bc-08b4e9dbe2d7",
+        "properties": {
+          "identificatie": "0000010000000024",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 70,
+          "huisnummer": 24,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-24",
+          "pand": [
+            "0000100000000012"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150288.0,
+            450215.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "40fbef92-aff3-5c38-add1-c8b572cf4e56",
+        "properties": {
+          "identificatie": "0000010000000025",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 71,
+          "huisnummer": 25,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-25",
+          "pand": [
+            "0000100000000013"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150423.0,
+            450215.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "02691bb5-296c-5364-9896-a0df2878aa22",
+        "properties": {
+          "identificatie": "0000010000000026",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 71,
+          "huisnummer": 26,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-26",
+          "pand": [
+            "0000100000000013"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150433.0,
+            450215.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "4e96cfed-3a38-5de3-9ca4-1e6d92e74a80",
+        "properties": {
+          "identificatie": "0000010000000027",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 71,
+          "huisnummer": 27,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-27",
+          "pand": [
+            "0000100000000014"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150478.0,
+            450215.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "eaa7c866-2d6d-5cef-a117-8eb567dd7aad",
+        "properties": {
+          "identificatie": "0000010000000028",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 71,
+          "huisnummer": 28,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-28",
+          "pand": [
+            "0000100000000014"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150488.0,
+            450215.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "3d1ca9f3-b333-5a7e-a8cf-e85423a94f71",
+        "properties": {
+          "identificatie": "0000010000000029",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 72,
+          "huisnummer": 29,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-29",
+          "pand": [
+            "0000100000000015"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150623.0,
+            450215.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "f670f1ed-eab4-5b60-921a-29e48f3fd9c6",
+        "properties": {
+          "identificatie": "0000010000000030",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 72,
+          "huisnummer": 30,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-30",
+          "pand": [
+            "0000100000000015"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150633.0,
+            450215.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "b76898f9-84a7-5e50-9b24-f4d1223c34b5",
+        "properties": {
+          "identificatie": "0000010000000031",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 72,
+          "huisnummer": 31,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-31",
+          "pand": [
+            "0000100000000016"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150678.0,
+            450215.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "333b6250-e937-523c-b097-976ea3237457",
+        "properties": {
+          "identificatie": "0000010000000032",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 72,
+          "huisnummer": 32,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-32",
+          "pand": [
+            "0000100000000016"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150688.0,
+            450215.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "52bb43c6-3121-56b1-94c6-d0dd100f3d85",
+        "properties": {
+          "identificatie": "0000010000000033",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 73,
+          "huisnummer": 33,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-33",
+          "pand": [
+            "0000100000000017"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150023.0,
+            450395.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "cecf9267-1b04-5675-a433-f5b3537411af",
+        "properties": {
+          "identificatie": "0000010000000034",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 73,
+          "huisnummer": 34,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-34",
+          "pand": [
+            "0000100000000017"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150033.0,
+            450395.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "01e2df2c-4bf7-5ccd-804c-587d9e357519",
+        "properties": {
+          "identificatie": "0000010000000035",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 73,
+          "huisnummer": 35,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-35",
+          "pand": [
+            "0000100000000018"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150078.0,
+            450395.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "10ab45ec-361e-5693-b64c-d52cccc4848f",
+        "properties": {
+          "identificatie": "0000010000000036",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 73,
+          "huisnummer": 36,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-36",
+          "pand": [
+            "0000100000000018"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150088.0,
+            450395.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "2ba27bd3-db0c-59f4-8e76-cc980a0b3ff8",
+        "properties": {
+          "identificatie": "0000010000000037",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 74,
+          "huisnummer": 37,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-37",
+          "pand": [
+            "0000100000000019"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150223.0,
+            450395.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "7c3ca0d2-ef3a-5157-bf95-b297611cbeae",
+        "properties": {
+          "identificatie": "0000010000000038",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 74,
+          "huisnummer": 38,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-38",
+          "pand": [
+            "0000100000000019"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150233.0,
+            450395.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "2222ac68-49d1-5350-bfbf-b85f03df1001",
+        "properties": {
+          "identificatie": "0000010000000039",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 74,
+          "huisnummer": 39,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-39",
+          "pand": [
+            "0000100000000020"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150278.0,
+            450395.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "3dbc4737-3c3a-5bba-babe-a6b5a25cf9a0",
+        "properties": {
+          "identificatie": "0000010000000040",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 74,
+          "huisnummer": 40,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-40",
+          "pand": [
+            "0000100000000020"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150288.0,
+            450395.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "55702c78-4668-5957-9367-9f150488598a",
+        "properties": {
+          "identificatie": "0000010000000041",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 75,
+          "huisnummer": 41,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-41",
+          "pand": [
+            "0000100000000021"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150423.0,
+            450395.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "b5bcfb5e-ad23-5c68-9db2-c02ae028da2b",
+        "properties": {
+          "identificatie": "0000010000000042",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 75,
+          "huisnummer": 42,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-42",
+          "pand": [
+            "0000100000000021"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150433.0,
+            450395.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "63de3458-5a8d-5d73-aef3-a7e2ef75879c",
+        "properties": {
+          "identificatie": "0000010000000043",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 75,
+          "huisnummer": 43,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-43",
+          "pand": [
+            "0000100000000022"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150478.0,
+            450395.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "85d21cbe-1b56-52a5-8050-a3eeea8f214b",
+        "properties": {
+          "identificatie": "0000010000000044",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 75,
+          "huisnummer": 44,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-44",
+          "pand": [
+            "0000100000000022"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150488.0,
+            450395.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "9eda8d88-51f3-5240-80ac-d463c153de87",
+        "properties": {
+          "identificatie": "0000010000000045",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 76,
+          "huisnummer": 45,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-45",
+          "pand": [
+            "0000100000000023"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150623.0,
+            450395.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "8b736a56-c6d7-5d4b-9022-63973ed7dcda",
+        "properties": {
+          "identificatie": "0000010000000046",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 76,
+          "huisnummer": 46,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-46",
+          "pand": [
+            "0000100000000023"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150633.0,
+            450395.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "015c2641-a3c9-5814-9c77-9c22d5f8c701",
+        "properties": {
+          "identificatie": "0000010000000047",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 76,
+          "huisnummer": 47,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-47",
+          "pand": [
+            "0000100000000024"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150678.0,
+            450395.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "8407e5b7-a8c0-5414-bafd-8ca17202e843",
+        "properties": {
+          "identificatie": "0000010000000048",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 76,
+          "huisnummer": 48,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-48",
+          "pand": [
+            "0000100000000024"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            150688.0,
+            450395.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "a9ae2f13-ddc9-511b-bab8-4a0bc6f20b31",
+        "properties": {
+          "identificatie": "0000010000000049",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 65,
+          "huisnummer": 49,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-49",
+          "pand": [
+            "0000100000000025"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            151423.0,
+            450935.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "e53d27f6-0490-5314-b75e-54c860fb85bd",
+        "properties": {
+          "identificatie": "0000010000000050",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 65,
+          "huisnummer": 50,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-50",
+          "pand": [
+            "0000100000000025"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            151433.0,
+            450935.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "c4b09711-8c5b-5c51-846a-3821779cd100",
+        "properties": {
+          "identificatie": "0000010000000051",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 65,
+          "huisnummer": 51,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-51",
+          "pand": [
+            "0000100000000026"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            151478.0,
+            450935.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "097b3fa6-dbe0-577e-b94f-06c6cfaa696c",
+        "properties": {
+          "identificatie": "0000010000000052",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 65,
+          "huisnummer": 52,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-52",
+          "pand": [
+            "0000100000000026"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            151488.0,
+            450935.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "8930364c-a36a-50fd-8f5a-a46d00ea68ed",
+        "properties": {
+          "identificatie": "0000010000000053",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 66,
+          "huisnummer": 53,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-53",
+          "pand": [
+            "0000100000000027"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            151623.0,
+            450935.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "f369b3ce-23e9-5612-8ef3-8e278111424f",
+        "properties": {
+          "identificatie": "0000010000000054",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 66,
+          "huisnummer": 54,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-54",
+          "pand": [
+            "0000100000000027"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            151633.0,
+            450935.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "886838c6-578a-5ec3-9908-a7caee6b04bf",
+        "properties": {
+          "identificatie": "0000010000000055",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 66,
+          "huisnummer": 55,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-55",
+          "pand": [
+            "0000100000000028"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            151678.0,
+            450935.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "22cbd04e-db5c-5d76-8720-fd4e7f4a08ae",
+        "properties": {
+          "identificatie": "0000010000000056",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 66,
+          "huisnummer": 56,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-56",
+          "pand": [
+            "0000100000000028"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            151688.0,
+            450935.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "8c52cb49-7900-5fa4-8948-ddba580b14e1",
+        "properties": {
+          "identificatie": "0000010000000057",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 67,
+          "huisnummer": 57,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-57",
+          "pand": [
+            "0000100000000029"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            151823.0,
+            450935.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "558bd3d1-77e3-5c7d-a3d5-67bdce8b3bc3",
+        "properties": {
+          "identificatie": "0000010000000058",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 67,
+          "huisnummer": 58,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-58",
+          "pand": [
+            "0000100000000029"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            151833.0,
+            450935.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "ab7735ce-4b43-542a-ac78-d99399f5e13b",
+        "properties": {
+          "identificatie": "0000010000000059",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 67,
+          "huisnummer": 59,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-59",
+          "pand": [
+            "0000100000000030"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            151878.0,
+            450935.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "9778aecb-9c29-5e8c-8cb5-89cd292d33ff",
+        "properties": {
+          "identificatie": "0000010000000060",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 67,
+          "huisnummer": 60,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-60",
+          "pand": [
+            "0000100000000030"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            151888.0,
+            450935.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "3da66ebf-c438-54ba-8b4b-05659f60ec7b",
+        "properties": {
+          "identificatie": "0000010000000061",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 68,
+          "huisnummer": 61,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-61",
+          "pand": [
+            "0000100000000031"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            152023.0,
+            450935.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "b4479751-cdeb-5a6d-ade7-ce2463fd0df7",
+        "properties": {
+          "identificatie": "0000010000000062",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 68,
+          "huisnummer": 62,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-62",
+          "pand": [
+            "0000100000000031"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            152033.0,
+            450935.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "3b8bbbc8-7635-52be-a1fd-04fefed04289",
+        "properties": {
+          "identificatie": "0000010000000063",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 68,
+          "huisnummer": 63,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-63",
+          "pand": [
+            "0000100000000032"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            152078.0,
+            450935.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "552ea690-b284-5166-b9ba-c671bf2fd195",
+        "properties": {
+          "identificatie": "0000010000000064",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 68,
+          "huisnummer": 64,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-64",
+          "pand": [
+            "0000100000000032"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            152088.0,
+            450935.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "8861a08d-7526-5337-beb2-8cdc2d67ae01",
+        "properties": {
+          "identificatie": "0000010000000065",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 69,
+          "huisnummer": 65,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-65",
+          "pand": [
+            "0000100000000033"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            151423.0,
+            451115.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "ca48ea5c-2577-5629-b2c1-3cf1dec27395",
+        "properties": {
+          "identificatie": "0000010000000066",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 69,
+          "huisnummer": 66,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-66",
+          "pand": [
+            "0000100000000033"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            151433.0,
+            451115.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "4dd89dfd-939e-5159-a91a-6495b5623b0d",
+        "properties": {
+          "identificatie": "0000010000000067",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 69,
+          "huisnummer": 67,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-67",
+          "pand": [
+            "0000100000000034"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            151478.0,
+            451115.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "47071f1b-a9e7-55b9-b55a-35a2ba774def",
+        "properties": {
+          "identificatie": "0000010000000068",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 69,
+          "huisnummer": 68,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-68",
+          "pand": [
+            "0000100000000034"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            151488.0,
+            451115.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "5fcac33c-77f0-5045-98bb-29966a868f39",
+        "properties": {
+          "identificatie": "0000010000000069",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 70,
+          "huisnummer": 69,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-69",
+          "pand": [
+            "0000100000000035"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            151623.0,
+            451115.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "0a8e3cc6-7817-51f9-b062-d8a4fe8abd7b",
+        "properties": {
+          "identificatie": "0000010000000070",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 70,
+          "huisnummer": 70,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-70",
+          "pand": [
+            "0000100000000035"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            151633.0,
+            451115.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "b24ebb75-97ec-5e6a-a6d4-73b46e1db586",
+        "properties": {
+          "identificatie": "0000010000000071",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 70,
+          "huisnummer": 71,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-71",
+          "pand": [
+            "0000100000000036"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            151678.0,
+            451115.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "0d417660-95ad-5641-9438-b57f06e361ba",
+        "properties": {
+          "identificatie": "0000010000000072",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 70,
+          "huisnummer": 72,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-72",
+          "pand": [
+            "0000100000000036"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            151688.0,
+            451115.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "ba2a84e0-388d-514b-b3b5-c6d57bded913",
+        "properties": {
+          "identificatie": "0000010000000073",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 71,
+          "huisnummer": 73,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-73",
+          "pand": [
+            "0000100000000037"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            151823.0,
+            451115.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "5457a5ba-e548-543d-98a5-dc7dd0a290b1",
+        "properties": {
+          "identificatie": "0000010000000074",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 71,
+          "huisnummer": 74,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-74",
+          "pand": [
+            "0000100000000037"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            151833.0,
+            451115.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "fb0371f7-412b-5d59-bb95-dd4bd7027bb0",
+        "properties": {
+          "identificatie": "0000010000000075",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 71,
+          "huisnummer": 75,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-75",
+          "pand": [
+            "0000100000000038"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            151878.0,
+            451115.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "2de7e28a-fac7-56d3-9ff5-f04a76c96872",
+        "properties": {
+          "identificatie": "0000010000000076",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 71,
+          "huisnummer": 76,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-76",
+          "pand": [
+            "0000100000000038"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            151888.0,
+            451115.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "ab67441a-f7a6-5495-a30e-fd617b4b0ba8",
+        "properties": {
+          "identificatie": "0000010000000077",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 72,
+          "huisnummer": 77,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-77",
+          "pand": [
+            "0000100000000039"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            152023.0,
+            451115.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "10b1e592-730b-55e2-a433-1b0d5df0062d",
+        "properties": {
+          "identificatie": "0000010000000078",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 72,
+          "huisnummer": 78,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-78",
+          "pand": [
+            "0000100000000039"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            152033.0,
+            451115.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "fcfb7d23-6c97-56ae-b974-76e286a1089b",
+        "properties": {
+          "identificatie": "0000010000000079",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 72,
+          "huisnummer": 79,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-79",
+          "pand": [
+            "0000100000000040"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            152078.0,
+            451115.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "7c859184-38a2-5ed1-915e-ac04a920163e",
+        "properties": {
+          "identificatie": "0000010000000080",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 72,
+          "huisnummer": 80,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-80",
+          "pand": [
+            "0000100000000040"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            152088.0,
+            451115.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "b6ba543f-2f98-5294-b9f0-1f0bf03816a6",
+        "properties": {
+          "identificatie": "0000010000000081",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 73,
+          "huisnummer": 81,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-81",
+          "pand": [
+            "0000100000000041"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            151423.0,
+            451295.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "7cdc9833-c0be-5513-a6cd-1d5d9d2afc79",
+        "properties": {
+          "identificatie": "0000010000000082",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 73,
+          "huisnummer": 82,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-82",
+          "pand": [
+            "0000100000000041"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            151433.0,
+            451295.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "af5013b8-475b-580d-88aa-03751839b862",
+        "properties": {
+          "identificatie": "0000010000000083",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 73,
+          "huisnummer": 83,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-83",
+          "pand": [
+            "0000100000000042"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            151478.0,
+            451295.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "7a80c801-95a2-5320-8af6-3a4b2e11defa",
+        "properties": {
+          "identificatie": "0000010000000084",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 73,
+          "huisnummer": 84,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-84",
+          "pand": [
+            "0000100000000042"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            151488.0,
+            451295.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "4c8ae899-e9bc-55cb-8003-6d17e1f53bfe",
+        "properties": {
+          "identificatie": "0000010000000085",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 74,
+          "huisnummer": 85,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-85",
+          "pand": [
+            "0000100000000043"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            151623.0,
+            451295.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "39d01a2a-fe81-5dd9-9fe1-0b9276a1cf8d",
+        "properties": {
+          "identificatie": "0000010000000086",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 74,
+          "huisnummer": 86,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-86",
+          "pand": [
+            "0000100000000043"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            151633.0,
+            451295.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "cc82f6cf-f75f-5d2e-912e-f7607eb4daa0",
+        "properties": {
+          "identificatie": "0000010000000087",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 74,
+          "huisnummer": 87,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-87",
+          "pand": [
+            "0000100000000044"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            151678.0,
+            451295.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "211a5744-9d8b-54fd-aa19-9a788cf5ceff",
+        "properties": {
+          "identificatie": "0000010000000088",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 74,
+          "huisnummer": 88,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-88",
+          "pand": [
+            "0000100000000044"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            151688.0,
+            451295.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "36223bbb-07b4-5de9-b6ea-d15d349a5df8",
+        "properties": {
+          "identificatie": "0000010000000089",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 75,
+          "huisnummer": 89,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-89",
+          "pand": [
+            "0000100000000045"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            151823.0,
+            451295.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "225f9a6e-816d-5c00-b0fb-4de8f833b989",
+        "properties": {
+          "identificatie": "0000010000000090",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 75,
+          "huisnummer": 90,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-90",
+          "pand": [
+            "0000100000000045"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            151833.0,
+            451295.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "2b463802-dcb5-5907-a060-26460488402c",
+        "properties": {
+          "identificatie": "0000010000000091",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 75,
+          "huisnummer": 91,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-91",
+          "pand": [
+            "0000100000000046"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            151878.0,
+            451295.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "30e9f8c9-e089-519b-9337-aeeccc28adbf",
+        "properties": {
+          "identificatie": "0000010000000092",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 75,
+          "huisnummer": 92,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-92",
+          "pand": [
+            "0000100000000046"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            151888.0,
+            451295.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "593e31dc-11fc-5e74-b2be-d03a333aa3bc",
+        "properties": {
+          "identificatie": "0000010000000093",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 76,
+          "huisnummer": 93,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-93",
+          "pand": [
+            "0000100000000047"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            152023.0,
+            451295.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "6b5f7b1b-d64c-51fb-ac0c-15135aa91830",
+        "properties": {
+          "identificatie": "0000010000000094",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 76,
+          "huisnummer": 94,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-94",
+          "pand": [
+            "0000100000000047"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            152033.0,
+            451295.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "7e2154d8-ed58-5c44-8686-9c832f5d3823",
+        "properties": {
+          "identificatie": "0000010000000095",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 76,
+          "huisnummer": 95,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-95",
+          "pand": [
+            "0000100000000048"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            152078.0,
+            451295.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "fc324007-28a7-5f95-96fa-7fd3930e5e69",
+        "properties": {
+          "identificatie": "0000010000000096",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 76,
+          "huisnummer": 96,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-96",
+          "pand": [
+            "0000100000000048"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            152088.0,
+            451295.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "8eb1a624-c3c2-5d5e-b34f-0ed5fccea04f",
+        "properties": {
+          "identificatie": "0000010000000097",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 65,
+          "huisnummer": 97,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-97",
+          "pand": [
+            "0000100000000049"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            152823.0,
+            451835.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "61ad27d5-ca80-5c4f-9851-4e41cfa141ce",
+        "properties": {
+          "identificatie": "0000010000000098",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 65,
+          "huisnummer": 98,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-98",
+          "pand": [
+            "0000100000000049"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            152833.0,
+            451835.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "c5f8b6c2-750c-5dfc-a77a-35af3bb7de34",
+        "properties": {
+          "identificatie": "0000010000000099",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 65,
+          "huisnummer": 99,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-99",
+          "pand": [
+            "0000100000000050"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            152878.0,
+            451835.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "a33d49b9-4c7e-5bc8-aece-2875e91a8f06",
+        "properties": {
+          "identificatie": "0000010000000100",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 65,
+          "huisnummer": 100,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-100",
+          "pand": [
+            "0000100000000050"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            152888.0,
+            451835.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "bebfa682-8383-5709-b4a8-3e7f195c0c3a",
+        "properties": {
+          "identificatie": "0000010000000101",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 66,
+          "huisnummer": 101,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-101",
+          "pand": [
+            "0000100000000051"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            153023.0,
+            451835.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "43c48a21-24af-5b1d-89e8-ce781f8010e6",
+        "properties": {
+          "identificatie": "0000010000000102",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 66,
+          "huisnummer": 102,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-102",
+          "pand": [
+            "0000100000000051"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            153033.0,
+            451835.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "0572df44-8f94-5458-9061-17b86b7c8728",
+        "properties": {
+          "identificatie": "0000010000000103",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 66,
+          "huisnummer": 103,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-103",
+          "pand": [
+            "0000100000000052"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            153078.0,
+            451835.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "aefc9e2b-2f05-5fd8-bdc9-e778c5bbae57",
+        "properties": {
+          "identificatie": "0000010000000104",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 66,
+          "huisnummer": 104,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-104",
+          "pand": [
+            "0000100000000052"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            153088.0,
+            451835.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "1d512910-5c56-51d5-b34f-8593de13423c",
+        "properties": {
+          "identificatie": "0000010000000105",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 67,
+          "huisnummer": 105,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-105",
+          "pand": [
+            "0000100000000053"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            153223.0,
+            451835.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "754b247c-1661-5363-9a03-0000e92c2086",
+        "properties": {
+          "identificatie": "0000010000000106",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 67,
+          "huisnummer": 106,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-106",
+          "pand": [
+            "0000100000000053"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            153233.0,
+            451835.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "837b1e2b-9b2d-5628-8d47-81457e3878a7",
+        "properties": {
+          "identificatie": "0000010000000107",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 67,
+          "huisnummer": 107,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-107",
+          "pand": [
+            "0000100000000054"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            153278.0,
+            451835.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "17758e74-f9a4-528f-9dc2-9347d5584bd7",
+        "properties": {
+          "identificatie": "0000010000000108",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 67,
+          "huisnummer": 108,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-108",
+          "pand": [
+            "0000100000000054"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            153288.0,
+            451835.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "0db6af6f-5a18-5b70-8c4b-5d437ed126e1",
+        "properties": {
+          "identificatie": "0000010000000109",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 68,
+          "huisnummer": 109,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-109",
+          "pand": [
+            "0000100000000055"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            153423.0,
+            451835.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "84c314d2-771a-5b11-8694-47ee1bd8f912",
+        "properties": {
+          "identificatie": "0000010000000110",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 68,
+          "huisnummer": 110,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-110",
+          "pand": [
+            "0000100000000055"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            153433.0,
+            451835.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "3422f298-fd5c-5b5c-b02d-0d3ccbafd321",
+        "properties": {
+          "identificatie": "0000010000000111",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 68,
+          "huisnummer": 111,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-111",
+          "pand": [
+            "0000100000000056"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            153478.0,
+            451835.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "596c2f7f-ff15-5fd8-b97b-4644038ec178",
+        "properties": {
+          "identificatie": "0000010000000112",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 68,
+          "huisnummer": 112,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-112",
+          "pand": [
+            "0000100000000056"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            153488.0,
+            451835.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "558fbea9-9b19-5db8-80fc-cc2112c3f330",
+        "properties": {
+          "identificatie": "0000010000000113",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 69,
+          "huisnummer": 113,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-113",
+          "pand": [
+            "0000100000000057"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            152823.0,
+            452015.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "642145a8-84ec-5c13-b8f0-b23cb4ce5fa4",
+        "properties": {
+          "identificatie": "0000010000000114",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 69,
+          "huisnummer": 114,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-114",
+          "pand": [
+            "0000100000000057"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            152833.0,
+            452015.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "a149fa35-c62a-55e7-9d49-d6ba0c117756",
+        "properties": {
+          "identificatie": "0000010000000115",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 69,
+          "huisnummer": 115,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-115",
+          "pand": [
+            "0000100000000058"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            152878.0,
+            452015.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "2da960a0-c09b-5842-8049-687350342f00",
+        "properties": {
+          "identificatie": "0000010000000116",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 69,
+          "huisnummer": 116,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-116",
+          "pand": [
+            "0000100000000058"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            152888.0,
+            452015.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "880178bd-6c24-5ab3-897b-9b01019d7ed4",
+        "properties": {
+          "identificatie": "0000010000000117",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 70,
+          "huisnummer": 117,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-117",
+          "pand": [
+            "0000100000000059"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            153023.0,
+            452015.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "1b50f972-87da-5ab0-8051-05feeb8ebd7a",
+        "properties": {
+          "identificatie": "0000010000000118",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 70,
+          "huisnummer": 118,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-118",
+          "pand": [
+            "0000100000000059"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            153033.0,
+            452015.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "1a4b9696-9c6a-594a-9913-657e2255be07",
+        "properties": {
+          "identificatie": "0000010000000119",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 70,
+          "huisnummer": 119,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-119",
+          "pand": [
+            "0000100000000060"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            153078.0,
+            452015.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "4a10f164-96c9-588a-8894-f8f443e0dc9b",
+        "properties": {
+          "identificatie": "0000010000000120",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 70,
+          "huisnummer": 120,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-120",
+          "pand": [
+            "0000100000000060"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            153088.0,
+            452015.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "23cf248b-7432-599e-9f92-5758321bdd4d",
+        "properties": {
+          "identificatie": "0000010000000121",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 71,
+          "huisnummer": 121,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-121",
+          "pand": [
+            "0000100000000061"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            153223.0,
+            452015.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "4d901b31-23b5-5377-9c15-978337e48eed",
+        "properties": {
+          "identificatie": "0000010000000122",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 71,
+          "huisnummer": 122,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-122",
+          "pand": [
+            "0000100000000061"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            153233.0,
+            452015.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "0058e78d-5507-58a1-802f-75e3577987b0",
+        "properties": {
+          "identificatie": "0000010000000123",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 71,
+          "huisnummer": 123,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-123",
+          "pand": [
+            "0000100000000062"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            153278.0,
+            452015.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "fef0d416-9e7d-5a24-88df-8caaad3e0cc7",
+        "properties": {
+          "identificatie": "0000010000000124",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 71,
+          "huisnummer": 124,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-124",
+          "pand": [
+            "0000100000000062"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            153288.0,
+            452015.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "30120814-f710-5f30-a36d-7eb94bd3bb2c",
+        "properties": {
+          "identificatie": "0000010000000125",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 72,
+          "huisnummer": 125,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-125",
+          "pand": [
+            "0000100000000063"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            153423.0,
+            452015.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "3ae6fd92-0624-5cd8-86b4-57016fed297d",
+        "properties": {
+          "identificatie": "0000010000000126",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 72,
+          "huisnummer": 126,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-126",
+          "pand": [
+            "0000100000000063"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            153433.0,
+            452015.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "fde7eda3-7fdd-5a12-9607-f76737032ee8",
+        "properties": {
+          "identificatie": "0000010000000127",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 72,
+          "huisnummer": 127,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-127",
+          "pand": [
+            "0000100000000064"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            153478.0,
+            452015.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "54c0edfa-58e0-5bf6-a38f-180d5087c1d2",
+        "properties": {
+          "identificatie": "0000010000000128",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 72,
+          "huisnummer": 128,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-128",
+          "pand": [
+            "0000100000000064"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            153488.0,
+            452015.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "17da0ef5-063a-5232-bb78-54e9ffc3a9dc",
+        "properties": {
+          "identificatie": "0000010000000129",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 73,
+          "huisnummer": 129,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-129",
+          "pand": [
+            "0000100000000065"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            152823.0,
+            452195.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "b4e74dc8-7a25-5bc7-8016-484ee8942ee4",
+        "properties": {
+          "identificatie": "0000010000000130",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 73,
+          "huisnummer": 130,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-130",
+          "pand": [
+            "0000100000000065"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            152833.0,
+            452195.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "6527b13b-c071-5bd9-b5f2-493658ab11da",
+        "properties": {
+          "identificatie": "0000010000000131",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 73,
+          "huisnummer": 131,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-131",
+          "pand": [
+            "0000100000000066"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            152878.0,
+            452195.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "86890b37-0e3a-57bd-bb09-c95fd27da3d8",
+        "properties": {
+          "identificatie": "0000010000000132",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 73,
+          "huisnummer": 132,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-132",
+          "pand": [
+            "0000100000000066"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            152888.0,
+            452195.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "7d87125b-259a-5a0f-9bd3-505d73f57bd2",
+        "properties": {
+          "identificatie": "0000010000000133",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 74,
+          "huisnummer": 133,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-133",
+          "pand": [
+            "0000100000000067"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            153023.0,
+            452195.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "b3d95dc1-b7d6-59bc-9fe8-309000419bea",
+        "properties": {
+          "identificatie": "0000010000000134",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 74,
+          "huisnummer": 134,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-134",
+          "pand": [
+            "0000100000000067"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            153033.0,
+            452195.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "2bdf58ef-3859-5833-9fc9-674e5116cbf4",
+        "properties": {
+          "identificatie": "0000010000000135",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 74,
+          "huisnummer": 135,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-135",
+          "pand": [
+            "0000100000000068"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            153078.0,
+            452195.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "9fa9b3ca-6854-597e-991e-211c359cac4e",
+        "properties": {
+          "identificatie": "0000010000000136",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 74,
+          "huisnummer": 136,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-136",
+          "pand": [
+            "0000100000000068"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            153088.0,
+            452195.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "33270ee1-c501-5ba3-9d1c-26bde90b06c7",
+        "properties": {
+          "identificatie": "0000010000000137",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 75,
+          "huisnummer": 137,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-137",
+          "pand": [
+            "0000100000000069"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            153223.0,
+            452195.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "96b0458d-4f94-5759-8e5c-729d2d897b8b",
+        "properties": {
+          "identificatie": "0000010000000138",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 75,
+          "huisnummer": 138,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-138",
+          "pand": [
+            "0000100000000069"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            153233.0,
+            452195.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "975871cf-352a-5064-8066-917568c856fa",
+        "properties": {
+          "identificatie": "0000010000000139",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 75,
+          "huisnummer": 139,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-139",
+          "pand": [
+            "0000100000000070"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            153278.0,
+            452195.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "de5475ae-7fcf-5b2e-b208-2b013e781fb9",
+        "properties": {
+          "identificatie": "0000010000000140",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 75,
+          "huisnummer": 140,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-140",
+          "pand": [
+            "0000100000000070"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            153288.0,
+            452195.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "32d8c4f4-5132-5b5f-b24b-a99830ff9477",
+        "properties": {
+          "identificatie": "0000010000000141",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 76,
+          "huisnummer": 141,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-141",
+          "pand": [
+            "0000100000000071"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            153423.0,
+            452195.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "300bc869-3316-5b30-adba-98696691b311",
+        "properties": {
+          "identificatie": "0000010000000142",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 76,
+          "huisnummer": 142,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-142",
+          "pand": [
+            "0000100000000071"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            153433.0,
+            452195.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "ca4b379e-5082-512c-b58a-82ef3535e490",
+        "properties": {
+          "identificatie": "0000010000000143",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 76,
+          "huisnummer": 143,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-143",
+          "pand": [
+            "0000100000000072"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            153478.0,
+            452195.0
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "015828be-a6e1-5fbc-9aae-09e77dcd3a3f",
+        "properties": {
+          "identificatie": "0000010000000144",
+          "status": "Verblijfsobject in gebruik",
+          "gebruiksdoel": [
+            "woonfunctie"
+          ],
+          "oppervlakte": 76,
+          "huisnummer": 144,
+          "openbare_ruimte_naam": "Fictieve straat",
+          "postcode": "0000AA",
+          "documentdatum": "2026-01-01",
+          "documentnummer": "SYN-V-144",
+          "pand": [
+            "0000100000000072"
+          ]
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            153488.0,
+            452195.0
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,4 +1,0 @@
-run_id,source_name,status,environment,record_count,message
-a32e4a20-26fd-49f1-bceb-ae9ae3276655,BAG,FIXTURES,SYNTHETIC,300,
-a32e4a20-26fd-49f1-bceb-ae9ae3276655,BRK,FIXTURES,SYNTHETIC,60,
-a32e4a20-26fd-49f1-bceb-ae9ae3276655,DSO,FIXTURES,SYNTHETIC,33,

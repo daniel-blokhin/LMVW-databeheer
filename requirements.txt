@@ -8,3 +8,7 @@ pyproj>=3.6,<4
 geopandas>=1.0,<2
 pyogrio>=0.10,<1
 # Install pytest separately to run tests: pip install pytest
+
+# Analytics report and local dashboard
+plotly>=5.24,<7
+streamlit>=1.45,<2

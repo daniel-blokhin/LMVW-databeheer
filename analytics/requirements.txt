@@ -1,6 +1,0 @@
-# Python 3.11+. Independent of INKIS, SQL Server and API credentials.
-pandas>=2.2,<3
-plotly>=5.24,<7
-shapely>=2.1,<3
-# Only needed for the optional local dashboard. HTML generation does not import it.
-streamlit>=1.45,<2

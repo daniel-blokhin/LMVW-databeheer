@@ -12,8 +12,16 @@ from pathlib import Path
 
 import pandas as pd
 
-ROOT = Path(__file__).resolve().parent
-DEMO = ROOT / "demo" / "database_ready"
+ROOT = Path(__file__).resolve().parents[1]
+DEMO = ROOT / "examples" / "output" / "database_ready"
+def latest_run_bundle() -> Path | None:
+    """Find the newest local export; examples are the fallback, not a second live store."""
+    runs = ROOT / "data" / "runs"
+    manifests = runs.glob("*/database_ready/manifest.json") if runs.is_dir() else []
+    newest = max(manifests, key=lambda p: p.stat().st_mtime, default=None)
+    return newest.parent if newest else None
+
+
 KEY = ["run_id", "record_id"]
 VALID = {"READY", "WARNING"}
 RELATIONS = {
