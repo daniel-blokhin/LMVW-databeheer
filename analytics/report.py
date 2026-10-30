@@ -1,4 +1,4 @@
-"""Generate a self-contained HTML analytics report. No web server required.
+"""Generate an offline-readable HTML analytics report (online street tiles optional).
 
 python -m analytics.report --output data/reports/report.html
 python -m analytics.report --bundle data/runs/<run>/database_ready --output data/reports/private.html
@@ -13,11 +13,10 @@ from pathlib import Path
 import pandas as pd
 import plotly.io as pio
 from plotly.offline import get_plotlyjs
-
 from .data import (Bundle, DEMO, DataError, eligible, filter_plans, findings, issue_rules,
                    kpis, load_bundle, number, source_metrics, source_objects, RELATIONS)
 from .charts import dashboard_charts, quality_charts, vector_map
-
+from .geographic_maps import geo_map
 CSS = """
 :root{--ink:#152838;--muted:#5e6e7b;--line:#dce4e9;--paper:#f3f6f8;--accent:#16687b}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.6 'Segoe UI',Arial,sans-serif}
@@ -32,7 +31,6 @@ main{max-width:1280px;margin:auto;padding:30px 20px 60px}section{scroll-margin-t
 @media(max-width:850px){.grid{grid-template-columns:1fr}.cards{grid-template-columns:repeat(2,1fr)}h1{font-size:30px}nav{gap:14px}.hero{padding:30px 22px}}
 @media print{nav{position:static}.hero{background:white;color:#102f42}.hero p{color:#456}body{background:white}.panel{break-inside:avoid}.grid{display:block}.cards{display:flex}.table-wrap{max-height:none}}
 """
-
 
 def _table(frame: pd.DataFrame) -> str:
     if frame.empty:
@@ -60,34 +58,33 @@ def make_html(bundle: Bundle, plans: pd.DataFrame, *, selected_record: str | Non
     ]:
         blocks.append(f'<div class="card" id="kpi-{key}"><div class="label">{title}</div>'
                       f'<div class="value">{number(value)}</div><div class="small">{label}</div></div>')
-
     def panel(key, figure, caption, wide=False):
         figure.update_layout(autosize=True)
         graph = pio.to_html(figure, full_html=False, include_plotlyjs=False, include_mathjax=False,
                             div_id="chart-" + key, config={"displaylogo": False, "responsive": True, "scrollZoom": False})
         return f'<article class="panel{" wide" if wide else ""}">{graph}<p class="caption">{escape(caption)}</p></article>'
-
     overview = "".join(panel(key, fig, caption, key == "prijssegment") for key, fig, caption in dashboard_charts(bundle, plans))
-    overall_map, omitted = vector_map(bundle, plans)
+    overall_map, omitted = geo_map(bundle, plans)
     maps = panel("map-overview", overall_map,
-                 f"RD New (EPSG:28992), metercoordinaten; geen stratenachtergrond. Zoom, versleep en schakel lagen via de legenda. "
-                 f"Niet getekend wegens ontbrekende/ongeldige geometrie: {omitted}.", True)
+                 f"Geografische kaart met kaarttegels (internet vereist). "
+                 f"Planpolygonen uit lokale bronexport, geografisch geprojecteerd naar WGS84. "
+                 f"Niet getekend wegens ongeldige/ontbrekende geometrie: {omitted}.", True)
     detail_tables = ""
     if selected_record:
         selected = plans[plans["record_id"].eq(selected_record)]
         name = str(selected.iloc[0]["plan_name"])
-        detail, omitted = vector_map(bundle, plans, selected_record)
+        detail, omitted = geo_map(bundle, plans, selected_record)
         maps += panel("map-detail", detail,
                       f"Geselecteerd record: {name}. Deze detailselectie ligt vast in dit HTML-rapport. "
                       f"De app laat andere records kiezen. {omitted} bronobjecten zonder tekenbare geometrie. "
-                      "Lagen tonen gekoppelde bronobjecten; dit zijn geen bewezen gerealiseerde woningen.", True)
+                      "BAG-koppelingen bewijzen geen realisatie; DSO-overlap bewijst geen inhoudelijke bevestiging.", True)
         for label in RELATIONS:
             frame = source_objects(bundle, selected, label).drop(columns=["geometry_wkt", "crs", "run_id", "record_id"], errors="ignore")
             detail_tables += f'<details><summary>{escape(label)}: {len(frame)} plan-bronrelaties</summary>{_table(frame)}</details>'
     quality = "".join(panel(key, fig, caption) for key, fig, caption in quality_charts(bundle, plans))
     source_table = _table(source_metrics(bundle, plans).round(2))
     rule_table = _table(issue_rules(bundle, plans))
-    # Plotly embeds its JS locally once. There are no CDN scripts or map tiles.
+    # JS is embedded once, but ONLINE basemap tiles remain external resources.
     return f'''<!doctype html>
 <html lang="nl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>LMVW | Data Analytics Report</title><style>{CSS}</style><script>{get_plotlyjs()}</script></head>
@@ -103,7 +100,10 @@ Dit rapport is een export van deze selectie; interactieve gemeentefilters zijn b
 <div class="grid">{overview}</div></section>
 <section id="kaart"><div class="section-title"><span class="index">02</span><h2>Ruimtelijke samenhang</h2></div>
 <p class="intro">Een bronkoppeling verklaarbaar maken: van plancontour naar BAG-object, BRK-perceel of DSO-document.
-De kaart tekent alle polygononderdelen en binnenringen als contouren, in een gelijke meterschaal.</p>
+De kaart bevat echte geografische polygonen met een optionele stratenondergrond. In de lokale Streamlit-app
+kan de kaart worden omgeschakeld naar een technische RD-weergave.</p>
+<p class="intro">Voor de stratenondergrond is internet nodig. Zonder verbinding blijven de data en de vectorgeometrie
+beschikbaar, maar de kaarttegels kunnen ontbreken. Een report is geen openbaar publicatieproduct.</p>
 <div class="grid">{maps}</div>{detail_tables}</section>
 <section id="kwaliteit"><div class="section-title"><span class="index">03</span><h2>Betrouwbaarheid van de analyse</h2></div>
 <p class="intro">Alle aangeleverde records binnen de selectie blijven zichtbaar in de kwaliteitsanalyse.
@@ -120,10 +120,11 @@ De fictieve demonstratiedata is niet geschikt voor beleidsuitspraken.</p>
 <p>Dit is een portfolio-reconstructie buiten INKIS. Het rapport toont analyse, visualisatie en interpretatie,
 maar claimt niet dat deze Python-interface tijdens de tender werd gebruikt. Vermeld alleen persoonlijk ontwikkelde onderdelen als eigen werk.</p>
 <p>De toepassing implementeert geen authenticatie of publicatieprotocol. Een rapport op basis van echte plandata blijft intern;
-ook kaartcontouren, vertrouwelijke namen, aantallen en bronrelaties kunnen gevoelige informatie prijsgeven.</p></section>
+ook kaartcontouren, vertrouwelijke namen, aantallen en bronrelaties kunnen gevoelige informatie prijsgeven.
+Bij gebruik van online kaarttegels zal de browser verbinding maken met een externe kaartprovider.</p></section>
 <footer>Run <code>{escape(bundle.run_id)}</code> &middot; Rapport aangemaakt {created}<br>
-Gebouwd met Pandas, Shapely en Plotly. Grafieken en vectorgeometrie zijn in dit HTML-bestand opgenomen; geen externe kaartdienst.</footer></main></body></html>'''
-
+Gebouwd met Pandas, Shapely, PyProj en Plotly. Geometrie en Plotly JavaScript zijn ingebed;
+voor de stratenachtergrond kunnen externe kaarttegels worden gebruikt.</footer></main></body></html>'''
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Create an HTML report from one LMVW database-ready export.")
@@ -144,7 +145,6 @@ def main() -> int:
         parser.exit(1, f"Rapport niet gemaakt: {exc}\n")
     print(f"Rapport: {args.output.resolve()} ({len(plans)} planrecords in selectie)")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())
