@@ -2,9 +2,9 @@
 
 **Python · REST APIs · Data Quality · GeoPandas/Shapely · Plotly · Streamlit**
 
-A portfolio reconstruction of data integration and analytics work for a Dutch housing-monitoring tender. The goal is to show the **full data flow**: ingest housing plans, check their quality, retrieve BAG/BRK/DSO data, calculate spatial relationships, and turn the resulting tables into maps and dashboards.
+A portfolio reconstruction of data integration and analytics work for a housing-monitoring tender for Rijks Overheid. The goal is to show the full data flow: ingest housing plans, check their quality, retrieve BAG/BRK/DSO data via API, calculate spatial relationships, and turn the resulting tables into maps and dashboards.
 
-This is a technical case study, **not** the official LMVW service. The supplied example is entirely synthetic. The original tender demo used INKIS/IO Factory; the Python quality checks and Python analytics interface here are independent reconstructions. See [NOTICE.md](NOTICE.md) for publication and ownership considerations.
+This is a technical case study, not the official LMVW service. The supplied example is entirely synthetic. The original tender demo used INKIS/IO Factory (visualisation and workflow tools provided by INKIS/OS); the Python analytics interface here are independent reconstructions. See [NOTICE.md](NOTICE.md) for publication and ownership considerations.
 
 ![Synthetic housing analytics overview](examples/reports/preview.png)
 
