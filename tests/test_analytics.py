@@ -19,6 +19,9 @@ from analytics.report import make_html
 from pipeline.prepare_input import prepare_csv
 
 
+ANALYTICS_DIR = Path(__file__).resolve().parents[1] / "analytics"
+
+
 @pytest.fixture(scope="module")
 def demo():
     return load_bundle(DEMO)
@@ -246,7 +249,7 @@ def test_helper_does_not_silently_strip_markdown(tmp_path):
 
 def test_all_modules_parse_without_optional_streamlit_dependency():
     import ast
-    for file in Path(__file__).resolve().parents[1].glob("*.py"):
+    for file in ANALYTICS_DIR.glob("*.py"):
         ast.parse(file.read_text(encoding="utf-8"), filename=str(file))
 
 
@@ -254,7 +257,7 @@ def test_all_modules_parse_without_optional_streamlit_dependency():
 def test_streamlit_pages_when_installed(monkeypatch, page):
     testing = pytest.importorskip("streamlit.testing.v1", reason="Optional Streamlit UI dependency is not installed")
     monkeypatch.delenv("LMVW_BUNDLE_DIR", raising=False)
-    app = Path(__file__).resolve().parents[1] / "app.py"
+    app = ANALYTICS_DIR / "app.py"
     at = testing.AppTest.from_file(str(app), default_timeout=20).run()
     assert not at.exception
     at.sidebar.radio[0].set_value(page).run()
